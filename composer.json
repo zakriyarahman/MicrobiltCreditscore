@@ -1,0 +1,21 @@
+{
+    "name": "bukashk0zzz/microbilt-creditscore",
+    "description": "Microbilt creditscore WSDL to php classes.",
+    "keywords": ["microbilt", "wsdl", "creditscore"],
+    "homepage": "https://github.com/bukashk0zzz/MicrobiltCreditscore",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Denis Golubovskiy",
+            "email": "bukashk0zzz@gmail.com",
+            "role": "Creator"
+        }
+    ],
+    "support": {
+        "email": "bukashk0zzz@gmail.com",
+        "issues": "https://github.com/bukashk0zzz/MicrobiltCreditscore/issues"
+    },
+    "require": {
+        "php": ">=5.6.0"
+    }
+}
