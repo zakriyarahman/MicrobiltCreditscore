@@ -64,7 +64,7 @@ class MicrobiltStructVesselInfo_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $LengthFeet;
     /**
@@ -91,7 +91,7 @@ class MicrobiltStructVesselInfo_Type extends MicrobiltStructAggregate
      * @param MicrobiltStructCodeDescription_Type $_vesselPropulsionType
      * @param string $_boatDescription
      * @param MicrobiltStructCodeDescription_Type $_hullMaterialType
-     * @param long $_lengthFeet
+     * @param int $_lengthFeet
      * @param MicrobiltStructCodeDescription_Type $_vesselType
      * @param string $_modelYear
      * @return MicrobiltStructVesselInfo_Type
@@ -187,7 +187,7 @@ class MicrobiltStructVesselInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Get LengthFeet value
-     * @return long|null
+     * @return int|null
      */
     public function getLengthFeet()
     {
@@ -195,8 +195,8 @@ class MicrobiltStructVesselInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Set LengthFeet value
-     * @param long $_lengthFeet the LengthFeet
-     * @return long
+     * @param int $_lengthFeet the LengthFeet
+     * @return int
      */
     public function setLengthFeet($_lengthFeet)
     {

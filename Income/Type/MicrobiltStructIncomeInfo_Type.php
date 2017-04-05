@@ -64,7 +64,7 @@ class MicrobiltStructIncomeInfo_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $DtOfNextPaycheck;
     /**
@@ -72,7 +72,7 @@ class MicrobiltStructIncomeInfo_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $DtOfSecondPaycheck;
     /**
@@ -83,8 +83,8 @@ class MicrobiltStructIncomeInfo_Type extends MicrobiltStructAggregate
      * @param string $_pmtFreq
      * @param MicrobiltStructCurrencyAmount $_payPerPeriod
      * @param MicrobiltEnumBoolean $_directDepositInd
-     * @param date $_dtOfNextPaycheck
-     * @param date $_dtOfSecondPaycheck
+     * @param string $_dtOfNextPaycheck
+     * @param string $_dtOfSecondPaycheck
      * @return MicrobiltStructIncomeInfo_Type
      */
     public function __construct($_source = NULL,$_monthlyIncome = NULL,$_pmtFreq = NULL,$_payPerPeriod = NULL,$_directDepositInd = NULL,$_dtOfNextPaycheck = NULL,$_dtOfSecondPaycheck = NULL)
@@ -183,7 +183,7 @@ class MicrobiltStructIncomeInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Get DtOfNextPaycheck value
-     * @return date|null
+     * @return string|null
      */
     public function getDtOfNextPaycheck()
     {
@@ -191,8 +191,8 @@ class MicrobiltStructIncomeInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Set DtOfNextPaycheck value
-     * @param date $_dtOfNextPaycheck the DtOfNextPaycheck
-     * @return date
+     * @param string $_dtOfNextPaycheck the DtOfNextPaycheck
+     * @return string
      */
     public function setDtOfNextPaycheck($_dtOfNextPaycheck)
     {
@@ -200,7 +200,7 @@ class MicrobiltStructIncomeInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Get DtOfSecondPaycheck value
-     * @return date|null
+     * @return string|null
      */
     public function getDtOfSecondPaycheck()
     {
@@ -208,8 +208,8 @@ class MicrobiltStructIncomeInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Set DtOfSecondPaycheck value
-     * @param date $_dtOfSecondPaycheck the DtOfSecondPaycheck
-     * @return date
+     * @param string $_dtOfSecondPaycheck the DtOfSecondPaycheck
+     * @return string
      */
     public function setDtOfSecondPaycheck($_dtOfSecondPaycheck)
     {

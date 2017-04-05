@@ -24,7 +24,7 @@ class MicrobiltStructExchangeRateInfo_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $ResearchDt;
     /**
@@ -46,7 +46,7 @@ class MicrobiltStructExchangeRateInfo_Type extends MicrobiltStructAggregate
     /**
      * Constructor method for ExchangeRateInfo_Type
      * @see parent::__construct()
-     * @param date $_researchDt
+     * @param string $_researchDt
      * @param string $_curCode
      * @param MicrobiltStructMessage_Type $_message
      * @return MicrobiltStructExchangeRateInfo_Type
@@ -57,7 +57,7 @@ class MicrobiltStructExchangeRateInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Get ResearchDt value
-     * @return date|null
+     * @return string|null
      */
     public function getResearchDt()
     {
@@ -65,8 +65,8 @@ class MicrobiltStructExchangeRateInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Set ResearchDt value
-     * @param date $_researchDt the ResearchDt
-     * @return date
+     * @param string $_researchDt the ResearchDt
+     * @return string
      */
     public function setResearchDt($_researchDt)
     {

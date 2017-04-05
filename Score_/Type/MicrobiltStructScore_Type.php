@@ -24,7 +24,7 @@ class MicrobiltStructScore_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 1
-     * @var long
+     * @var int
      */
     public $Value;
     /**
@@ -96,13 +96,13 @@ class MicrobiltStructScore_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $Percentile;
     /**
      * Constructor method for Score_Type
      * @see parent::__construct()
-     * @param long $_value
+     * @param int $_value
      * @param string $_model
      * @param MicrobiltStructCodeDescription_Type $_alert
      * @param MicrobiltStructCodeDescription_Type $_factor
@@ -111,7 +111,7 @@ class MicrobiltStructScore_Type extends MicrobiltStructAggregate
      * @param MicrobiltStructMessage_Type $_message
      * @param string $_modelDesc
      * @param MicrobiltStructMinMaxRange_Type $_modelRange
-     * @param long $_percentile
+     * @param int $_percentile
      * @return MicrobiltStructScore_Type
      */
     public function __construct($_value,$_model = NULL,$_alert = NULL,$_factor = NULL,$_modelNumber = NULL,$_scoreNumberInd = NULL,$_message = NULL,$_modelDesc = NULL,$_modelRange = NULL,$_percentile = NULL)
@@ -120,7 +120,7 @@ class MicrobiltStructScore_Type extends MicrobiltStructAggregate
     }
     /**
      * Get Value value
-     * @return long
+     * @return int
      */
     public function getValue()
     {
@@ -128,8 +128,8 @@ class MicrobiltStructScore_Type extends MicrobiltStructAggregate
     }
     /**
      * Set Value value
-     * @param long $_value the Value
-     * @return long
+     * @param int $_value the Value
+     * @return int
      */
     public function setValue($_value)
     {
@@ -273,7 +273,7 @@ class MicrobiltStructScore_Type extends MicrobiltStructAggregate
     }
     /**
      * Get Percentile value
-     * @return long|null
+     * @return int|null
      */
     public function getPercentile()
     {
@@ -281,8 +281,8 @@ class MicrobiltStructScore_Type extends MicrobiltStructAggregate
     }
     /**
      * Set Percentile value
-     * @param long $_percentile the Percentile
-     * @return long
+     * @param int $_percentile the Percentile
+     * @return int
      */
     public function setPercentile($_percentile)
     {

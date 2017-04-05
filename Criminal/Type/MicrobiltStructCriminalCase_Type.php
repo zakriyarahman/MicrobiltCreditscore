@@ -64,7 +64,7 @@ class MicrobiltStructCriminalCase_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $FileDt;
     /**
@@ -72,7 +72,7 @@ class MicrobiltStructCriminalCase_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $StartDt;
     /**
@@ -80,7 +80,7 @@ class MicrobiltStructCriminalCase_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $EndDt;
     /**
@@ -163,9 +163,9 @@ class MicrobiltStructCriminalCase_Type extends MicrobiltStructAggregate
      * @param string $_courtName
      * @param string $_courtNum
      * @param string $_courtJurisdiction
-     * @param date $_fileDt
-     * @param date $_startDt
-     * @param date $_endDt
+     * @param string $_fileDt
+     * @param string $_startDt
+     * @param string $_endDt
      * @param MicrobiltStructPersonInfo_Type $_personInfo
      * @param MicrobiltStructCharge_Type $_charge
      * @param MicrobiltStructMessage_Type $_message
@@ -268,7 +268,7 @@ class MicrobiltStructCriminalCase_Type extends MicrobiltStructAggregate
     }
     /**
      * Get FileDt value
-     * @return date|null
+     * @return string|null
      */
     public function getFileDt()
     {
@@ -276,8 +276,8 @@ class MicrobiltStructCriminalCase_Type extends MicrobiltStructAggregate
     }
     /**
      * Set FileDt value
-     * @param date $_fileDt the FileDt
-     * @return date
+     * @param string $_fileDt the FileDt
+     * @return string
      */
     public function setFileDt($_fileDt)
     {
@@ -285,7 +285,7 @@ class MicrobiltStructCriminalCase_Type extends MicrobiltStructAggregate
     }
     /**
      * Get StartDt value
-     * @return date|null
+     * @return string|null
      */
     public function getStartDt()
     {
@@ -293,8 +293,8 @@ class MicrobiltStructCriminalCase_Type extends MicrobiltStructAggregate
     }
     /**
      * Set StartDt value
-     * @param date $_startDt the StartDt
-     * @return date
+     * @param string $_startDt the StartDt
+     * @return string
      */
     public function setStartDt($_startDt)
     {
@@ -302,7 +302,7 @@ class MicrobiltStructCriminalCase_Type extends MicrobiltStructAggregate
     }
     /**
      * Get EndDt value
-     * @return date|null
+     * @return string|null
      */
     public function getEndDt()
     {
@@ -310,8 +310,8 @@ class MicrobiltStructCriminalCase_Type extends MicrobiltStructAggregate
     }
     /**
      * Set EndDt value
-     * @param date $_endDt the EndDt
-     * @return date
+     * @param string $_endDt the EndDt
+     * @return string
      */
     public function setEndDt($_endDt)
     {

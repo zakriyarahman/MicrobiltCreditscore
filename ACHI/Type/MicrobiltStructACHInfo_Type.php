@@ -64,7 +64,7 @@ class MicrobiltStructACHInfo_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $CheckDt;
     /**
@@ -83,7 +83,7 @@ class MicrobiltStructACHInfo_Type extends MicrobiltStructAggregate
      * @param string $_checkAcctType
      * @param string $_checkNum
      * @param string $_checkEntryClassCd
-     * @param date $_checkDt
+     * @param string $_checkDt
      * @param string $_aCHPaymentType
      * @return MicrobiltStructACHInfo_Type
      */
@@ -178,7 +178,7 @@ class MicrobiltStructACHInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Get CheckDt value
-     * @return date|null
+     * @return string|null
      */
     public function getCheckDt()
     {
@@ -186,8 +186,8 @@ class MicrobiltStructACHInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Set CheckDt value
-     * @param date $_checkDt the CheckDt
-     * @return date
+     * @param string $_checkDt the CheckDt
+     * @return string
      */
     public function setCheckDt($_checkDt)
     {

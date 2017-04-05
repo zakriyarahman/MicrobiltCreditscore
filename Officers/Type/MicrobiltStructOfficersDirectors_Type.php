@@ -48,7 +48,7 @@ class MicrobiltStructOfficersDirectors_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $AsOfDate;
     /**
@@ -56,7 +56,7 @@ class MicrobiltStructOfficersDirectors_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $DtFirstSeen;
     /**
@@ -64,7 +64,7 @@ class MicrobiltStructOfficersDirectors_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $DtLastSeen;
     /**
@@ -89,9 +89,9 @@ class MicrobiltStructOfficersDirectors_Type extends MicrobiltStructAggregate
      * @param MicrobiltStructPersonInfo_Type $_personInfo
      * @param MicrobiltStructOrgInfo_Type $_orgInfo
      * @param MicrobiltStructMessage_Type $_message
-     * @param date $_asOfDate
-     * @param date $_dtFirstSeen
-     * @param date $_dtLastSeen
+     * @param string $_asOfDate
+     * @param string $_dtFirstSeen
+     * @param string $_dtLastSeen
      * @param string $_recordID
      * @param MicrobiltEnumBoolean $_historicalInd
      * @return MicrobiltStructOfficersDirectors_Type
@@ -153,7 +153,7 @@ class MicrobiltStructOfficersDirectors_Type extends MicrobiltStructAggregate
     }
     /**
      * Get AsOfDate value
-     * @return date|null
+     * @return string|null
      */
     public function getAsOfDate()
     {
@@ -161,8 +161,8 @@ class MicrobiltStructOfficersDirectors_Type extends MicrobiltStructAggregate
     }
     /**
      * Set AsOfDate value
-     * @param date $_asOfDate the AsOfDate
-     * @return date
+     * @param string $_asOfDate the AsOfDate
+     * @return string
      */
     public function setAsOfDate($_asOfDate)
     {
@@ -170,7 +170,7 @@ class MicrobiltStructOfficersDirectors_Type extends MicrobiltStructAggregate
     }
     /**
      * Get DtFirstSeen value
-     * @return date|null
+     * @return string|null
      */
     public function getDtFirstSeen()
     {
@@ -178,8 +178,8 @@ class MicrobiltStructOfficersDirectors_Type extends MicrobiltStructAggregate
     }
     /**
      * Set DtFirstSeen value
-     * @param date $_dtFirstSeen the DtFirstSeen
-     * @return date
+     * @param string $_dtFirstSeen the DtFirstSeen
+     * @return string
      */
     public function setDtFirstSeen($_dtFirstSeen)
     {
@@ -187,7 +187,7 @@ class MicrobiltStructOfficersDirectors_Type extends MicrobiltStructAggregate
     }
     /**
      * Get DtLastSeen value
-     * @return date|null
+     * @return string|null
      */
     public function getDtLastSeen()
     {
@@ -195,8 +195,8 @@ class MicrobiltStructOfficersDirectors_Type extends MicrobiltStructAggregate
     }
     /**
      * Set DtLastSeen value
-     * @param date $_dtLastSeen the DtLastSeen
-     * @return date
+     * @param string $_dtLastSeen the DtLastSeen
+     * @return string
      */
     public function setDtLastSeen($_dtLastSeen)
     {

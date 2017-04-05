@@ -32,7 +32,7 @@ class MicrobiltStructSchoolInfo_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $StartDt;
     /**
@@ -40,7 +40,7 @@ class MicrobiltStructSchoolInfo_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $EndDt;
     /**
@@ -48,7 +48,7 @@ class MicrobiltStructSchoolInfo_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $GraduationDt;
     /**
@@ -87,9 +87,9 @@ class MicrobiltStructSchoolInfo_Type extends MicrobiltStructAggregate
      * Constructor method for SchoolInfo_Type
      * @see parent::__construct()
      * @param MicrobiltStructOrgInfo_Type $_orgInfo
-     * @param date $_startDt
-     * @param date $_endDt
-     * @param date $_graduationDt
+     * @param string $_startDt
+     * @param string $_endDt
+     * @param string $_graduationDt
      * @param string $_diploma
      * @param string $_degreeMajor
      * @param string $_degreeMinor
@@ -119,7 +119,7 @@ class MicrobiltStructSchoolInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Get StartDt value
-     * @return date|null
+     * @return string|null
      */
     public function getStartDt()
     {
@@ -127,8 +127,8 @@ class MicrobiltStructSchoolInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Set StartDt value
-     * @param date $_startDt the StartDt
-     * @return date
+     * @param string $_startDt the StartDt
+     * @return string
      */
     public function setStartDt($_startDt)
     {
@@ -136,7 +136,7 @@ class MicrobiltStructSchoolInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Get EndDt value
-     * @return date|null
+     * @return string|null
      */
     public function getEndDt()
     {
@@ -144,8 +144,8 @@ class MicrobiltStructSchoolInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Set EndDt value
-     * @param date $_endDt the EndDt
-     * @return date
+     * @param string $_endDt the EndDt
+     * @return string
      */
     public function setEndDt($_endDt)
     {
@@ -153,7 +153,7 @@ class MicrobiltStructSchoolInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Get GraduationDt value
-     * @return date|null
+     * @return string|null
      */
     public function getGraduationDt()
     {
@@ -161,8 +161,8 @@ class MicrobiltStructSchoolInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Set GraduationDt value
-     * @param date $_graduationDt the GraduationDt
-     * @return date
+     * @param string $_graduationDt the GraduationDt
+     * @return string
      */
     public function setGraduationDt($_graduationDt)
     {

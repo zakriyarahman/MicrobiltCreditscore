@@ -32,7 +32,7 @@ class MicrobiltStructAdditionalStatus_Type extends MicrobiltWsdlClass
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $StatusCode;
     /**
@@ -55,7 +55,7 @@ class MicrobiltStructAdditionalStatus_Type extends MicrobiltWsdlClass
      * Constructor method for AdditionalStatus_Type
      * @see parent::__construct()
      * @param MicrobiltEnumSeverity_Type $_severity
-     * @param long $_statusCode
+     * @param int $_statusCode
      * @param string $_serverStatusCode
      * @param string $_statusDesc
      * @return MicrobiltStructAdditionalStatus_Type
@@ -88,7 +88,7 @@ class MicrobiltStructAdditionalStatus_Type extends MicrobiltWsdlClass
     }
     /**
      * Get StatusCode value
-     * @return long|null
+     * @return int|null
      */
     public function getStatusCode()
     {
@@ -96,8 +96,8 @@ class MicrobiltStructAdditionalStatus_Type extends MicrobiltWsdlClass
     }
     /**
      * Set StatusCode value
-     * @param long $_statusCode the StatusCode
-     * @return long
+     * @param int $_statusCode the StatusCode
+     * @return int
      */
     public function setStatusCode($_statusCode)
     {

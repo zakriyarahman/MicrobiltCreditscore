@@ -72,7 +72,7 @@ class MicrobiltStructOFAC_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $Value;
     /**
@@ -88,7 +88,7 @@ class MicrobiltStructOFAC_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $FileDt;
     /**
@@ -108,9 +108,9 @@ class MicrobiltStructOFAC_Type extends MicrobiltStructAggregate
      * @param MicrobiltStructCodeDescription_Type $_matchCode
      * @param string $_sourceSanction
      * @param string $_issueId
-     * @param long $_value
+     * @param int $_value
      * @param string $_fileName
-     * @param date $_fileDt
+     * @param string $_fileDt
      * @param MicrobiltStructMessage_Type $_message
      * @return MicrobiltStructOFAC_Type
      */
@@ -222,7 +222,7 @@ class MicrobiltStructOFAC_Type extends MicrobiltStructAggregate
     }
     /**
      * Get Value value
-     * @return long|null
+     * @return int|null
      */
     public function getValue()
     {
@@ -230,8 +230,8 @@ class MicrobiltStructOFAC_Type extends MicrobiltStructAggregate
     }
     /**
      * Set Value value
-     * @param long $_value the Value
-     * @return long
+     * @param int $_value the Value
+     * @return int
      */
     public function setValue($_value)
     {
@@ -256,7 +256,7 @@ class MicrobiltStructOFAC_Type extends MicrobiltStructAggregate
     }
     /**
      * Get FileDt value
-     * @return date|null
+     * @return string|null
      */
     public function getFileDt()
     {
@@ -264,8 +264,8 @@ class MicrobiltStructOFAC_Type extends MicrobiltStructAggregate
     }
     /**
      * Set FileDt value
-     * @param date $_fileDt the FileDt
-     * @return date
+     * @param string $_fileDt the FileDt
+     * @return string
      */
     public function setFileDt($_fileDt)
     {

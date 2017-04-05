@@ -24,7 +24,7 @@ class MicrobiltStructPrisonSentenceInfo_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $AdmittedDt;
     /**
@@ -48,7 +48,7 @@ class MicrobiltStructPrisonSentenceInfo_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $CustodyTypeChangeDt;
     /**
@@ -64,7 +64,7 @@ class MicrobiltStructPrisonSentenceInfo_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $LastGainTimeDt;
     /**
@@ -80,7 +80,7 @@ class MicrobiltStructPrisonSentenceInfo_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $ScheduledReleaseDt;
     /**
@@ -94,14 +94,14 @@ class MicrobiltStructPrisonSentenceInfo_Type extends MicrobiltStructAggregate
     /**
      * Constructor method for PrisonSentenceInfo_Type
      * @see parent::__construct()
-     * @param date $_admittedDt
+     * @param string $_admittedDt
      * @param string $_sentenceStatus
      * @param string $_custodyType
-     * @param date $_custodyTypeChangeDt
+     * @param string $_custodyTypeChangeDt
      * @param string $_gainTimeGranted
-     * @param date $_lastGainTimeDt
+     * @param string $_lastGainTimeDt
      * @param MicrobiltStructPostAddr_Type $_location
-     * @param date $_scheduledReleaseDt
+     * @param string $_scheduledReleaseDt
      * @param string $_sentence
      * @return MicrobiltStructPrisonSentenceInfo_Type
      */
@@ -111,7 +111,7 @@ class MicrobiltStructPrisonSentenceInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Get AdmittedDt value
-     * @return date|null
+     * @return string|null
      */
     public function getAdmittedDt()
     {
@@ -119,8 +119,8 @@ class MicrobiltStructPrisonSentenceInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Set AdmittedDt value
-     * @param date $_admittedDt the AdmittedDt
-     * @return date
+     * @param string $_admittedDt the AdmittedDt
+     * @return string
      */
     public function setAdmittedDt($_admittedDt)
     {
@@ -162,7 +162,7 @@ class MicrobiltStructPrisonSentenceInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Get CustodyTypeChangeDt value
-     * @return date|null
+     * @return string|null
      */
     public function getCustodyTypeChangeDt()
     {
@@ -170,8 +170,8 @@ class MicrobiltStructPrisonSentenceInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Set CustodyTypeChangeDt value
-     * @param date $_custodyTypeChangeDt the CustodyTypeChangeDt
-     * @return date
+     * @param string $_custodyTypeChangeDt the CustodyTypeChangeDt
+     * @return string
      */
     public function setCustodyTypeChangeDt($_custodyTypeChangeDt)
     {
@@ -196,7 +196,7 @@ class MicrobiltStructPrisonSentenceInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Get LastGainTimeDt value
-     * @return date|null
+     * @return string|null
      */
     public function getLastGainTimeDt()
     {
@@ -204,8 +204,8 @@ class MicrobiltStructPrisonSentenceInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Set LastGainTimeDt value
-     * @param date $_lastGainTimeDt the LastGainTimeDt
-     * @return date
+     * @param string $_lastGainTimeDt the LastGainTimeDt
+     * @return string
      */
     public function setLastGainTimeDt($_lastGainTimeDt)
     {
@@ -230,7 +230,7 @@ class MicrobiltStructPrisonSentenceInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Get ScheduledReleaseDt value
-     * @return date|null
+     * @return string|null
      */
     public function getScheduledReleaseDt()
     {
@@ -238,8 +238,8 @@ class MicrobiltStructPrisonSentenceInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Set ScheduledReleaseDt value
-     * @param date $_scheduledReleaseDt the ScheduledReleaseDt
-     * @return date
+     * @param string $_scheduledReleaseDt the ScheduledReleaseDt
+     * @return string
      */
     public function setScheduledReleaseDt($_scheduledReleaseDt)
     {

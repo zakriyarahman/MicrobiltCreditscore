@@ -24,7 +24,7 @@ class MicrobiltStructInqCountInfo_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $InqDt;
     /**
@@ -32,14 +32,14 @@ class MicrobiltStructInqCountInfo_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $InqCount;
     /**
      * Constructor method for InqCountInfo_Type
      * @see parent::__construct()
-     * @param date $_inqDt
-     * @param long $_inqCount
+     * @param string $_inqDt
+     * @param int $_inqCount
      * @return MicrobiltStructInqCountInfo_Type
      */
     public function __construct($_inqDt = NULL,$_inqCount = NULL)
@@ -48,7 +48,7 @@ class MicrobiltStructInqCountInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Get InqDt value
-     * @return date|null
+     * @return string|null
      */
     public function getInqDt()
     {
@@ -56,8 +56,8 @@ class MicrobiltStructInqCountInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Set InqDt value
-     * @param date $_inqDt the InqDt
-     * @return date
+     * @param string $_inqDt the InqDt
+     * @return string
      */
     public function setInqDt($_inqDt)
     {
@@ -65,7 +65,7 @@ class MicrobiltStructInqCountInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Get InqCount value
-     * @return long|null
+     * @return int|null
      */
     public function getInqCount()
     {
@@ -73,8 +73,8 @@ class MicrobiltStructInqCountInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Set InqCount value
-     * @param long $_inqCount the InqCount
-     * @return long
+     * @param int $_inqCount the InqCount
+     * @return int
      */
     public function setInqCount($_inqCount)
     {

@@ -112,7 +112,7 @@ class MicrobiltStructPersonName_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $FirstSeenDt;
     /**
@@ -120,7 +120,7 @@ class MicrobiltStructPersonName_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $DtLastSeen;
     /**
@@ -137,8 +137,8 @@ class MicrobiltStructPersonName_Type extends MicrobiltStructAggregate
      * @param string $_maidenName
      * @param string $_officialTitle
      * @param string $_initials
-     * @param date $_firstSeenDt
-     * @param date $_dtLastSeen
+     * @param string $_firstSeenDt
+     * @param string $_dtLastSeen
      * @return MicrobiltStructPersonName_Type
      */
     public function __construct($_firstName = NULL,$_fullName = NULL,$_lastName = NULL,$_middleName = NULL,$_titlePrefix = NULL,$_nameSuffix = NULL,$_nickname = NULL,$_legalName = NULL,$_maidenName = NULL,$_officialTitle = NULL,$_initials = NULL,$_firstSeenDt = NULL,$_dtLastSeen = NULL)
@@ -334,7 +334,7 @@ class MicrobiltStructPersonName_Type extends MicrobiltStructAggregate
     }
     /**
      * Get FirstSeenDt value
-     * @return date|null
+     * @return string|null
      */
     public function getFirstSeenDt()
     {
@@ -342,8 +342,8 @@ class MicrobiltStructPersonName_Type extends MicrobiltStructAggregate
     }
     /**
      * Set FirstSeenDt value
-     * @param date $_firstSeenDt the FirstSeenDt
-     * @return date
+     * @param string $_firstSeenDt the FirstSeenDt
+     * @return string
      */
     public function setFirstSeenDt($_firstSeenDt)
     {
@@ -351,7 +351,7 @@ class MicrobiltStructPersonName_Type extends MicrobiltStructAggregate
     }
     /**
      * Get DtLastSeen value
-     * @return date|null
+     * @return string|null
      */
     public function getDtLastSeen()
     {
@@ -359,8 +359,8 @@ class MicrobiltStructPersonName_Type extends MicrobiltStructAggregate
     }
     /**
      * Set DtLastSeen value
-     * @param date $_dtLastSeen the DtLastSeen
-     * @return date
+     * @param string $_dtLastSeen the DtLastSeen
+     * @return string
      */
     public function setDtLastSeen($_dtLastSeen)
     {

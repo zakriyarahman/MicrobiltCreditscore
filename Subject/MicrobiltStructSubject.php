@@ -26,12 +26,12 @@ class MicrobiltStructSubject extends MicrobiltWsdlClass
     public $RefNum;
     /**
      * The FileDt
-     * @var date
+     * @var string
      */
     public $FileDt;
     /**
      * The LastActivityDt
-     * @var date
+     * @var string
      */
     public $LastActivityDt;
     /**
@@ -108,8 +108,8 @@ class MicrobiltStructSubject extends MicrobiltWsdlClass
      * Constructor method for Subject
      * @see parent::__construct()
      * @param string $_refNum
-     * @param date $_fileDt
-     * @param date $_lastActivityDt
+     * @param string $_fileDt
+     * @param string $_lastActivityDt
      * @param MicrobiltStructPersonInfo_Type $_personInfo
      * @param MicrobiltStructPersonInfo_Type $_alias
      * @param MicrobiltStructOrgInfo_Type $_consumerReferral
@@ -149,7 +149,7 @@ class MicrobiltStructSubject extends MicrobiltWsdlClass
     }
     /**
      * Get FileDt value
-     * @return date|null
+     * @return string|null
      */
     public function getFileDt()
     {
@@ -157,8 +157,8 @@ class MicrobiltStructSubject extends MicrobiltWsdlClass
     }
     /**
      * Set FileDt value
-     * @param date $_fileDt the FileDt
-     * @return date
+     * @param string $_fileDt the FileDt
+     * @return string
      */
     public function setFileDt($_fileDt)
     {
@@ -166,7 +166,7 @@ class MicrobiltStructSubject extends MicrobiltWsdlClass
     }
     /**
      * Get LastActivityDt value
-     * @return date|null
+     * @return string|null
      */
     public function getLastActivityDt()
     {
@@ -174,8 +174,8 @@ class MicrobiltStructSubject extends MicrobiltWsdlClass
     }
     /**
      * Set LastActivityDt value
-     * @param date $_lastActivityDt the LastActivityDt
-     * @return date
+     * @param string $_lastActivityDt the LastActivityDt
+     * @return string
      */
     public function setLastActivityDt($_lastActivityDt)
     {

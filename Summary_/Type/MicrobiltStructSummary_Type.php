@@ -32,7 +32,7 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $ClosedAccts;
     /**
@@ -40,7 +40,7 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $CollCount;
     /**
@@ -48,7 +48,7 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $CollTransferred;
     /**
@@ -56,7 +56,7 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $InqCount;
     /**
@@ -64,7 +64,7 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $EmpInqCount;
     /**
@@ -80,7 +80,7 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $InstAccts;
     /**
@@ -88,7 +88,7 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $MortgageAccts;
     /**
@@ -96,7 +96,7 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $OpenAccts;
     /**
@@ -104,7 +104,7 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $PaidAccts;
     /**
@@ -112,7 +112,7 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $RevAccts;
     /**
@@ -120,7 +120,7 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $RevAvailPercent;
     /**
@@ -128,7 +128,7 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $PublicRecs;
     /**
@@ -136,7 +136,7 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $OtherTrades;
     /**
@@ -144,7 +144,7 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $NowDelinqDerog;
     /**
@@ -152,7 +152,7 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $WasDelinqDerog;
     /**
@@ -160,7 +160,7 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $MostRecentTradeDt;
     /**
@@ -168,7 +168,7 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $OldestTradeDt;
     /**
@@ -216,7 +216,7 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $DisputedTrades;
     /**
@@ -224,7 +224,7 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $TotalTrades;
     /**
@@ -232,7 +232,7 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $CurrentTrades;
     /**
@@ -240,7 +240,7 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $LateCount30;
     /**
@@ -248,7 +248,7 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $LateCount60;
     /**
@@ -256,7 +256,7 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $LateCount90;
     /**
@@ -264,7 +264,7 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $InqWithin6Months;
     /**
@@ -280,7 +280,7 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $PastDueCount;
     /**
@@ -288,7 +288,7 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $UnratedCount;
     /**
@@ -304,7 +304,7 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $DerogCount;
     /**
@@ -327,41 +327,41 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
      * Constructor method for Summary_Type
      * @see parent::__construct()
      * @param MicrobiltStructCompAmt_Type $_balanceAmt
-     * @param long $_closedAccts
-     * @param long $_collCount
-     * @param long $_collTransferred
-     * @param long $_inqCount
-     * @param long $_empInqCount
+     * @param int $_closedAccts
+     * @param int $_collCount
+     * @param int $_collTransferred
+     * @param int $_inqCount
+     * @param int $_empInqCount
      * @param MicrobiltStructCompAmt_Type $_highCreditAmt
-     * @param long $_instAccts
-     * @param long $_mortgageAccts
-     * @param long $_openAccts
-     * @param long $_paidAccts
-     * @param long $_revAccts
-     * @param long $_revAvailPercent
-     * @param long $_publicRecs
-     * @param long $_otherTrades
-     * @param long $_nowDelinqDerog
-     * @param long $_wasDelinqDerog
-     * @param date $_mostRecentTradeDt
-     * @param date $_oldestTradeDt
+     * @param int $_instAccts
+     * @param int $_mortgageAccts
+     * @param int $_openAccts
+     * @param int $_paidAccts
+     * @param int $_revAccts
+     * @param int $_revAvailPercent
+     * @param int $_publicRecs
+     * @param int $_otherTrades
+     * @param int $_nowDelinqDerog
+     * @param int $_wasDelinqDerog
+     * @param string $_mostRecentTradeDt
+     * @param string $_oldestTradeDt
      * @param MicrobiltStructCompAmt_Type $_pastDueBalAmt
      * @param MicrobiltStructCompAmt_Type $_paymentAmt
      * @param MicrobiltStructCompAmt_Type $_realEstateBalAmt
      * @param MicrobiltStructCompAmt_Type $_realEstatePmtAmt
      * @param MicrobiltStructCompAmt_Type $_totalCreditLimitAmt
-     * @param long $_disputedTrades
-     * @param long $_totalTrades
-     * @param long $_currentTrades
-     * @param long $_lateCount30
-     * @param long $_lateCount60
-     * @param long $_lateCount90
-     * @param long $_inqWithin6Months
+     * @param int $_disputedTrades
+     * @param int $_totalTrades
+     * @param int $_currentTrades
+     * @param int $_lateCount30
+     * @param int $_lateCount60
+     * @param int $_lateCount90
+     * @param int $_inqWithin6Months
      * @param MicrobiltStructMessage_Type $_message
-     * @param long $_pastDueCount
-     * @param long $_unratedCount
+     * @param int $_pastDueCount
+     * @param int $_unratedCount
      * @param MicrobiltStructCurrencyAmount $_averageMonthlyPmtAmt
-     * @param long $_derogCount
+     * @param int $_derogCount
      * @param MicrobiltStructOtherAmounts_Type $_otherAmounts
      * @param MicrobiltStructOtherPercentages_Type $_otherPercentages
      * @return MicrobiltStructSummary_Type
@@ -389,7 +389,7 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Get ClosedAccts value
-     * @return long|null
+     * @return int|null
      */
     public function getClosedAccts()
     {
@@ -397,8 +397,8 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Set ClosedAccts value
-     * @param long $_closedAccts the ClosedAccts
-     * @return long
+     * @param int $_closedAccts the ClosedAccts
+     * @return int
      */
     public function setClosedAccts($_closedAccts)
     {
@@ -406,7 +406,7 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Get CollCount value
-     * @return long|null
+     * @return int|null
      */
     public function getCollCount()
     {
@@ -414,8 +414,8 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Set CollCount value
-     * @param long $_collCount the CollCount
-     * @return long
+     * @param int $_collCount the CollCount
+     * @return int
      */
     public function setCollCount($_collCount)
     {
@@ -423,7 +423,7 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Get CollTransferred value
-     * @return long|null
+     * @return int|null
      */
     public function getCollTransferred()
     {
@@ -431,8 +431,8 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Set CollTransferred value
-     * @param long $_collTransferred the CollTransferred
-     * @return long
+     * @param int $_collTransferred the CollTransferred
+     * @return int
      */
     public function setCollTransferred($_collTransferred)
     {
@@ -440,7 +440,7 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Get InqCount value
-     * @return long|null
+     * @return int|null
      */
     public function getInqCount()
     {
@@ -448,8 +448,8 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Set InqCount value
-     * @param long $_inqCount the InqCount
-     * @return long
+     * @param int $_inqCount the InqCount
+     * @return int
      */
     public function setInqCount($_inqCount)
     {
@@ -457,7 +457,7 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Get EmpInqCount value
-     * @return long|null
+     * @return int|null
      */
     public function getEmpInqCount()
     {
@@ -465,8 +465,8 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Set EmpInqCount value
-     * @param long $_empInqCount the EmpInqCount
-     * @return long
+     * @param int $_empInqCount the EmpInqCount
+     * @return int
      */
     public function setEmpInqCount($_empInqCount)
     {
@@ -491,7 +491,7 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Get InstAccts value
-     * @return long|null
+     * @return int|null
      */
     public function getInstAccts()
     {
@@ -499,8 +499,8 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Set InstAccts value
-     * @param long $_instAccts the InstAccts
-     * @return long
+     * @param int $_instAccts the InstAccts
+     * @return int
      */
     public function setInstAccts($_instAccts)
     {
@@ -508,7 +508,7 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Get MortgageAccts value
-     * @return long|null
+     * @return int|null
      */
     public function getMortgageAccts()
     {
@@ -516,8 +516,8 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Set MortgageAccts value
-     * @param long $_mortgageAccts the MortgageAccts
-     * @return long
+     * @param int $_mortgageAccts the MortgageAccts
+     * @return int
      */
     public function setMortgageAccts($_mortgageAccts)
     {
@@ -525,7 +525,7 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Get OpenAccts value
-     * @return long|null
+     * @return int|null
      */
     public function getOpenAccts()
     {
@@ -533,8 +533,8 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Set OpenAccts value
-     * @param long $_openAccts the OpenAccts
-     * @return long
+     * @param int $_openAccts the OpenAccts
+     * @return int
      */
     public function setOpenAccts($_openAccts)
     {
@@ -542,7 +542,7 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Get PaidAccts value
-     * @return long|null
+     * @return int|null
      */
     public function getPaidAccts()
     {
@@ -550,8 +550,8 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Set PaidAccts value
-     * @param long $_paidAccts the PaidAccts
-     * @return long
+     * @param int $_paidAccts the PaidAccts
+     * @return int
      */
     public function setPaidAccts($_paidAccts)
     {
@@ -559,7 +559,7 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Get RevAccts value
-     * @return long|null
+     * @return int|null
      */
     public function getRevAccts()
     {
@@ -567,8 +567,8 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Set RevAccts value
-     * @param long $_revAccts the RevAccts
-     * @return long
+     * @param int $_revAccts the RevAccts
+     * @return int
      */
     public function setRevAccts($_revAccts)
     {
@@ -576,7 +576,7 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Get RevAvailPercent value
-     * @return long|null
+     * @return int|null
      */
     public function getRevAvailPercent()
     {
@@ -584,8 +584,8 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Set RevAvailPercent value
-     * @param long $_revAvailPercent the RevAvailPercent
-     * @return long
+     * @param int $_revAvailPercent the RevAvailPercent
+     * @return int
      */
     public function setRevAvailPercent($_revAvailPercent)
     {
@@ -593,7 +593,7 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Get PublicRecs value
-     * @return long|null
+     * @return int|null
      */
     public function getPublicRecs()
     {
@@ -601,8 +601,8 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Set PublicRecs value
-     * @param long $_publicRecs the PublicRecs
-     * @return long
+     * @param int $_publicRecs the PublicRecs
+     * @return int
      */
     public function setPublicRecs($_publicRecs)
     {
@@ -610,7 +610,7 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Get OtherTrades value
-     * @return long|null
+     * @return int|null
      */
     public function getOtherTrades()
     {
@@ -618,8 +618,8 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Set OtherTrades value
-     * @param long $_otherTrades the OtherTrades
-     * @return long
+     * @param int $_otherTrades the OtherTrades
+     * @return int
      */
     public function setOtherTrades($_otherTrades)
     {
@@ -627,7 +627,7 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Get NowDelinqDerog value
-     * @return long|null
+     * @return int|null
      */
     public function getNowDelinqDerog()
     {
@@ -635,8 +635,8 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Set NowDelinqDerog value
-     * @param long $_nowDelinqDerog the NowDelinqDerog
-     * @return long
+     * @param int $_nowDelinqDerog the NowDelinqDerog
+     * @return int
      */
     public function setNowDelinqDerog($_nowDelinqDerog)
     {
@@ -644,7 +644,7 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Get WasDelinqDerog value
-     * @return long|null
+     * @return int|null
      */
     public function getWasDelinqDerog()
     {
@@ -652,8 +652,8 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Set WasDelinqDerog value
-     * @param long $_wasDelinqDerog the WasDelinqDerog
-     * @return long
+     * @param int $_wasDelinqDerog the WasDelinqDerog
+     * @return int
      */
     public function setWasDelinqDerog($_wasDelinqDerog)
     {
@@ -661,7 +661,7 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Get MostRecentTradeDt value
-     * @return date|null
+     * @return string|null
      */
     public function getMostRecentTradeDt()
     {
@@ -669,8 +669,8 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Set MostRecentTradeDt value
-     * @param date $_mostRecentTradeDt the MostRecentTradeDt
-     * @return date
+     * @param string $_mostRecentTradeDt the MostRecentTradeDt
+     * @return string
      */
     public function setMostRecentTradeDt($_mostRecentTradeDt)
     {
@@ -678,7 +678,7 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Get OldestTradeDt value
-     * @return date|null
+     * @return string|null
      */
     public function getOldestTradeDt()
     {
@@ -686,8 +686,8 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Set OldestTradeDt value
-     * @param date $_oldestTradeDt the OldestTradeDt
-     * @return date
+     * @param string $_oldestTradeDt the OldestTradeDt
+     * @return string
      */
     public function setOldestTradeDt($_oldestTradeDt)
     {
@@ -780,7 +780,7 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Get DisputedTrades value
-     * @return long|null
+     * @return int|null
      */
     public function getDisputedTrades()
     {
@@ -788,8 +788,8 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Set DisputedTrades value
-     * @param long $_disputedTrades the DisputedTrades
-     * @return long
+     * @param int $_disputedTrades the DisputedTrades
+     * @return int
      */
     public function setDisputedTrades($_disputedTrades)
     {
@@ -797,7 +797,7 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Get TotalTrades value
-     * @return long|null
+     * @return int|null
      */
     public function getTotalTrades()
     {
@@ -805,8 +805,8 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Set TotalTrades value
-     * @param long $_totalTrades the TotalTrades
-     * @return long
+     * @param int $_totalTrades the TotalTrades
+     * @return int
      */
     public function setTotalTrades($_totalTrades)
     {
@@ -814,7 +814,7 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Get CurrentTrades value
-     * @return long|null
+     * @return int|null
      */
     public function getCurrentTrades()
     {
@@ -822,8 +822,8 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Set CurrentTrades value
-     * @param long $_currentTrades the CurrentTrades
-     * @return long
+     * @param int $_currentTrades the CurrentTrades
+     * @return int
      */
     public function setCurrentTrades($_currentTrades)
     {
@@ -831,7 +831,7 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Get LateCount30 value
-     * @return long|null
+     * @return int|null
      */
     public function getLateCount30()
     {
@@ -839,8 +839,8 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Set LateCount30 value
-     * @param long $_lateCount30 the LateCount30
-     * @return long
+     * @param int $_lateCount30 the LateCount30
+     * @return int
      */
     public function setLateCount30($_lateCount30)
     {
@@ -848,7 +848,7 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Get LateCount60 value
-     * @return long|null
+     * @return int|null
      */
     public function getLateCount60()
     {
@@ -856,8 +856,8 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Set LateCount60 value
-     * @param long $_lateCount60 the LateCount60
-     * @return long
+     * @param int $_lateCount60 the LateCount60
+     * @return int
      */
     public function setLateCount60($_lateCount60)
     {
@@ -865,7 +865,7 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Get LateCount90 value
-     * @return long|null
+     * @return int|null
      */
     public function getLateCount90()
     {
@@ -873,8 +873,8 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Set LateCount90 value
-     * @param long $_lateCount90 the LateCount90
-     * @return long
+     * @param int $_lateCount90 the LateCount90
+     * @return int
      */
     public function setLateCount90($_lateCount90)
     {
@@ -882,7 +882,7 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Get InqWithin6Months value
-     * @return long|null
+     * @return int|null
      */
     public function getInqWithin6Months()
     {
@@ -890,8 +890,8 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Set InqWithin6Months value
-     * @param long $_inqWithin6Months the InqWithin6Months
-     * @return long
+     * @param int $_inqWithin6Months the InqWithin6Months
+     * @return int
      */
     public function setInqWithin6Months($_inqWithin6Months)
     {
@@ -916,7 +916,7 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Get PastDueCount value
-     * @return long|null
+     * @return int|null
      */
     public function getPastDueCount()
     {
@@ -924,8 +924,8 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Set PastDueCount value
-     * @param long $_pastDueCount the PastDueCount
-     * @return long
+     * @param int $_pastDueCount the PastDueCount
+     * @return int
      */
     public function setPastDueCount($_pastDueCount)
     {
@@ -933,7 +933,7 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Get UnratedCount value
-     * @return long|null
+     * @return int|null
      */
     public function getUnratedCount()
     {
@@ -941,8 +941,8 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Set UnratedCount value
-     * @param long $_unratedCount the UnratedCount
-     * @return long
+     * @param int $_unratedCount the UnratedCount
+     * @return int
      */
     public function setUnratedCount($_unratedCount)
     {
@@ -967,7 +967,7 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Get DerogCount value
-     * @return long|null
+     * @return int|null
      */
     public function getDerogCount()
     {
@@ -975,8 +975,8 @@ class MicrobiltStructSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Set DerogCount value
-     * @param long $_derogCount the DerogCount
-     * @return long
+     * @param int $_derogCount the DerogCount
+     * @return int
      */
     public function setDerogCount($_derogCount)
     {

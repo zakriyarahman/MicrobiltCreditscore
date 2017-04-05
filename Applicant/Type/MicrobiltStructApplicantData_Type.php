@@ -32,7 +32,7 @@ class MicrobiltStructApplicantData_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $NumberOfCurrentLoans;
     /**
@@ -71,7 +71,7 @@ class MicrobiltStructApplicantData_Type extends MicrobiltStructAggregate
      * Constructor method for ApplicantData_Type
      * @see parent::__construct()
      * @param MicrobiltStructCurrencyAmount $_rentPmtAmt
-     * @param long $_numberOfCurrentLoans
+     * @param int $_numberOfCurrentLoans
      * @param MicrobiltEnumBoolean $_previousCustomer
      * @param MicrobiltEnumBoolean $_payrollGarnishment
      * @param MicrobiltEnumBoolean $_currentBankruptcy
@@ -101,7 +101,7 @@ class MicrobiltStructApplicantData_Type extends MicrobiltStructAggregate
     }
     /**
      * Get NumberOfCurrentLoans value
-     * @return long|null
+     * @return int|null
      */
     public function getNumberOfCurrentLoans()
     {
@@ -109,8 +109,8 @@ class MicrobiltStructApplicantData_Type extends MicrobiltStructAggregate
     }
     /**
      * Set NumberOfCurrentLoans value
-     * @param long $_numberOfCurrentLoans the NumberOfCurrentLoans
-     * @return long
+     * @param int $_numberOfCurrentLoans the NumberOfCurrentLoans
+     * @return int
      */
     public function setNumberOfCurrentLoans($_numberOfCurrentLoans)
     {

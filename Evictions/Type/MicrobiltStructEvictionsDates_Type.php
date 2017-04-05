@@ -24,7 +24,7 @@ class MicrobiltStructEvictionsDates_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $OrigDtFiled;
     /**
@@ -32,7 +32,7 @@ class MicrobiltStructEvictionsDates_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $JudgeSatisfiedDt;
     /**
@@ -40,7 +40,7 @@ class MicrobiltStructEvictionsDates_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $JudgeVacatedDt;
     /**
@@ -48,7 +48,7 @@ class MicrobiltStructEvictionsDates_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $SuitDt;
     /**
@@ -56,17 +56,17 @@ class MicrobiltStructEvictionsDates_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $ReleaseDt;
     /**
      * Constructor method for EvictionsDates_Type
      * @see parent::__construct()
-     * @param date $_origDtFiled
-     * @param date $_judgeSatisfiedDt
-     * @param date $_judgeVacatedDt
-     * @param date $_suitDt
-     * @param date $_releaseDt
+     * @param string $_origDtFiled
+     * @param string $_judgeSatisfiedDt
+     * @param string $_judgeVacatedDt
+     * @param string $_suitDt
+     * @param string $_releaseDt
      * @return MicrobiltStructEvictionsDates_Type
      */
     public function __construct($_origDtFiled = NULL,$_judgeSatisfiedDt = NULL,$_judgeVacatedDt = NULL,$_suitDt = NULL,$_releaseDt = NULL)
@@ -75,7 +75,7 @@ class MicrobiltStructEvictionsDates_Type extends MicrobiltStructAggregate
     }
     /**
      * Get OrigDtFiled value
-     * @return date|null
+     * @return string|null
      */
     public function getOrigDtFiled()
     {
@@ -83,8 +83,8 @@ class MicrobiltStructEvictionsDates_Type extends MicrobiltStructAggregate
     }
     /**
      * Set OrigDtFiled value
-     * @param date $_origDtFiled the OrigDtFiled
-     * @return date
+     * @param string $_origDtFiled the OrigDtFiled
+     * @return string
      */
     public function setOrigDtFiled($_origDtFiled)
     {
@@ -92,7 +92,7 @@ class MicrobiltStructEvictionsDates_Type extends MicrobiltStructAggregate
     }
     /**
      * Get JudgeSatisfiedDt value
-     * @return date|null
+     * @return string|null
      */
     public function getJudgeSatisfiedDt()
     {
@@ -100,8 +100,8 @@ class MicrobiltStructEvictionsDates_Type extends MicrobiltStructAggregate
     }
     /**
      * Set JudgeSatisfiedDt value
-     * @param date $_judgeSatisfiedDt the JudgeSatisfiedDt
-     * @return date
+     * @param string $_judgeSatisfiedDt the JudgeSatisfiedDt
+     * @return string
      */
     public function setJudgeSatisfiedDt($_judgeSatisfiedDt)
     {
@@ -109,7 +109,7 @@ class MicrobiltStructEvictionsDates_Type extends MicrobiltStructAggregate
     }
     /**
      * Get JudgeVacatedDt value
-     * @return date|null
+     * @return string|null
      */
     public function getJudgeVacatedDt()
     {
@@ -117,8 +117,8 @@ class MicrobiltStructEvictionsDates_Type extends MicrobiltStructAggregate
     }
     /**
      * Set JudgeVacatedDt value
-     * @param date $_judgeVacatedDt the JudgeVacatedDt
-     * @return date
+     * @param string $_judgeVacatedDt the JudgeVacatedDt
+     * @return string
      */
     public function setJudgeVacatedDt($_judgeVacatedDt)
     {
@@ -126,7 +126,7 @@ class MicrobiltStructEvictionsDates_Type extends MicrobiltStructAggregate
     }
     /**
      * Get SuitDt value
-     * @return date|null
+     * @return string|null
      */
     public function getSuitDt()
     {
@@ -134,8 +134,8 @@ class MicrobiltStructEvictionsDates_Type extends MicrobiltStructAggregate
     }
     /**
      * Set SuitDt value
-     * @param date $_suitDt the SuitDt
-     * @return date
+     * @param string $_suitDt the SuitDt
+     * @return string
      */
     public function setSuitDt($_suitDt)
     {
@@ -143,7 +143,7 @@ class MicrobiltStructEvictionsDates_Type extends MicrobiltStructAggregate
     }
     /**
      * Get ReleaseDt value
-     * @return date|null
+     * @return string|null
      */
     public function getReleaseDt()
     {
@@ -151,8 +151,8 @@ class MicrobiltStructEvictionsDates_Type extends MicrobiltStructAggregate
     }
     /**
      * Set ReleaseDt value
-     * @param date $_releaseDt the ReleaseDt
-     * @return date
+     * @param string $_releaseDt the ReleaseDt
+     * @return string
      */
     public function setReleaseDt($_releaseDt)
     {

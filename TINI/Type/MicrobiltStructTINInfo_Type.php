@@ -48,7 +48,7 @@ class MicrobiltStructTINInfo_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $IssuedDt;
     /**
@@ -97,7 +97,7 @@ class MicrobiltStructTINInfo_Type extends MicrobiltStructAggregate
      * @param string $_tINType
      * @param string $_taxId
      * @param string $_certCode
-     * @param date $_issuedDt
+     * @param string $_issuedDt
      * @param string $_issuedState
      * @param MicrobiltStructDateRange_Type $_dateRange
      * @param string $_country
@@ -162,7 +162,7 @@ class MicrobiltStructTINInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Get IssuedDt value
-     * @return date|null
+     * @return string|null
      */
     public function getIssuedDt()
     {
@@ -170,8 +170,8 @@ class MicrobiltStructTINInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Set IssuedDt value
-     * @param date $_issuedDt the IssuedDt
-     * @return date
+     * @param string $_issuedDt the IssuedDt
+     * @return string
      */
     public function setIssuedDt($_issuedDt)
     {

@@ -32,7 +32,7 @@ class MicrobiltStructVoterRegistration_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $RegDt;
     /**
@@ -56,17 +56,17 @@ class MicrobiltStructVoterRegistration_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $LastVoteDt;
     /**
      * Constructor method for VoterRegistration_Type
      * @see parent::__construct()
      * @param MicrobiltStructPersonInfo_Type $_personInfo
-     * @param date $_regDt
+     * @param string $_regDt
      * @param string $_politicalParty
      * @param string $_voterStatus
-     * @param date $_lastVoteDt
+     * @param string $_lastVoteDt
      * @return MicrobiltStructVoterRegistration_Type
      */
     public function __construct($_personInfo = NULL,$_regDt = NULL,$_politicalParty = NULL,$_voterStatus = NULL,$_lastVoteDt = NULL)
@@ -92,7 +92,7 @@ class MicrobiltStructVoterRegistration_Type extends MicrobiltStructAggregate
     }
     /**
      * Get RegDt value
-     * @return date|null
+     * @return string|null
      */
     public function getRegDt()
     {
@@ -100,8 +100,8 @@ class MicrobiltStructVoterRegistration_Type extends MicrobiltStructAggregate
     }
     /**
      * Set RegDt value
-     * @param date $_regDt the RegDt
-     * @return date
+     * @param string $_regDt the RegDt
+     * @return string
      */
     public function setRegDt($_regDt)
     {
@@ -143,7 +143,7 @@ class MicrobiltStructVoterRegistration_Type extends MicrobiltStructAggregate
     }
     /**
      * Get LastVoteDt value
-     * @return date|null
+     * @return string|null
      */
     public function getLastVoteDt()
     {
@@ -151,8 +151,8 @@ class MicrobiltStructVoterRegistration_Type extends MicrobiltStructAggregate
     }
     /**
      * Set LastVoteDt value
-     * @param date $_lastVoteDt the LastVoteDt
-     * @return date
+     * @param string $_lastVoteDt the LastVoteDt
+     * @return string
      */
     public function setLastVoteDt($_lastVoteDt)
     {

@@ -24,7 +24,7 @@ class MicrobiltStructAvailableProducts_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $ServiceSpeed;
     /**
@@ -32,7 +32,7 @@ class MicrobiltStructAvailableProducts_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $DaysFrom;
     /**
@@ -40,7 +40,7 @@ class MicrobiltStructAvailableProducts_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $DaysTo;
     /**
@@ -62,9 +62,9 @@ class MicrobiltStructAvailableProducts_Type extends MicrobiltStructAggregate
     /**
      * Constructor method for AvailableProducts_Type
      * @see parent::__construct()
-     * @param long $_serviceSpeed
-     * @param long $_daysFrom
-     * @param long $_daysTo
+     * @param int $_serviceSpeed
+     * @param int $_daysFrom
+     * @param int $_daysTo
      * @param string $_orderID
      * @param string $_mimeType
      * @return MicrobiltStructAvailableProducts_Type
@@ -75,7 +75,7 @@ class MicrobiltStructAvailableProducts_Type extends MicrobiltStructAggregate
     }
     /**
      * Get ServiceSpeed value
-     * @return long|null
+     * @return int|null
      */
     public function getServiceSpeed()
     {
@@ -83,8 +83,8 @@ class MicrobiltStructAvailableProducts_Type extends MicrobiltStructAggregate
     }
     /**
      * Set ServiceSpeed value
-     * @param long $_serviceSpeed the ServiceSpeed
-     * @return long
+     * @param int $_serviceSpeed the ServiceSpeed
+     * @return int
      */
     public function setServiceSpeed($_serviceSpeed)
     {
@@ -92,7 +92,7 @@ class MicrobiltStructAvailableProducts_Type extends MicrobiltStructAggregate
     }
     /**
      * Get DaysFrom value
-     * @return long|null
+     * @return int|null
      */
     public function getDaysFrom()
     {
@@ -100,8 +100,8 @@ class MicrobiltStructAvailableProducts_Type extends MicrobiltStructAggregate
     }
     /**
      * Set DaysFrom value
-     * @param long $_daysFrom the DaysFrom
-     * @return long
+     * @param int $_daysFrom the DaysFrom
+     * @return int
      */
     public function setDaysFrom($_daysFrom)
     {
@@ -109,7 +109,7 @@ class MicrobiltStructAvailableProducts_Type extends MicrobiltStructAggregate
     }
     /**
      * Get DaysTo value
-     * @return long|null
+     * @return int|null
      */
     public function getDaysTo()
     {
@@ -117,8 +117,8 @@ class MicrobiltStructAvailableProducts_Type extends MicrobiltStructAggregate
     }
     /**
      * Set DaysTo value
-     * @param long $_daysTo the DaysTo
-     * @return long
+     * @param int $_daysTo the DaysTo
+     * @return int
      */
     public function setDaysTo($_daysTo)
     {

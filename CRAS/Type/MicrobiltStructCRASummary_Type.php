@@ -40,7 +40,7 @@ class MicrobiltStructCRASummary_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $CreditObligationsReportedCount;
     /**
@@ -48,7 +48,7 @@ class MicrobiltStructCRASummary_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $InqCount;
     /**
@@ -104,7 +104,7 @@ class MicrobiltStructCRASummary_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $CreditObligationsWithBalanceCount;
     /**
@@ -120,15 +120,15 @@ class MicrobiltStructCRASummary_Type extends MicrobiltStructAggregate
      * @see parent::__construct()
      * @param string $_msgClass
      * @param string $_cRACode
-     * @param long $_creditObligationsReportedCount
-     * @param long $_inqCount
+     * @param int $_creditObligationsReportedCount
+     * @param int $_inqCount
      * @param string $_monthsSinceMostRecentInquiry
      * @param string $_monthsSinceMostRecentAdversePR
      * @param string $_monthsSinceMostRecentCollectionAssigned
      * @param string $_monthsSinceOldestTradelineOpened
      * @param MicrobiltStructCodeDescription_Type $_maxDelinquencyEver
      * @param string $_monthsSinceMostRecentDelinquency
-     * @param long $_creditObligationsWithBalanceCount
+     * @param int $_creditObligationsWithBalanceCount
      * @param MicrobiltStructCurrencyAmount $_totalBalancesOnCRAmt
      * @return MicrobiltStructCRASummary_Type
      */
@@ -172,7 +172,7 @@ class MicrobiltStructCRASummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Get CreditObligationsReportedCount value
-     * @return long|null
+     * @return int|null
      */
     public function getCreditObligationsReportedCount()
     {
@@ -180,8 +180,8 @@ class MicrobiltStructCRASummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Set CreditObligationsReportedCount value
-     * @param long $_creditObligationsReportedCount the CreditObligationsReportedCount
-     * @return long
+     * @param int $_creditObligationsReportedCount the CreditObligationsReportedCount
+     * @return int
      */
     public function setCreditObligationsReportedCount($_creditObligationsReportedCount)
     {
@@ -189,7 +189,7 @@ class MicrobiltStructCRASummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Get InqCount value
-     * @return long|null
+     * @return int|null
      */
     public function getInqCount()
     {
@@ -197,8 +197,8 @@ class MicrobiltStructCRASummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Set InqCount value
-     * @param long $_inqCount the InqCount
-     * @return long
+     * @param int $_inqCount the InqCount
+     * @return int
      */
     public function setInqCount($_inqCount)
     {
@@ -308,7 +308,7 @@ class MicrobiltStructCRASummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Get CreditObligationsWithBalanceCount value
-     * @return long|null
+     * @return int|null
      */
     public function getCreditObligationsWithBalanceCount()
     {
@@ -316,8 +316,8 @@ class MicrobiltStructCRASummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Set CreditObligationsWithBalanceCount value
-     * @param long $_creditObligationsWithBalanceCount the CreditObligationsWithBalanceCount
-     * @return long
+     * @param int $_creditObligationsWithBalanceCount the CreditObligationsWithBalanceCount
+     * @return int
      */
     public function setCreditObligationsWithBalanceCount($_creditObligationsWithBalanceCount)
     {

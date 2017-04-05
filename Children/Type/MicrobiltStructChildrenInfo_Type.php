@@ -24,7 +24,7 @@ class MicrobiltStructChildrenInfo_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $NumOfChildren;
     /**
@@ -46,7 +46,7 @@ class MicrobiltStructChildrenInfo_Type extends MicrobiltStructAggregate
     /**
      * Constructor method for ChildrenInfo_Type
      * @see parent::__construct()
-     * @param long $_numOfChildren
+     * @param int $_numOfChildren
      * @param MicrobiltStructPersonInfo_Type $_personInfo
      * @param MicrobiltStructMessage_Type $_message
      * @return MicrobiltStructChildrenInfo_Type
@@ -57,7 +57,7 @@ class MicrobiltStructChildrenInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Get NumOfChildren value
-     * @return long|null
+     * @return int|null
      */
     public function getNumOfChildren()
     {
@@ -65,8 +65,8 @@ class MicrobiltStructChildrenInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Set NumOfChildren value
-     * @param long $_numOfChildren the NumOfChildren
-     * @return long
+     * @param int $_numOfChildren the NumOfChildren
+     * @return int
      */
     public function setNumOfChildren($_numOfChildren)
     {

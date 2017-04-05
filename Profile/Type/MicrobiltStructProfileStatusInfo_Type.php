@@ -24,7 +24,7 @@ class MicrobiltStructProfileStatusInfo_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $ProfileStatusDt;
     /**
@@ -46,7 +46,7 @@ class MicrobiltStructProfileStatusInfo_Type extends MicrobiltStructAggregate
     /**
      * Constructor method for ProfileStatusInfo_Type
      * @see parent::__construct()
-     * @param date $_profileStatusDt
+     * @param string $_profileStatusDt
      * @param string $_statusHTML
      * @param MicrobiltStructMessage_Type $_message
      * @return MicrobiltStructProfileStatusInfo_Type
@@ -57,7 +57,7 @@ class MicrobiltStructProfileStatusInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Get ProfileStatusDt value
-     * @return date|null
+     * @return string|null
      */
     public function getProfileStatusDt()
     {
@@ -65,8 +65,8 @@ class MicrobiltStructProfileStatusInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Set ProfileStatusDt value
-     * @param date $_profileStatusDt the ProfileStatusDt
-     * @return date
+     * @param string $_profileStatusDt the ProfileStatusDt
+     * @return string
      */
     public function setProfileStatusDt($_profileStatusDt)
     {

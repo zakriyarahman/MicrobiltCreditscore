@@ -85,7 +85,7 @@ class MicrobiltStructMsgRqHdr_Type extends MicrobiltWsdlClass
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $Timeout;
     /**
@@ -115,7 +115,7 @@ class MicrobiltStructMsgRqHdr_Type extends MicrobiltWsdlClass
      * @param string $_dLPurpose
      * @param string $_refNum
      * @param string $_userName
-     * @param long $_timeout
+     * @param int $_timeout
      * @param string $_frozenFilePIN
      * @param string $_outputFormat
      * @return MicrobiltStructMsgRqHdr_Type
@@ -267,7 +267,7 @@ class MicrobiltStructMsgRqHdr_Type extends MicrobiltWsdlClass
     }
     /**
      * Get Timeout value
-     * @return long|null
+     * @return int|null
      */
     public function getTimeout()
     {
@@ -275,8 +275,8 @@ class MicrobiltStructMsgRqHdr_Type extends MicrobiltWsdlClass
     }
     /**
      * Set Timeout value
-     * @param long $_timeout the Timeout
-     * @return long
+     * @param int $_timeout the Timeout
+     * @return int
      */
     public function setTimeout($_timeout)
     {

@@ -48,7 +48,7 @@ class MicrobiltStructOriginalUCCInfo_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $FileDt;
     /**
@@ -65,7 +65,7 @@ class MicrobiltStructOriginalUCCInfo_Type extends MicrobiltStructAggregate
      * @param string $_pRStatus
      * @param string $_filingState
      * @param string $_documentNumber
-     * @param date $_fileDt
+     * @param string $_fileDt
      * @param MicrobiltStructCodeDescription_Type $_legalActionCode
      * @return MicrobiltStructOriginalUCCInfo_Type
      */
@@ -126,7 +126,7 @@ class MicrobiltStructOriginalUCCInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Get FileDt value
-     * @return date|null
+     * @return string|null
      */
     public function getFileDt()
     {
@@ -134,8 +134,8 @@ class MicrobiltStructOriginalUCCInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Set FileDt value
-     * @param date $_fileDt the FileDt
-     * @return date
+     * @param string $_fileDt the FileDt
+     * @return string
      */
     public function setFileDt($_fileDt)
     {

@@ -56,7 +56,7 @@ class MicrobiltStructCharge_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $ChargeDt;
     /**
@@ -64,7 +64,7 @@ class MicrobiltStructCharge_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $ArrestDt;
     /**
@@ -72,7 +72,7 @@ class MicrobiltStructCharge_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $OffenseDt;
     /**
@@ -96,7 +96,7 @@ class MicrobiltStructCharge_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $SentenceDt;
     /**
@@ -104,7 +104,7 @@ class MicrobiltStructCharge_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $DispositionDt;
     /**
@@ -256,7 +256,7 @@ class MicrobiltStructCharge_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $NumOfCounts;
     /**
@@ -264,7 +264,7 @@ class MicrobiltStructCharge_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $AppealDt;
     /**
@@ -322,13 +322,13 @@ class MicrobiltStructCharge_Type extends MicrobiltStructAggregate
      * @param string $_chargeDesc
      * @param string $_chargeType
      * @param string $_chargeClass
-     * @param date $_chargeDt
-     * @param date $_arrestDt
-     * @param date $_offenseDt
+     * @param string $_chargeDt
+     * @param string $_arrestDt
+     * @param string $_offenseDt
      * @param string $_plea
      * @param string $_sentence
-     * @param date $_sentenceDt
-     * @param date $_dispositionDt
+     * @param string $_sentenceDt
+     * @param string $_dispositionDt
      * @param string $_dispositionType
      * @param string $_probationStatus
      * @param string $_defendantName
@@ -347,8 +347,8 @@ class MicrobiltStructCharge_Type extends MicrobiltStructAggregate
      * @param string $_offenseDesc
      * @param string $_maxTerm
      * @param string $_minTerm
-     * @param long $_numOfCounts
-     * @param date $_appealDt
+     * @param int $_numOfCounts
+     * @param string $_appealDt
      * @param string $_statute
      * @param string $_arrestType
      * @param string $_finalDesposition
@@ -431,7 +431,7 @@ class MicrobiltStructCharge_Type extends MicrobiltStructAggregate
     }
     /**
      * Get ChargeDt value
-     * @return date|null
+     * @return string|null
      */
     public function getChargeDt()
     {
@@ -439,8 +439,8 @@ class MicrobiltStructCharge_Type extends MicrobiltStructAggregate
     }
     /**
      * Set ChargeDt value
-     * @param date $_chargeDt the ChargeDt
-     * @return date
+     * @param string $_chargeDt the ChargeDt
+     * @return string
      */
     public function setChargeDt($_chargeDt)
     {
@@ -448,7 +448,7 @@ class MicrobiltStructCharge_Type extends MicrobiltStructAggregate
     }
     /**
      * Get ArrestDt value
-     * @return date|null
+     * @return string|null
      */
     public function getArrestDt()
     {
@@ -456,8 +456,8 @@ class MicrobiltStructCharge_Type extends MicrobiltStructAggregate
     }
     /**
      * Set ArrestDt value
-     * @param date $_arrestDt the ArrestDt
-     * @return date
+     * @param string $_arrestDt the ArrestDt
+     * @return string
      */
     public function setArrestDt($_arrestDt)
     {
@@ -465,7 +465,7 @@ class MicrobiltStructCharge_Type extends MicrobiltStructAggregate
     }
     /**
      * Get OffenseDt value
-     * @return date|null
+     * @return string|null
      */
     public function getOffenseDt()
     {
@@ -473,8 +473,8 @@ class MicrobiltStructCharge_Type extends MicrobiltStructAggregate
     }
     /**
      * Set OffenseDt value
-     * @param date $_offenseDt the OffenseDt
-     * @return date
+     * @param string $_offenseDt the OffenseDt
+     * @return string
      */
     public function setOffenseDt($_offenseDt)
     {
@@ -516,7 +516,7 @@ class MicrobiltStructCharge_Type extends MicrobiltStructAggregate
     }
     /**
      * Get SentenceDt value
-     * @return date|null
+     * @return string|null
      */
     public function getSentenceDt()
     {
@@ -524,8 +524,8 @@ class MicrobiltStructCharge_Type extends MicrobiltStructAggregate
     }
     /**
      * Set SentenceDt value
-     * @param date $_sentenceDt the SentenceDt
-     * @return date
+     * @param string $_sentenceDt the SentenceDt
+     * @return string
      */
     public function setSentenceDt($_sentenceDt)
     {
@@ -533,7 +533,7 @@ class MicrobiltStructCharge_Type extends MicrobiltStructAggregate
     }
     /**
      * Get DispositionDt value
-     * @return date|null
+     * @return string|null
      */
     public function getDispositionDt()
     {
@@ -541,8 +541,8 @@ class MicrobiltStructCharge_Type extends MicrobiltStructAggregate
     }
     /**
      * Set DispositionDt value
-     * @param date $_dispositionDt the DispositionDt
-     * @return date
+     * @param string $_dispositionDt the DispositionDt
+     * @return string
      */
     public function setDispositionDt($_dispositionDt)
     {
@@ -856,7 +856,7 @@ class MicrobiltStructCharge_Type extends MicrobiltStructAggregate
     }
     /**
      * Get NumOfCounts value
-     * @return long|null
+     * @return int|null
      */
     public function getNumOfCounts()
     {
@@ -864,8 +864,8 @@ class MicrobiltStructCharge_Type extends MicrobiltStructAggregate
     }
     /**
      * Set NumOfCounts value
-     * @param long $_numOfCounts the NumOfCounts
-     * @return long
+     * @param int $_numOfCounts the NumOfCounts
+     * @return int
      */
     public function setNumOfCounts($_numOfCounts)
     {
@@ -873,7 +873,7 @@ class MicrobiltStructCharge_Type extends MicrobiltStructAggregate
     }
     /**
      * Get AppealDt value
-     * @return date|null
+     * @return string|null
      */
     public function getAppealDt()
     {
@@ -881,8 +881,8 @@ class MicrobiltStructCharge_Type extends MicrobiltStructAggregate
     }
     /**
      * Set AppealDt value
-     * @param date $_appealDt the AppealDt
-     * @return date
+     * @param string $_appealDt the AppealDt
+     * @return string
      */
     public function setAppealDt($_appealDt)
     {

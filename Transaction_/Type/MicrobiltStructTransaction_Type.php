@@ -56,7 +56,7 @@ class MicrobiltStructTransaction_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $TransDt;
     /**
@@ -90,7 +90,7 @@ class MicrobiltStructTransaction_Type extends MicrobiltStructAggregate
      * @param string $_transEntityName
      * @param string $_transType
      * @param MicrobiltStructCurrencyAmount $_transAmt
-     * @param date $_transDt
+     * @param string $_transDt
      * @param MicrobiltStructMessage_Type $_message
      * @param time $_transTime
      * @param string $_transDetails
@@ -170,7 +170,7 @@ class MicrobiltStructTransaction_Type extends MicrobiltStructAggregate
     }
     /**
      * Get TransDt value
-     * @return date|null
+     * @return string|null
      */
     public function getTransDt()
     {
@@ -178,8 +178,8 @@ class MicrobiltStructTransaction_Type extends MicrobiltStructAggregate
     }
     /**
      * Set TransDt value
-     * @param date $_transDt the TransDt
-     * @return date
+     * @param string $_transDt the TransDt
+     * @return string
      */
     public function setTransDt($_transDt)
     {

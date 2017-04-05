@@ -48,7 +48,7 @@ class MicrobiltStructLiability_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $OpenedDt;
     /**
@@ -64,7 +64,7 @@ class MicrobiltStructLiability_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $ClosedDt;
     /**
@@ -72,7 +72,7 @@ class MicrobiltStructLiability_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $PaidDt;
     /**
@@ -80,7 +80,7 @@ class MicrobiltStructLiability_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $ReportedDt;
     /**
@@ -104,7 +104,7 @@ class MicrobiltStructLiability_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $StatusDt;
     /**
@@ -120,7 +120,7 @@ class MicrobiltStructLiability_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $BalanceDt;
     /**
@@ -208,7 +208,7 @@ class MicrobiltStructLiability_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $LastActivityDt;
     /**
@@ -232,7 +232,7 @@ class MicrobiltStructLiability_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $LateCount30;
     /**
@@ -240,7 +240,7 @@ class MicrobiltStructLiability_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $LateCount60;
     /**
@@ -248,7 +248,7 @@ class MicrobiltStructLiability_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $LateCount90;
     /**
@@ -256,7 +256,7 @@ class MicrobiltStructLiability_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $LateCount120;
     /**
@@ -312,7 +312,7 @@ class MicrobiltStructLiability_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $MonthsReviewed;
     /**
@@ -352,7 +352,7 @@ class MicrobiltStructLiability_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $DueDate;
     /**
@@ -384,7 +384,7 @@ class MicrobiltStructLiability_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $MaxDelinqDt;
     /**
@@ -400,7 +400,7 @@ class MicrobiltStructLiability_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $DerogCount;
     /**
@@ -432,7 +432,7 @@ class MicrobiltStructLiability_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $AssociationDt;
     /**
@@ -464,7 +464,7 @@ class MicrobiltStructLiability_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $VerifiedDt;
     /**
@@ -489,16 +489,16 @@ class MicrobiltStructLiability_Type extends MicrobiltStructAggregate
      * @param string $_acctId
      * @param MicrobiltStructOrgInfo_Type $_orgInfo
      * @param MicrobiltEnumBoolean $_reviewReq
-     * @param date $_openedDt
+     * @param string $_openedDt
      * @param MicrobiltEnumBoolean $_closed
-     * @param date $_closedDt
-     * @param date $_paidDt
-     * @param date $_reportedDt
+     * @param string $_closedDt
+     * @param string $_paidDt
+     * @param string $_reportedDt
      * @param string $_ownershipType
      * @param string $_acctStatus
-     * @param date $_statusDt
+     * @param string $_statusDt
      * @param string $_acctType
-     * @param date $_balanceDt
+     * @param string $_balanceDt
      * @param MicrobiltStructCurrencyAmount $_creditLimitAmt
      * @param MicrobiltStructCurrencyAmount $_balloonPmtAmt
      * @param MicrobiltStructCurrencyAmount $_chargeOffAmt
@@ -509,39 +509,39 @@ class MicrobiltStructLiability_Type extends MicrobiltStructAggregate
      * @param MicrobiltEnumBoolean $_derogInd
      * @param MicrobiltStructRating_Type $_currentRating
      * @param string $_mOP
-     * @param date $_lastActivityDt
+     * @param string $_lastActivityDt
      * @param MicrobiltStructCurrencyAmount $_highBalanceAmt
      * @param MicrobiltStructCompAmt_Type $_highCreditAmt
-     * @param long $_lateCount30
-     * @param long $_lateCount60
-     * @param long $_lateCount90
-     * @param long $_lateCount120
+     * @param int $_lateCount30
+     * @param int $_lateCount60
+     * @param int $_lateCount90
+     * @param int $_lateCount120
      * @param string $_pmtPattern
      * @param MicrobiltStructCurrencyAmount $_pastDueAmt
      * @param MicrobiltStructCurrencyAmount $_unpaidBalanceAmt
      * @param MicrobiltStructCurrencyAmount $_actualPmtAmt
      * @param MicrobiltStructCurrencyAmount $_estimatedPmtAmt
      * @param MicrobiltStructCurrencyAmount $_scheduledPmtAmt
-     * @param long $_monthsReviewed
+     * @param int $_monthsReviewed
      * @param string $_pmtStatus
      * @param string $_terms
      * @param MicrobiltStructRating_Type $_maxDelinqRating
      * @param MicrobiltStructRating_Type $_mostRecentRating
-     * @param date $_dueDate
+     * @param string $_dueDate
      * @param string $_pmtFreq
      * @param MicrobiltStructMessage_Type $_message
      * @param MicrobiltStructPaymentInfo_Type $_paymentInfo
-     * @param date $_maxDelinqDt
+     * @param string $_maxDelinqDt
      * @param MicrobiltStructConsumerStatement_Type $_consumerStatement
-     * @param long $_derogCount
+     * @param int $_derogCount
      * @param string $_origCreditor
      * @param string $_soldToCreditor
      * @param MicrobiltStructRating_Type $_recentDelinqRating
-     * @param date $_associationDt
+     * @param string $_associationDt
      * @param MicrobiltEnumBoolean $_openedInLast6Months
      * @param MicrobiltStructCurrencyAmount $_availableAmt
      * @param MicrobiltEnumBoolean $_debtCounselingInd
-     * @param date $_verifiedDt
+     * @param string $_verifiedDt
      * @param MicrobiltStructMessage_Type $_closureReason
      * @param MicrobiltStructCompAmt_Type $_balanceAmt
      * @return MicrobiltStructLiability_Type
@@ -608,7 +608,7 @@ class MicrobiltStructLiability_Type extends MicrobiltStructAggregate
     }
     /**
      * Get OpenedDt value
-     * @return date|null
+     * @return string|null
      */
     public function getOpenedDt()
     {
@@ -616,8 +616,8 @@ class MicrobiltStructLiability_Type extends MicrobiltStructAggregate
     }
     /**
      * Set OpenedDt value
-     * @param date $_openedDt the OpenedDt
-     * @return date
+     * @param string $_openedDt the OpenedDt
+     * @return string
      */
     public function setOpenedDt($_openedDt)
     {
@@ -647,7 +647,7 @@ class MicrobiltStructLiability_Type extends MicrobiltStructAggregate
     }
     /**
      * Get ClosedDt value
-     * @return date|null
+     * @return string|null
      */
     public function getClosedDt()
     {
@@ -655,8 +655,8 @@ class MicrobiltStructLiability_Type extends MicrobiltStructAggregate
     }
     /**
      * Set ClosedDt value
-     * @param date $_closedDt the ClosedDt
-     * @return date
+     * @param string $_closedDt the ClosedDt
+     * @return string
      */
     public function setClosedDt($_closedDt)
     {
@@ -664,7 +664,7 @@ class MicrobiltStructLiability_Type extends MicrobiltStructAggregate
     }
     /**
      * Get PaidDt value
-     * @return date|null
+     * @return string|null
      */
     public function getPaidDt()
     {
@@ -672,8 +672,8 @@ class MicrobiltStructLiability_Type extends MicrobiltStructAggregate
     }
     /**
      * Set PaidDt value
-     * @param date $_paidDt the PaidDt
-     * @return date
+     * @param string $_paidDt the PaidDt
+     * @return string
      */
     public function setPaidDt($_paidDt)
     {
@@ -681,7 +681,7 @@ class MicrobiltStructLiability_Type extends MicrobiltStructAggregate
     }
     /**
      * Get ReportedDt value
-     * @return date|null
+     * @return string|null
      */
     public function getReportedDt()
     {
@@ -689,8 +689,8 @@ class MicrobiltStructLiability_Type extends MicrobiltStructAggregate
     }
     /**
      * Set ReportedDt value
-     * @param date $_reportedDt the ReportedDt
-     * @return date
+     * @param string $_reportedDt the ReportedDt
+     * @return string
      */
     public function setReportedDt($_reportedDt)
     {
@@ -732,7 +732,7 @@ class MicrobiltStructLiability_Type extends MicrobiltStructAggregate
     }
     /**
      * Get StatusDt value
-     * @return date|null
+     * @return string|null
      */
     public function getStatusDt()
     {
@@ -740,8 +740,8 @@ class MicrobiltStructLiability_Type extends MicrobiltStructAggregate
     }
     /**
      * Set StatusDt value
-     * @param date $_statusDt the StatusDt
-     * @return date
+     * @param string $_statusDt the StatusDt
+     * @return string
      */
     public function setStatusDt($_statusDt)
     {
@@ -766,7 +766,7 @@ class MicrobiltStructLiability_Type extends MicrobiltStructAggregate
     }
     /**
      * Get BalanceDt value
-     * @return date|null
+     * @return string|null
      */
     public function getBalanceDt()
     {
@@ -774,8 +774,8 @@ class MicrobiltStructLiability_Type extends MicrobiltStructAggregate
     }
     /**
      * Set BalanceDt value
-     * @param date $_balanceDt the BalanceDt
-     * @return date
+     * @param string $_balanceDt the BalanceDt
+     * @return string
      */
     public function setBalanceDt($_balanceDt)
     {
@@ -963,7 +963,7 @@ class MicrobiltStructLiability_Type extends MicrobiltStructAggregate
     }
     /**
      * Get LastActivityDt value
-     * @return date|null
+     * @return string|null
      */
     public function getLastActivityDt()
     {
@@ -971,8 +971,8 @@ class MicrobiltStructLiability_Type extends MicrobiltStructAggregate
     }
     /**
      * Set LastActivityDt value
-     * @param date $_lastActivityDt the LastActivityDt
-     * @return date
+     * @param string $_lastActivityDt the LastActivityDt
+     * @return string
      */
     public function setLastActivityDt($_lastActivityDt)
     {
@@ -1014,7 +1014,7 @@ class MicrobiltStructLiability_Type extends MicrobiltStructAggregate
     }
     /**
      * Get LateCount30 value
-     * @return long|null
+     * @return int|null
      */
     public function getLateCount30()
     {
@@ -1022,8 +1022,8 @@ class MicrobiltStructLiability_Type extends MicrobiltStructAggregate
     }
     /**
      * Set LateCount30 value
-     * @param long $_lateCount30 the LateCount30
-     * @return long
+     * @param int $_lateCount30 the LateCount30
+     * @return int
      */
     public function setLateCount30($_lateCount30)
     {
@@ -1031,7 +1031,7 @@ class MicrobiltStructLiability_Type extends MicrobiltStructAggregate
     }
     /**
      * Get LateCount60 value
-     * @return long|null
+     * @return int|null
      */
     public function getLateCount60()
     {
@@ -1039,8 +1039,8 @@ class MicrobiltStructLiability_Type extends MicrobiltStructAggregate
     }
     /**
      * Set LateCount60 value
-     * @param long $_lateCount60 the LateCount60
-     * @return long
+     * @param int $_lateCount60 the LateCount60
+     * @return int
      */
     public function setLateCount60($_lateCount60)
     {
@@ -1048,7 +1048,7 @@ class MicrobiltStructLiability_Type extends MicrobiltStructAggregate
     }
     /**
      * Get LateCount90 value
-     * @return long|null
+     * @return int|null
      */
     public function getLateCount90()
     {
@@ -1056,8 +1056,8 @@ class MicrobiltStructLiability_Type extends MicrobiltStructAggregate
     }
     /**
      * Set LateCount90 value
-     * @param long $_lateCount90 the LateCount90
-     * @return long
+     * @param int $_lateCount90 the LateCount90
+     * @return int
      */
     public function setLateCount90($_lateCount90)
     {
@@ -1065,7 +1065,7 @@ class MicrobiltStructLiability_Type extends MicrobiltStructAggregate
     }
     /**
      * Get LateCount120 value
-     * @return long|null
+     * @return int|null
      */
     public function getLateCount120()
     {
@@ -1073,8 +1073,8 @@ class MicrobiltStructLiability_Type extends MicrobiltStructAggregate
     }
     /**
      * Set LateCount120 value
-     * @param long $_lateCount120 the LateCount120
-     * @return long
+     * @param int $_lateCount120 the LateCount120
+     * @return int
      */
     public function setLateCount120($_lateCount120)
     {
@@ -1184,7 +1184,7 @@ class MicrobiltStructLiability_Type extends MicrobiltStructAggregate
     }
     /**
      * Get MonthsReviewed value
-     * @return long|null
+     * @return int|null
      */
     public function getMonthsReviewed()
     {
@@ -1192,8 +1192,8 @@ class MicrobiltStructLiability_Type extends MicrobiltStructAggregate
     }
     /**
      * Set MonthsReviewed value
-     * @param long $_monthsReviewed the MonthsReviewed
-     * @return long
+     * @param int $_monthsReviewed the MonthsReviewed
+     * @return int
      */
     public function setMonthsReviewed($_monthsReviewed)
     {
@@ -1269,7 +1269,7 @@ class MicrobiltStructLiability_Type extends MicrobiltStructAggregate
     }
     /**
      * Get DueDate value
-     * @return date|null
+     * @return string|null
      */
     public function getDueDate()
     {
@@ -1277,8 +1277,8 @@ class MicrobiltStructLiability_Type extends MicrobiltStructAggregate
     }
     /**
      * Set DueDate value
-     * @param date $_dueDate the DueDate
-     * @return date
+     * @param string $_dueDate the DueDate
+     * @return string
      */
     public function setDueDate($_dueDate)
     {
@@ -1337,7 +1337,7 @@ class MicrobiltStructLiability_Type extends MicrobiltStructAggregate
     }
     /**
      * Get MaxDelinqDt value
-     * @return date|null
+     * @return string|null
      */
     public function getMaxDelinqDt()
     {
@@ -1345,8 +1345,8 @@ class MicrobiltStructLiability_Type extends MicrobiltStructAggregate
     }
     /**
      * Set MaxDelinqDt value
-     * @param date $_maxDelinqDt the MaxDelinqDt
-     * @return date
+     * @param string $_maxDelinqDt the MaxDelinqDt
+     * @return string
      */
     public function setMaxDelinqDt($_maxDelinqDt)
     {
@@ -1371,7 +1371,7 @@ class MicrobiltStructLiability_Type extends MicrobiltStructAggregate
     }
     /**
      * Get DerogCount value
-     * @return long|null
+     * @return int|null
      */
     public function getDerogCount()
     {
@@ -1379,8 +1379,8 @@ class MicrobiltStructLiability_Type extends MicrobiltStructAggregate
     }
     /**
      * Set DerogCount value
-     * @param long $_derogCount the DerogCount
-     * @return long
+     * @param int $_derogCount the DerogCount
+     * @return int
      */
     public function setDerogCount($_derogCount)
     {
@@ -1439,7 +1439,7 @@ class MicrobiltStructLiability_Type extends MicrobiltStructAggregate
     }
     /**
      * Get AssociationDt value
-     * @return date|null
+     * @return string|null
      */
     public function getAssociationDt()
     {
@@ -1447,8 +1447,8 @@ class MicrobiltStructLiability_Type extends MicrobiltStructAggregate
     }
     /**
      * Set AssociationDt value
-     * @param date $_associationDt the AssociationDt
-     * @return date
+     * @param string $_associationDt the AssociationDt
+     * @return string
      */
     public function setAssociationDt($_associationDt)
     {
@@ -1517,7 +1517,7 @@ class MicrobiltStructLiability_Type extends MicrobiltStructAggregate
     }
     /**
      * Get VerifiedDt value
-     * @return date|null
+     * @return string|null
      */
     public function getVerifiedDt()
     {
@@ -1525,8 +1525,8 @@ class MicrobiltStructLiability_Type extends MicrobiltStructAggregate
     }
     /**
      * Set VerifiedDt value
-     * @param date $_verifiedDt the VerifiedDt
-     * @return date
+     * @param string $_verifiedDt the VerifiedDt
+     * @return string
      */
     public function setVerifiedDt($_verifiedDt)
     {

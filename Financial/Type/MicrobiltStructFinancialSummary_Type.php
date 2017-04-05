@@ -40,7 +40,7 @@ class MicrobiltStructFinancialSummary_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $SummaryDt;
     /**
@@ -56,7 +56,7 @@ class MicrobiltStructFinancialSummary_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : unbounded
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $DtLastUpdated;
     /**
@@ -98,9 +98,9 @@ class MicrobiltStructFinancialSummary_Type extends MicrobiltStructAggregate
      * @see parent::__construct()
      * @param MicrobiltStructCurrencyAmount $_salesAmt
      * @param MicrobiltStructCurrencyAmount $_netIncomeAmt
-     * @param date $_summaryDt
+     * @param string $_summaryDt
      * @param MicrobiltStructMessage_Type $_message
-     * @param date $_dtLastUpdated
+     * @param string $_dtLastUpdated
      * @param MicrobiltStructSummaryItem $_summaryItem
      * @param MicrobiltStructDateRange_Type $_dateRange
      * @param MicrobiltStructSummaryCharacteristics $_summaryCharacteristics
@@ -148,7 +148,7 @@ class MicrobiltStructFinancialSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Get SummaryDt value
-     * @return date|null
+     * @return string|null
      */
     public function getSummaryDt()
     {
@@ -156,8 +156,8 @@ class MicrobiltStructFinancialSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Set SummaryDt value
-     * @param date $_summaryDt the SummaryDt
-     * @return date
+     * @param string $_summaryDt the SummaryDt
+     * @return string
      */
     public function setSummaryDt($_summaryDt)
     {
@@ -182,7 +182,7 @@ class MicrobiltStructFinancialSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Get DtLastUpdated value
-     * @return date|null
+     * @return string|null
      */
     public function getDtLastUpdated()
     {
@@ -190,8 +190,8 @@ class MicrobiltStructFinancialSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Set DtLastUpdated value
-     * @param date $_dtLastUpdated the DtLastUpdated
-     * @return date
+     * @param string $_dtLastUpdated the DtLastUpdated
+     * @return string
      */
     public function setDtLastUpdated($_dtLastUpdated)
     {

@@ -48,7 +48,7 @@ class MicrobiltStructPersonInfo_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $BirthDt;
     /**
@@ -72,7 +72,7 @@ class MicrobiltStructPersonInfo_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $DeathDt;
     /**
@@ -273,10 +273,10 @@ class MicrobiltStructPersonInfo_Type extends MicrobiltStructAggregate
      * @param MicrobiltStructPersonName_Type $_personName
      * @param MicrobiltStructContactInfo_Type $_contactInfo
      * @param MicrobiltStructTINInfo_Type $_tINInfo
-     * @param date $_birthDt
+     * @param string $_birthDt
      * @param string $_birthState
      * @param string $_birthCountry
-     * @param date $_deathDt
+     * @param string $_deathDt
      * @param MicrobiltStructDriversLicense_Type $_driversLicense
      * @param string $_mothersMaidenName
      * @param MicrobiltStructSpouseInfo_Type $_spouseInfo
@@ -360,7 +360,7 @@ class MicrobiltStructPersonInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Get BirthDt value
-     * @return date|null
+     * @return string|null
      */
     public function getBirthDt()
     {
@@ -368,8 +368,8 @@ class MicrobiltStructPersonInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Set BirthDt value
-     * @param date $_birthDt the BirthDt
-     * @return date
+     * @param string $_birthDt the BirthDt
+     * @return string
      */
     public function setBirthDt($_birthDt)
     {
@@ -411,7 +411,7 @@ class MicrobiltStructPersonInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Get DeathDt value
-     * @return date|null
+     * @return string|null
      */
     public function getDeathDt()
     {
@@ -419,8 +419,8 @@ class MicrobiltStructPersonInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Set DeathDt value
-     * @param date $_deathDt the DeathDt
-     * @return date
+     * @param string $_deathDt the DeathDt
+     * @return string
      */
     public function setDeathDt($_deathDt)
     {

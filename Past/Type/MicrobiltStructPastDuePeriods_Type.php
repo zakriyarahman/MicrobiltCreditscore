@@ -32,7 +32,7 @@ class MicrobiltStructPastDuePeriods_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $PeriodDt;
     /**
@@ -47,7 +47,7 @@ class MicrobiltStructPastDuePeriods_Type extends MicrobiltStructAggregate
      * Constructor method for PastDuePeriods_Type
      * @see parent::__construct()
      * @param string $_period
-     * @param date $_periodDt
+     * @param string $_periodDt
      * @param MicrobiltStructCurrencyAmount $_pastDueAmt
      * @return MicrobiltStructPastDuePeriods_Type
      */
@@ -74,7 +74,7 @@ class MicrobiltStructPastDuePeriods_Type extends MicrobiltStructAggregate
     }
     /**
      * Get PeriodDt value
-     * @return date|null
+     * @return string|null
      */
     public function getPeriodDt()
     {
@@ -82,8 +82,8 @@ class MicrobiltStructPastDuePeriods_Type extends MicrobiltStructAggregate
     }
     /**
      * Set PeriodDt value
-     * @param date $_periodDt the PeriodDt
-     * @return date
+     * @param string $_periodDt the PeriodDt
+     * @return string
      */
     public function setPeriodDt($_periodDt)
     {

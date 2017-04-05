@@ -72,7 +72,7 @@ class MicrobiltStructSocialNetworkProfileInfo_Type extends MicrobiltStructAggreg
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $MembershipDt;
     /**
@@ -80,7 +80,7 @@ class MicrobiltStructSocialNetworkProfileInfo_Type extends MicrobiltStructAggreg
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $LastActivityDt;
     /**
@@ -92,8 +92,8 @@ class MicrobiltStructSocialNetworkProfileInfo_Type extends MicrobiltStructAggreg
      * @param string $_profileRegion
      * @param string $_userID
      * @param string $_userName
-     * @param date $_membershipDt
-     * @param date $_lastActivityDt
+     * @param string $_membershipDt
+     * @param string $_lastActivityDt
      * @return MicrobiltStructSocialNetworkProfileInfo_Type
      */
     public function __construct($_profileSite = NULL,$_profileURL = NULL,$_publicURL = NULL,$_profileRegion = NULL,$_userID = NULL,$_userName = NULL,$_membershipDt = NULL,$_lastActivityDt = NULL)
@@ -204,7 +204,7 @@ class MicrobiltStructSocialNetworkProfileInfo_Type extends MicrobiltStructAggreg
     }
     /**
      * Get MembershipDt value
-     * @return date|null
+     * @return string|null
      */
     public function getMembershipDt()
     {
@@ -212,8 +212,8 @@ class MicrobiltStructSocialNetworkProfileInfo_Type extends MicrobiltStructAggreg
     }
     /**
      * Set MembershipDt value
-     * @param date $_membershipDt the MembershipDt
-     * @return date
+     * @param string $_membershipDt the MembershipDt
+     * @return string
      */
     public function setMembershipDt($_membershipDt)
     {
@@ -221,7 +221,7 @@ class MicrobiltStructSocialNetworkProfileInfo_Type extends MicrobiltStructAggreg
     }
     /**
      * Get LastActivityDt value
-     * @return date|null
+     * @return string|null
      */
     public function getLastActivityDt()
     {
@@ -229,8 +229,8 @@ class MicrobiltStructSocialNetworkProfileInfo_Type extends MicrobiltStructAggreg
     }
     /**
      * Set LastActivityDt value
-     * @param date $_lastActivityDt the LastActivityDt
-     * @return date
+     * @param string $_lastActivityDt the LastActivityDt
+     * @return string
      */
     public function setLastActivityDt($_lastActivityDt)
     {

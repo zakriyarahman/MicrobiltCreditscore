@@ -32,7 +32,7 @@ class MicrobiltStructInternetDomain_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $DtLastSeen;
     /**
@@ -40,7 +40,7 @@ class MicrobiltStructInternetDomain_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $DtLastUpdated;
     /**
@@ -48,7 +48,7 @@ class MicrobiltStructInternetDomain_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $DtExpires;
     /**
@@ -56,7 +56,7 @@ class MicrobiltStructInternetDomain_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $DtCreated;
     /**
@@ -64,7 +64,7 @@ class MicrobiltStructInternetDomain_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $DtDatabase;
     /**
@@ -79,11 +79,11 @@ class MicrobiltStructInternetDomain_Type extends MicrobiltStructAggregate
      * Constructor method for InternetDomain_Type
      * @see parent::__construct()
      * @param string $_domainName
-     * @param date $_dtLastSeen
-     * @param date $_dtLastUpdated
-     * @param date $_dtExpires
-     * @param date $_dtCreated
-     * @param date $_dtDatabase
+     * @param string $_dtLastSeen
+     * @param string $_dtLastUpdated
+     * @param string $_dtExpires
+     * @param string $_dtCreated
+     * @param string $_dtDatabase
      * @param MicrobiltStructPersonInfo_Type $_personInfo
      * @return MicrobiltStructInternetDomain_Type
      */
@@ -110,7 +110,7 @@ class MicrobiltStructInternetDomain_Type extends MicrobiltStructAggregate
     }
     /**
      * Get DtLastSeen value
-     * @return date|null
+     * @return string|null
      */
     public function getDtLastSeen()
     {
@@ -118,8 +118,8 @@ class MicrobiltStructInternetDomain_Type extends MicrobiltStructAggregate
     }
     /**
      * Set DtLastSeen value
-     * @param date $_dtLastSeen the DtLastSeen
-     * @return date
+     * @param string $_dtLastSeen the DtLastSeen
+     * @return string
      */
     public function setDtLastSeen($_dtLastSeen)
     {
@@ -127,7 +127,7 @@ class MicrobiltStructInternetDomain_Type extends MicrobiltStructAggregate
     }
     /**
      * Get DtLastUpdated value
-     * @return date|null
+     * @return string|null
      */
     public function getDtLastUpdated()
     {
@@ -135,8 +135,8 @@ class MicrobiltStructInternetDomain_Type extends MicrobiltStructAggregate
     }
     /**
      * Set DtLastUpdated value
-     * @param date $_dtLastUpdated the DtLastUpdated
-     * @return date
+     * @param string $_dtLastUpdated the DtLastUpdated
+     * @return string
      */
     public function setDtLastUpdated($_dtLastUpdated)
     {
@@ -144,7 +144,7 @@ class MicrobiltStructInternetDomain_Type extends MicrobiltStructAggregate
     }
     /**
      * Get DtExpires value
-     * @return date|null
+     * @return string|null
      */
     public function getDtExpires()
     {
@@ -152,8 +152,8 @@ class MicrobiltStructInternetDomain_Type extends MicrobiltStructAggregate
     }
     /**
      * Set DtExpires value
-     * @param date $_dtExpires the DtExpires
-     * @return date
+     * @param string $_dtExpires the DtExpires
+     * @return string
      */
     public function setDtExpires($_dtExpires)
     {
@@ -161,7 +161,7 @@ class MicrobiltStructInternetDomain_Type extends MicrobiltStructAggregate
     }
     /**
      * Get DtCreated value
-     * @return date|null
+     * @return string|null
      */
     public function getDtCreated()
     {
@@ -169,8 +169,8 @@ class MicrobiltStructInternetDomain_Type extends MicrobiltStructAggregate
     }
     /**
      * Set DtCreated value
-     * @param date $_dtCreated the DtCreated
-     * @return date
+     * @param string $_dtCreated the DtCreated
+     * @return string
      */
     public function setDtCreated($_dtCreated)
     {
@@ -178,7 +178,7 @@ class MicrobiltStructInternetDomain_Type extends MicrobiltStructAggregate
     }
     /**
      * Get DtDatabase value
-     * @return date|null
+     * @return string|null
      */
     public function getDtDatabase()
     {
@@ -186,8 +186,8 @@ class MicrobiltStructInternetDomain_Type extends MicrobiltStructAggregate
     }
     /**
      * Set DtDatabase value
-     * @param date $_dtDatabase the DtDatabase
-     * @return date
+     * @param string $_dtDatabase the DtDatabase
+     * @return string
      */
     public function setDtDatabase($_dtDatabase)
     {

@@ -32,7 +32,7 @@ class MicrobiltStructLiabilitySummary_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $TotalNumTrades;
     /**
@@ -40,7 +40,7 @@ class MicrobiltStructLiabilitySummary_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $TotalNumTradesWithBalance;
     /**
@@ -72,7 +72,7 @@ class MicrobiltStructLiabilitySummary_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $LateCount30;
     /**
@@ -80,7 +80,7 @@ class MicrobiltStructLiabilitySummary_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $LateCount60;
     /**
@@ -88,7 +88,7 @@ class MicrobiltStructLiabilitySummary_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $LateCount90;
     /**
@@ -96,22 +96,22 @@ class MicrobiltStructLiabilitySummary_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var decimal
+     * @var float
      */
     public $AvailablePercentage;
     /**
      * Constructor method for LiabilitySummary_Type
      * @see parent::__construct()
      * @param string $_msgClass
-     * @param long $_totalNumTrades
-     * @param long $_totalNumTradesWithBalance
+     * @param int $_totalNumTrades
+     * @param int $_totalNumTradesWithBalance
      * @param MicrobiltStructCurrencyAmount $_totalBalanceAmt
      * @param MicrobiltStructCurrencyAmount $_totalScheduledMoPmtAmt
      * @param MicrobiltStructCurrencyAmount $_totalHC_CLAmt
-     * @param long $_lateCount30
-     * @param long $_lateCount60
-     * @param long $_lateCount90
-     * @param decimal $_availablePercentage
+     * @param int $_lateCount30
+     * @param int $_lateCount60
+     * @param int $_lateCount90
+     * @param float $_availablePercentage
      * @return MicrobiltStructLiabilitySummary_Type
      */
     public function __construct($_msgClass = NULL,$_totalNumTrades = NULL,$_totalNumTradesWithBalance = NULL,$_totalBalanceAmt = NULL,$_totalScheduledMoPmtAmt = NULL,$_totalHC_CLAmt = NULL,$_lateCount30 = NULL,$_lateCount60 = NULL,$_lateCount90 = NULL,$_availablePercentage = NULL)
@@ -137,7 +137,7 @@ class MicrobiltStructLiabilitySummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Get TotalNumTrades value
-     * @return long|null
+     * @return int|null
      */
     public function getTotalNumTrades()
     {
@@ -145,8 +145,8 @@ class MicrobiltStructLiabilitySummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Set TotalNumTrades value
-     * @param long $_totalNumTrades the TotalNumTrades
-     * @return long
+     * @param int $_totalNumTrades the TotalNumTrades
+     * @return int
      */
     public function setTotalNumTrades($_totalNumTrades)
     {
@@ -154,7 +154,7 @@ class MicrobiltStructLiabilitySummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Get TotalNumTradesWithBalance value
-     * @return long|null
+     * @return int|null
      */
     public function getTotalNumTradesWithBalance()
     {
@@ -162,8 +162,8 @@ class MicrobiltStructLiabilitySummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Set TotalNumTradesWithBalance value
-     * @param long $_totalNumTradesWithBalance the TotalNumTradesWithBalance
-     * @return long
+     * @param int $_totalNumTradesWithBalance the TotalNumTradesWithBalance
+     * @return int
      */
     public function setTotalNumTradesWithBalance($_totalNumTradesWithBalance)
     {
@@ -222,7 +222,7 @@ class MicrobiltStructLiabilitySummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Get LateCount30 value
-     * @return long|null
+     * @return int|null
      */
     public function getLateCount30()
     {
@@ -230,8 +230,8 @@ class MicrobiltStructLiabilitySummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Set LateCount30 value
-     * @param long $_lateCount30 the LateCount30
-     * @return long
+     * @param int $_lateCount30 the LateCount30
+     * @return int
      */
     public function setLateCount30($_lateCount30)
     {
@@ -239,7 +239,7 @@ class MicrobiltStructLiabilitySummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Get LateCount60 value
-     * @return long|null
+     * @return int|null
      */
     public function getLateCount60()
     {
@@ -247,8 +247,8 @@ class MicrobiltStructLiabilitySummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Set LateCount60 value
-     * @param long $_lateCount60 the LateCount60
-     * @return long
+     * @param int $_lateCount60 the LateCount60
+     * @return int
      */
     public function setLateCount60($_lateCount60)
     {
@@ -256,7 +256,7 @@ class MicrobiltStructLiabilitySummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Get LateCount90 value
-     * @return long|null
+     * @return int|null
      */
     public function getLateCount90()
     {
@@ -264,8 +264,8 @@ class MicrobiltStructLiabilitySummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Set LateCount90 value
-     * @param long $_lateCount90 the LateCount90
-     * @return long
+     * @param int $_lateCount90 the LateCount90
+     * @return int
      */
     public function setLateCount90($_lateCount90)
     {
@@ -273,7 +273,7 @@ class MicrobiltStructLiabilitySummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Get AvailablePercentage value
-     * @return decimal|null
+     * @return float|null
      */
     public function getAvailablePercentage()
     {
@@ -281,8 +281,8 @@ class MicrobiltStructLiabilitySummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Set AvailablePercentage value
-     * @param decimal $_availablePercentage the AvailablePercentage
-     * @return decimal
+     * @param float $_availablePercentage the AvailablePercentage
+     * @return float
      */
     public function setAvailablePercentage($_availablePercentage)
     {

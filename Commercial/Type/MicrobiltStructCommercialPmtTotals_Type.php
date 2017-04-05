@@ -32,7 +32,7 @@ class MicrobiltStructCommercialPmtTotals_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $TotalTrades;
     /**
@@ -63,7 +63,7 @@ class MicrobiltStructCommercialPmtTotals_Type extends MicrobiltStructAggregate
      * Constructor method for CommercialPmtTotals_Type
      * @see parent::__construct()
      * @param string $_msgClass
-     * @param long $_totalTrades
+     * @param int $_totalTrades
      * @param string $_businessDBT
      * @param MicrobiltStructCommercialAmounts_Type $_commercialAmounts
      * @param MicrobiltStructMessage_Type $_message
@@ -92,7 +92,7 @@ class MicrobiltStructCommercialPmtTotals_Type extends MicrobiltStructAggregate
     }
     /**
      * Get TotalTrades value
-     * @return long|null
+     * @return int|null
      */
     public function getTotalTrades()
     {
@@ -100,8 +100,8 @@ class MicrobiltStructCommercialPmtTotals_Type extends MicrobiltStructAggregate
     }
     /**
      * Set TotalTrades value
-     * @param long $_totalTrades the TotalTrades
-     * @return long
+     * @param int $_totalTrades the TotalTrades
+     * @return int
      */
     public function setTotalTrades($_totalTrades)
     {

@@ -24,7 +24,7 @@ class MicrobiltStructBankStatement_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $StatementDt;
     /**
@@ -32,7 +32,7 @@ class MicrobiltStructBankStatement_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $NumberOfTransactions;
     /**
@@ -40,7 +40,7 @@ class MicrobiltStructBankStatement_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $NumberOfNSFs;
     /**
@@ -56,7 +56,7 @@ class MicrobiltStructBankStatement_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $VerifiedDt;
     /**
@@ -70,11 +70,11 @@ class MicrobiltStructBankStatement_Type extends MicrobiltStructAggregate
     /**
      * Constructor method for BankStatement_Type
      * @see parent::__construct()
-     * @param date $_statementDt
-     * @param long $_numberOfTransactions
-     * @param long $_numberOfNSFs
+     * @param string $_statementDt
+     * @param int $_numberOfTransactions
+     * @param int $_numberOfNSFs
      * @param MicrobiltStructCompAmt_Type $_balanceAmt
-     * @param date $_verifiedDt
+     * @param string $_verifiedDt
      * @param MicrobiltStructCurrencyAmount $_statementBalAmt
      * @return MicrobiltStructBankStatement_Type
      */
@@ -84,7 +84,7 @@ class MicrobiltStructBankStatement_Type extends MicrobiltStructAggregate
     }
     /**
      * Get StatementDt value
-     * @return date|null
+     * @return string|null
      */
     public function getStatementDt()
     {
@@ -92,8 +92,8 @@ class MicrobiltStructBankStatement_Type extends MicrobiltStructAggregate
     }
     /**
      * Set StatementDt value
-     * @param date $_statementDt the StatementDt
-     * @return date
+     * @param string $_statementDt the StatementDt
+     * @return string
      */
     public function setStatementDt($_statementDt)
     {
@@ -101,7 +101,7 @@ class MicrobiltStructBankStatement_Type extends MicrobiltStructAggregate
     }
     /**
      * Get NumberOfTransactions value
-     * @return long|null
+     * @return int|null
      */
     public function getNumberOfTransactions()
     {
@@ -109,8 +109,8 @@ class MicrobiltStructBankStatement_Type extends MicrobiltStructAggregate
     }
     /**
      * Set NumberOfTransactions value
-     * @param long $_numberOfTransactions the NumberOfTransactions
-     * @return long
+     * @param int $_numberOfTransactions the NumberOfTransactions
+     * @return int
      */
     public function setNumberOfTransactions($_numberOfTransactions)
     {
@@ -118,7 +118,7 @@ class MicrobiltStructBankStatement_Type extends MicrobiltStructAggregate
     }
     /**
      * Get NumberOfNSFs value
-     * @return long|null
+     * @return int|null
      */
     public function getNumberOfNSFs()
     {
@@ -126,8 +126,8 @@ class MicrobiltStructBankStatement_Type extends MicrobiltStructAggregate
     }
     /**
      * Set NumberOfNSFs value
-     * @param long $_numberOfNSFs the NumberOfNSFs
-     * @return long
+     * @param int $_numberOfNSFs the NumberOfNSFs
+     * @return int
      */
     public function setNumberOfNSFs($_numberOfNSFs)
     {
@@ -152,7 +152,7 @@ class MicrobiltStructBankStatement_Type extends MicrobiltStructAggregate
     }
     /**
      * Get VerifiedDt value
-     * @return date|null
+     * @return string|null
      */
     public function getVerifiedDt()
     {
@@ -160,8 +160,8 @@ class MicrobiltStructBankStatement_Type extends MicrobiltStructAggregate
     }
     /**
      * Set VerifiedDt value
-     * @param date $_verifiedDt the VerifiedDt
-     * @return date
+     * @param string $_verifiedDt the VerifiedDt
+     * @return string
      */
     public function setVerifiedDt($_verifiedDt)
     {

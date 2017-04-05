@@ -32,7 +32,7 @@ class MicrobiltStructMilitaryIdInfo_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $IssuedDt;
     /**
@@ -40,15 +40,15 @@ class MicrobiltStructMilitaryIdInfo_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $ExpirationDt;
     /**
      * Constructor method for MilitaryIdInfo_Type
      * @see parent::__construct()
      * @param string $_militaryIdNum
-     * @param date $_issuedDt
-     * @param date $_expirationDt
+     * @param string $_issuedDt
+     * @param string $_expirationDt
      * @return MicrobiltStructMilitaryIdInfo_Type
      */
     public function __construct($_militaryIdNum = NULL,$_issuedDt = NULL,$_expirationDt = NULL)
@@ -74,7 +74,7 @@ class MicrobiltStructMilitaryIdInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Get IssuedDt value
-     * @return date|null
+     * @return string|null
      */
     public function getIssuedDt()
     {
@@ -82,8 +82,8 @@ class MicrobiltStructMilitaryIdInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Set IssuedDt value
-     * @param date $_issuedDt the IssuedDt
-     * @return date
+     * @param string $_issuedDt the IssuedDt
+     * @return string
      */
     public function setIssuedDt($_issuedDt)
     {
@@ -91,7 +91,7 @@ class MicrobiltStructMilitaryIdInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Get ExpirationDt value
-     * @return date|null
+     * @return string|null
      */
     public function getExpirationDt()
     {
@@ -99,8 +99,8 @@ class MicrobiltStructMilitaryIdInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Set ExpirationDt value
-     * @param date $_expirationDt the ExpirationDt
-     * @return date
+     * @param string $_expirationDt the ExpirationDt
+     * @return string
      */
     public function setExpirationDt($_expirationDt)
     {

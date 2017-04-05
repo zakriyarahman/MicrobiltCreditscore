@@ -24,7 +24,7 @@ class MicrobiltStructMinMaxRange_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 1
-     * @var long
+     * @var int
      */
     public $MinRange;
     /**
@@ -32,14 +32,14 @@ class MicrobiltStructMinMaxRange_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 1
-     * @var long
+     * @var int
      */
     public $MaxRange;
     /**
      * Constructor method for MinMaxRange_Type
      * @see parent::__construct()
-     * @param long $_minRange
-     * @param long $_maxRange
+     * @param int $_minRange
+     * @param int $_maxRange
      * @return MicrobiltStructMinMaxRange_Type
      */
     public function __construct($_minRange,$_maxRange)
@@ -48,7 +48,7 @@ class MicrobiltStructMinMaxRange_Type extends MicrobiltStructAggregate
     }
     /**
      * Get MinRange value
-     * @return long
+     * @return int
      */
     public function getMinRange()
     {
@@ -56,8 +56,8 @@ class MicrobiltStructMinMaxRange_Type extends MicrobiltStructAggregate
     }
     /**
      * Set MinRange value
-     * @param long $_minRange the MinRange
-     * @return long
+     * @param int $_minRange the MinRange
+     * @return int
      */
     public function setMinRange($_minRange)
     {
@@ -65,7 +65,7 @@ class MicrobiltStructMinMaxRange_Type extends MicrobiltStructAggregate
     }
     /**
      * Get MaxRange value
-     * @return long
+     * @return int
      */
     public function getMaxRange()
     {
@@ -73,8 +73,8 @@ class MicrobiltStructMinMaxRange_Type extends MicrobiltStructAggregate
     }
     /**
      * Set MaxRange value
-     * @param long $_maxRange the MaxRange
-     * @return long
+     * @param int $_maxRange the MaxRange
+     * @return int
      */
     public function setMaxRange($_maxRange)
     {

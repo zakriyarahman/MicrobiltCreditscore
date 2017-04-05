@@ -32,7 +32,7 @@ class MicrobiltStructLoanInfo_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $FilingDt;
     /**
@@ -40,7 +40,7 @@ class MicrobiltStructLoanInfo_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var decimal
+     * @var float
      */
     public $SecuredAmt;
     /**
@@ -48,7 +48,7 @@ class MicrobiltStructLoanInfo_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $MaturityDt;
     /**
@@ -63,9 +63,9 @@ class MicrobiltStructLoanInfo_Type extends MicrobiltStructAggregate
      * Constructor method for LoanInfo_Type
      * @see parent::__construct()
      * @param MicrobiltStructOrgInfo_Type $_orgInfo
-     * @param date $_filingDt
-     * @param decimal $_securedAmt
-     * @param date $_maturityDt
+     * @param string $_filingDt
+     * @param float $_securedAmt
+     * @param string $_maturityDt
      * @param MicrobiltStructLoanParams_Type $_loanParams
      * @return MicrobiltStructLoanInfo_Type
      */
@@ -92,7 +92,7 @@ class MicrobiltStructLoanInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Get FilingDt value
-     * @return date|null
+     * @return string|null
      */
     public function getFilingDt()
     {
@@ -100,8 +100,8 @@ class MicrobiltStructLoanInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Set FilingDt value
-     * @param date $_filingDt the FilingDt
-     * @return date
+     * @param string $_filingDt the FilingDt
+     * @return string
      */
     public function setFilingDt($_filingDt)
     {
@@ -109,7 +109,7 @@ class MicrobiltStructLoanInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Get SecuredAmt value
-     * @return decimal|null
+     * @return float|null
      */
     public function getSecuredAmt()
     {
@@ -117,8 +117,8 @@ class MicrobiltStructLoanInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Set SecuredAmt value
-     * @param decimal $_securedAmt the SecuredAmt
-     * @return decimal
+     * @param float $_securedAmt the SecuredAmt
+     * @return float
      */
     public function setSecuredAmt($_securedAmt)
     {
@@ -126,7 +126,7 @@ class MicrobiltStructLoanInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Get MaturityDt value
-     * @return date|null
+     * @return string|null
      */
     public function getMaturityDt()
     {
@@ -134,8 +134,8 @@ class MicrobiltStructLoanInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Set MaturityDt value
-     * @param date $_maturityDt the MaturityDt
-     * @return date
+     * @param string $_maturityDt the MaturityDt
+     * @return string
      */
     public function setMaturityDt($_maturityDt)
     {

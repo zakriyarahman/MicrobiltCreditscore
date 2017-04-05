@@ -160,7 +160,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $CreditorsDaysDPO;
     /**
@@ -168,7 +168,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $DaysOfCredit;
     /**
@@ -176,7 +176,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $IssuedNum;
     /**
@@ -184,7 +184,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $NumOfShareholders;
     /**
@@ -192,7 +192,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $NumOfShares;
     /**
@@ -200,7 +200,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $NumOutstanding;
     /**
@@ -208,7 +208,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $NumPartiallySatisfied;
     /**
@@ -216,7 +216,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $NumRegistered;
     /**
@@ -224,7 +224,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $NumSatisfied;
     /**
@@ -232,7 +232,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $Quantity;
     /**
@@ -240,7 +240,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $TotalCount;
     /**
@@ -248,7 +248,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var decimal
+     * @var float
      */
     public $CurrencyRate;
     /**
@@ -256,7 +256,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var decimal
+     * @var float
      */
     public $GearingPercent;
     /**
@@ -264,7 +264,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var decimal
+     * @var float
      */
     public $LeveragePercent;
     /**
@@ -272,7 +272,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var decimal
+     * @var float
      */
     public $OddsFinancialStressNext12Months;
     /**
@@ -280,7 +280,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var decimal
+     * @var float
      */
     public $PaymentTrend;
     /**
@@ -288,7 +288,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var decimal
+     * @var float
      */
     public $PercentAtAndAboveScore;
     /**
@@ -296,7 +296,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var decimal
+     * @var float
      */
     public $PercentFacedFinancialStress;
     /**
@@ -304,7 +304,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var decimal
+     * @var float
      */
     public $PercentOfShares;
     /**
@@ -312,7 +312,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var decimal
+     * @var float
      */
     public $QuickRatioPercent;
     /**
@@ -464,7 +464,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var decimal
+     * @var float
      */
     public $CurrentPercentage;
     /**
@@ -472,7 +472,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var decimal
+     * @var float
      */
     public $DBT30Percentage;
     /**
@@ -480,7 +480,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var decimal
+     * @var float
      */
     public $DBT60Percentage;
     /**
@@ -488,7 +488,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var decimal
+     * @var float
      */
     public $DBT90Percentage;
     /**
@@ -496,7 +496,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var decimal
+     * @var float
      */
     public $DBT90PlusPercentage;
     /**
@@ -528,7 +528,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $NumPmtsPerYear;
     /**
@@ -536,7 +536,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $LateCount30;
     /**
@@ -544,7 +544,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $LateCount60;
     /**
@@ -552,7 +552,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $LateCount90;
     /**
@@ -560,7 +560,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $LateCount90Plus;
     /**
@@ -568,7 +568,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $LateCount120;
     /**
@@ -592,7 +592,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $NumOfOverduePmts;
     /**
@@ -816,7 +816,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $NumOfCurrentPmts;
     /**
@@ -895,26 +895,26 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
      * @param MicrobiltStructCurrencyAmount $_vATAmt
      * @param MicrobiltStructCurrencyAmount $_workingCapitalAmt
      * @param string $_nominalNum
-     * @param long $_creditorsDaysDPO
-     * @param long $_daysOfCredit
-     * @param long $_issuedNum
-     * @param long $_numOfShareholders
-     * @param long $_numOfShares
-     * @param long $_numOutstanding
-     * @param long $_numPartiallySatisfied
-     * @param long $_numRegistered
-     * @param long $_numSatisfied
-     * @param long $_quantity
-     * @param long $_totalCount
-     * @param decimal $_currencyRate
-     * @param decimal $_gearingPercent
-     * @param decimal $_leveragePercent
-     * @param decimal $_oddsFinancialStressNext12Months
-     * @param decimal $_paymentTrend
-     * @param decimal $_percentAtAndAboveScore
-     * @param decimal $_percentFacedFinancialStress
-     * @param decimal $_percentOfShares
-     * @param decimal $_quickRatioPercent
+     * @param int $_creditorsDaysDPO
+     * @param int $_daysOfCredit
+     * @param int $_issuedNum
+     * @param int $_numOfShareholders
+     * @param int $_numOfShares
+     * @param int $_numOutstanding
+     * @param int $_numPartiallySatisfied
+     * @param int $_numRegistered
+     * @param int $_numSatisfied
+     * @param int $_quantity
+     * @param int $_totalCount
+     * @param float $_currencyRate
+     * @param float $_gearingPercent
+     * @param float $_leveragePercent
+     * @param float $_oddsFinancialStressNext12Months
+     * @param float $_paymentTrend
+     * @param float $_percentAtAndAboveScore
+     * @param float $_percentFacedFinancialStress
+     * @param float $_percentOfShares
+     * @param float $_quickRatioPercent
      * @param string $_businessDBT
      * @param MicrobiltStructCurrencyAmount $_predictedDBTAmt
      * @param string $_allIndustryDBT
@@ -933,23 +933,23 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
      * @param MicrobiltStructCompAmt_Type $_balanceAmt
      * @param string $_balanceAmtModifier
      * @param string $_terms
-     * @param decimal $_currentPercentage
-     * @param decimal $_dBT30Percentage
-     * @param decimal $_dBT60Percentage
-     * @param decimal $_dBT90Percentage
-     * @param decimal $_dBT90PlusPercentage
+     * @param float $_currentPercentage
+     * @param float $_dBT30Percentage
+     * @param float $_dBT60Percentage
+     * @param float $_dBT90Percentage
+     * @param float $_dBT90PlusPercentage
      * @param string $_contributorComments
      * @param MicrobiltEnumBoolean $_consumerStatementPresent
      * @param MicrobiltStructCurrencyAmount $_liabilityAmt
-     * @param long $_numPmtsPerYear
-     * @param long $_lateCount30
-     * @param long $_lateCount60
-     * @param long $_lateCount90
-     * @param long $_lateCount90Plus
-     * @param long $_lateCount120
+     * @param int $_numPmtsPerYear
+     * @param int $_lateCount30
+     * @param int $_lateCount60
+     * @param int $_lateCount90
+     * @param int $_lateCount90Plus
+     * @param int $_lateCount120
      * @param MicrobiltStructCurrencyAmount $_scheduledPmtAmt
      * @param string $_scheduledPmtAmtModifier
-     * @param long $_numOfOverduePmts
+     * @param int $_numOfOverduePmts
      * @param MicrobiltStructCurrencyAmount $_pmtOverdueAmt
      * @param string $_pmtOverdueAmtModifier
      * @param MicrobiltStructCurrencyAmount $_currentPmtAmt
@@ -977,7 +977,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
      * @param MicrobiltStructCodeDescription_Type $_balanceRange
      * @param MicrobiltStructCodeDescription_Type $_figuresInBalance
      * @param MicrobiltStructCurrencyAmount $_originalAmt
-     * @param long $_numOfCurrentPmts
+     * @param int $_numOfCurrentPmts
      * @param MicrobiltStructCurrencyAmount $_collectionAmt
      * @param MicrobiltStructCurrencyAmount $_legalSuitsAmt
      * @param MicrobiltStructCurrencyAmount $_judgmentAmt
@@ -1282,7 +1282,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Get CreditorsDaysDPO value
-     * @return long|null
+     * @return int|null
      */
     public function getCreditorsDaysDPO()
     {
@@ -1290,8 +1290,8 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Set CreditorsDaysDPO value
-     * @param long $_creditorsDaysDPO the CreditorsDaysDPO
-     * @return long
+     * @param int $_creditorsDaysDPO the CreditorsDaysDPO
+     * @return int
      */
     public function setCreditorsDaysDPO($_creditorsDaysDPO)
     {
@@ -1299,7 +1299,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Get DaysOfCredit value
-     * @return long|null
+     * @return int|null
      */
     public function getDaysOfCredit()
     {
@@ -1307,8 +1307,8 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Set DaysOfCredit value
-     * @param long $_daysOfCredit the DaysOfCredit
-     * @return long
+     * @param int $_daysOfCredit the DaysOfCredit
+     * @return int
      */
     public function setDaysOfCredit($_daysOfCredit)
     {
@@ -1316,7 +1316,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Get IssuedNum value
-     * @return long|null
+     * @return int|null
      */
     public function getIssuedNum()
     {
@@ -1324,8 +1324,8 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Set IssuedNum value
-     * @param long $_issuedNum the IssuedNum
-     * @return long
+     * @param int $_issuedNum the IssuedNum
+     * @return int
      */
     public function setIssuedNum($_issuedNum)
     {
@@ -1333,7 +1333,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Get NumOfShareholders value
-     * @return long|null
+     * @return int|null
      */
     public function getNumOfShareholders()
     {
@@ -1341,8 +1341,8 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Set NumOfShareholders value
-     * @param long $_numOfShareholders the NumOfShareholders
-     * @return long
+     * @param int $_numOfShareholders the NumOfShareholders
+     * @return int
      */
     public function setNumOfShareholders($_numOfShareholders)
     {
@@ -1350,7 +1350,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Get NumOfShares value
-     * @return long|null
+     * @return int|null
      */
     public function getNumOfShares()
     {
@@ -1358,8 +1358,8 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Set NumOfShares value
-     * @param long $_numOfShares the NumOfShares
-     * @return long
+     * @param int $_numOfShares the NumOfShares
+     * @return int
      */
     public function setNumOfShares($_numOfShares)
     {
@@ -1367,7 +1367,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Get NumOutstanding value
-     * @return long|null
+     * @return int|null
      */
     public function getNumOutstanding()
     {
@@ -1375,8 +1375,8 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Set NumOutstanding value
-     * @param long $_numOutstanding the NumOutstanding
-     * @return long
+     * @param int $_numOutstanding the NumOutstanding
+     * @return int
      */
     public function setNumOutstanding($_numOutstanding)
     {
@@ -1384,7 +1384,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Get NumPartiallySatisfied value
-     * @return long|null
+     * @return int|null
      */
     public function getNumPartiallySatisfied()
     {
@@ -1392,8 +1392,8 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Set NumPartiallySatisfied value
-     * @param long $_numPartiallySatisfied the NumPartiallySatisfied
-     * @return long
+     * @param int $_numPartiallySatisfied the NumPartiallySatisfied
+     * @return int
      */
     public function setNumPartiallySatisfied($_numPartiallySatisfied)
     {
@@ -1401,7 +1401,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Get NumRegistered value
-     * @return long|null
+     * @return int|null
      */
     public function getNumRegistered()
     {
@@ -1409,8 +1409,8 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Set NumRegistered value
-     * @param long $_numRegistered the NumRegistered
-     * @return long
+     * @param int $_numRegistered the NumRegistered
+     * @return int
      */
     public function setNumRegistered($_numRegistered)
     {
@@ -1418,7 +1418,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Get NumSatisfied value
-     * @return long|null
+     * @return int|null
      */
     public function getNumSatisfied()
     {
@@ -1426,8 +1426,8 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Set NumSatisfied value
-     * @param long $_numSatisfied the NumSatisfied
-     * @return long
+     * @param int $_numSatisfied the NumSatisfied
+     * @return int
      */
     public function setNumSatisfied($_numSatisfied)
     {
@@ -1435,7 +1435,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Get Quantity value
-     * @return long|null
+     * @return int|null
      */
     public function getQuantity()
     {
@@ -1443,8 +1443,8 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Set Quantity value
-     * @param long $_quantity the Quantity
-     * @return long
+     * @param int $_quantity the Quantity
+     * @return int
      */
     public function setQuantity($_quantity)
     {
@@ -1452,7 +1452,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Get TotalCount value
-     * @return long|null
+     * @return int|null
      */
     public function getTotalCount()
     {
@@ -1460,8 +1460,8 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Set TotalCount value
-     * @param long $_totalCount the TotalCount
-     * @return long
+     * @param int $_totalCount the TotalCount
+     * @return int
      */
     public function setTotalCount($_totalCount)
     {
@@ -1469,7 +1469,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Get CurrencyRate value
-     * @return decimal|null
+     * @return float|null
      */
     public function getCurrencyRate()
     {
@@ -1477,8 +1477,8 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Set CurrencyRate value
-     * @param decimal $_currencyRate the CurrencyRate
-     * @return decimal
+     * @param float $_currencyRate the CurrencyRate
+     * @return float
      */
     public function setCurrencyRate($_currencyRate)
     {
@@ -1486,7 +1486,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Get GearingPercent value
-     * @return decimal|null
+     * @return float|null
      */
     public function getGearingPercent()
     {
@@ -1494,8 +1494,8 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Set GearingPercent value
-     * @param decimal $_gearingPercent the GearingPercent
-     * @return decimal
+     * @param float $_gearingPercent the GearingPercent
+     * @return float
      */
     public function setGearingPercent($_gearingPercent)
     {
@@ -1503,7 +1503,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Get LeveragePercent value
-     * @return decimal|null
+     * @return float|null
      */
     public function getLeveragePercent()
     {
@@ -1511,8 +1511,8 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Set LeveragePercent value
-     * @param decimal $_leveragePercent the LeveragePercent
-     * @return decimal
+     * @param float $_leveragePercent the LeveragePercent
+     * @return float
      */
     public function setLeveragePercent($_leveragePercent)
     {
@@ -1520,7 +1520,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Get OddsFinancialStressNext12Months value
-     * @return decimal|null
+     * @return float|null
      */
     public function getOddsFinancialStressNext12Months()
     {
@@ -1528,8 +1528,8 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Set OddsFinancialStressNext12Months value
-     * @param decimal $_oddsFinancialStressNext12Months the OddsFinancialStressNext12Months
-     * @return decimal
+     * @param float $_oddsFinancialStressNext12Months the OddsFinancialStressNext12Months
+     * @return float
      */
     public function setOddsFinancialStressNext12Months($_oddsFinancialStressNext12Months)
     {
@@ -1537,7 +1537,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Get PaymentTrend value
-     * @return decimal|null
+     * @return float|null
      */
     public function getPaymentTrend()
     {
@@ -1545,8 +1545,8 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Set PaymentTrend value
-     * @param decimal $_paymentTrend the PaymentTrend
-     * @return decimal
+     * @param float $_paymentTrend the PaymentTrend
+     * @return float
      */
     public function setPaymentTrend($_paymentTrend)
     {
@@ -1554,7 +1554,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Get PercentAtAndAboveScore value
-     * @return decimal|null
+     * @return float|null
      */
     public function getPercentAtAndAboveScore()
     {
@@ -1562,8 +1562,8 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Set PercentAtAndAboveScore value
-     * @param decimal $_percentAtAndAboveScore the PercentAtAndAboveScore
-     * @return decimal
+     * @param float $_percentAtAndAboveScore the PercentAtAndAboveScore
+     * @return float
      */
     public function setPercentAtAndAboveScore($_percentAtAndAboveScore)
     {
@@ -1571,7 +1571,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Get PercentFacedFinancialStress value
-     * @return decimal|null
+     * @return float|null
      */
     public function getPercentFacedFinancialStress()
     {
@@ -1579,8 +1579,8 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Set PercentFacedFinancialStress value
-     * @param decimal $_percentFacedFinancialStress the PercentFacedFinancialStress
-     * @return decimal
+     * @param float $_percentFacedFinancialStress the PercentFacedFinancialStress
+     * @return float
      */
     public function setPercentFacedFinancialStress($_percentFacedFinancialStress)
     {
@@ -1588,7 +1588,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Get PercentOfShares value
-     * @return decimal|null
+     * @return float|null
      */
     public function getPercentOfShares()
     {
@@ -1596,8 +1596,8 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Set PercentOfShares value
-     * @param decimal $_percentOfShares the PercentOfShares
-     * @return decimal
+     * @param float $_percentOfShares the PercentOfShares
+     * @return float
      */
     public function setPercentOfShares($_percentOfShares)
     {
@@ -1605,7 +1605,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Get QuickRatioPercent value
-     * @return decimal|null
+     * @return float|null
      */
     public function getQuickRatioPercent()
     {
@@ -1613,8 +1613,8 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Set QuickRatioPercent value
-     * @param decimal $_quickRatioPercent the QuickRatioPercent
-     * @return decimal
+     * @param float $_quickRatioPercent the QuickRatioPercent
+     * @return float
      */
     public function setQuickRatioPercent($_quickRatioPercent)
     {
@@ -1928,7 +1928,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Get CurrentPercentage value
-     * @return decimal|null
+     * @return float|null
      */
     public function getCurrentPercentage()
     {
@@ -1936,8 +1936,8 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Set CurrentPercentage value
-     * @param decimal $_currentPercentage the CurrentPercentage
-     * @return decimal
+     * @param float $_currentPercentage the CurrentPercentage
+     * @return float
      */
     public function setCurrentPercentage($_currentPercentage)
     {
@@ -1945,7 +1945,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Get DBT30Percentage value
-     * @return decimal|null
+     * @return float|null
      */
     public function getDBT30Percentage()
     {
@@ -1953,8 +1953,8 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Set DBT30Percentage value
-     * @param decimal $_dBT30Percentage the DBT30Percentage
-     * @return decimal
+     * @param float $_dBT30Percentage the DBT30Percentage
+     * @return float
      */
     public function setDBT30Percentage($_dBT30Percentage)
     {
@@ -1962,7 +1962,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Get DBT60Percentage value
-     * @return decimal|null
+     * @return float|null
      */
     public function getDBT60Percentage()
     {
@@ -1970,8 +1970,8 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Set DBT60Percentage value
-     * @param decimal $_dBT60Percentage the DBT60Percentage
-     * @return decimal
+     * @param float $_dBT60Percentage the DBT60Percentage
+     * @return float
      */
     public function setDBT60Percentage($_dBT60Percentage)
     {
@@ -1979,7 +1979,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Get DBT90Percentage value
-     * @return decimal|null
+     * @return float|null
      */
     public function getDBT90Percentage()
     {
@@ -1987,8 +1987,8 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Set DBT90Percentage value
-     * @param decimal $_dBT90Percentage the DBT90Percentage
-     * @return decimal
+     * @param float $_dBT90Percentage the DBT90Percentage
+     * @return float
      */
     public function setDBT90Percentage($_dBT90Percentage)
     {
@@ -1996,7 +1996,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Get DBT90PlusPercentage value
-     * @return decimal|null
+     * @return float|null
      */
     public function getDBT90PlusPercentage()
     {
@@ -2004,8 +2004,8 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Set DBT90PlusPercentage value
-     * @param decimal $_dBT90PlusPercentage the DBT90PlusPercentage
-     * @return decimal
+     * @param float $_dBT90PlusPercentage the DBT90PlusPercentage
+     * @return float
      */
     public function setDBT90PlusPercentage($_dBT90PlusPercentage)
     {
@@ -2069,7 +2069,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Get NumPmtsPerYear value
-     * @return long|null
+     * @return int|null
      */
     public function getNumPmtsPerYear()
     {
@@ -2077,8 +2077,8 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Set NumPmtsPerYear value
-     * @param long $_numPmtsPerYear the NumPmtsPerYear
-     * @return long
+     * @param int $_numPmtsPerYear the NumPmtsPerYear
+     * @return int
      */
     public function setNumPmtsPerYear($_numPmtsPerYear)
     {
@@ -2086,7 +2086,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Get LateCount30 value
-     * @return long|null
+     * @return int|null
      */
     public function getLateCount30()
     {
@@ -2094,8 +2094,8 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Set LateCount30 value
-     * @param long $_lateCount30 the LateCount30
-     * @return long
+     * @param int $_lateCount30 the LateCount30
+     * @return int
      */
     public function setLateCount30($_lateCount30)
     {
@@ -2103,7 +2103,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Get LateCount60 value
-     * @return long|null
+     * @return int|null
      */
     public function getLateCount60()
     {
@@ -2111,8 +2111,8 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Set LateCount60 value
-     * @param long $_lateCount60 the LateCount60
-     * @return long
+     * @param int $_lateCount60 the LateCount60
+     * @return int
      */
     public function setLateCount60($_lateCount60)
     {
@@ -2120,7 +2120,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Get LateCount90 value
-     * @return long|null
+     * @return int|null
      */
     public function getLateCount90()
     {
@@ -2128,8 +2128,8 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Set LateCount90 value
-     * @param long $_lateCount90 the LateCount90
-     * @return long
+     * @param int $_lateCount90 the LateCount90
+     * @return int
      */
     public function setLateCount90($_lateCount90)
     {
@@ -2137,7 +2137,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Get LateCount90Plus value
-     * @return long|null
+     * @return int|null
      */
     public function getLateCount90Plus()
     {
@@ -2145,8 +2145,8 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Set LateCount90Plus value
-     * @param long $_lateCount90Plus the LateCount90Plus
-     * @return long
+     * @param int $_lateCount90Plus the LateCount90Plus
+     * @return int
      */
     public function setLateCount90Plus($_lateCount90Plus)
     {
@@ -2154,7 +2154,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Get LateCount120 value
-     * @return long|null
+     * @return int|null
      */
     public function getLateCount120()
     {
@@ -2162,8 +2162,8 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Set LateCount120 value
-     * @param long $_lateCount120 the LateCount120
-     * @return long
+     * @param int $_lateCount120 the LateCount120
+     * @return int
      */
     public function setLateCount120($_lateCount120)
     {
@@ -2205,7 +2205,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Get NumOfOverduePmts value
-     * @return long|null
+     * @return int|null
      */
     public function getNumOfOverduePmts()
     {
@@ -2213,8 +2213,8 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Set NumOfOverduePmts value
-     * @param long $_numOfOverduePmts the NumOfOverduePmts
-     * @return long
+     * @param int $_numOfOverduePmts the NumOfOverduePmts
+     * @return int
      */
     public function setNumOfOverduePmts($_numOfOverduePmts)
     {
@@ -2681,7 +2681,7 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Get NumOfCurrentPmts value
-     * @return long|null
+     * @return int|null
      */
     public function getNumOfCurrentPmts()
     {
@@ -2689,8 +2689,8 @@ class MicrobiltStructCommercialAmounts_Type extends MicrobiltStructAggregate
     }
     /**
      * Set NumOfCurrentPmts value
-     * @param long $_numOfCurrentPmts the NumOfCurrentPmts
-     * @return long
+     * @param int $_numOfCurrentPmts the NumOfCurrentPmts
+     * @return int
      */
     public function setNumOfCurrentPmts($_numOfCurrentPmts)
     {

@@ -40,7 +40,7 @@ class MicrobiltStructGovtFinancialExperiences_Type extends MicrobiltStructAggreg
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $OpenedDt;
     /**
@@ -48,7 +48,7 @@ class MicrobiltStructGovtFinancialExperiences_Type extends MicrobiltStructAggreg
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $ClosedDt;
     /**
@@ -88,7 +88,7 @@ class MicrobiltStructGovtFinancialExperiences_Type extends MicrobiltStructAggreg
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $ProfileDt;
     /**
@@ -104,13 +104,13 @@ class MicrobiltStructGovtFinancialExperiences_Type extends MicrobiltStructAggreg
      * @see parent::__construct()
      * @param MicrobiltStructOrgInfo_Type $_orgInfo
      * @param string $_typeOfBankAcct
-     * @param date $_openedDt
-     * @param date $_closedDt
+     * @param string $_openedDt
+     * @param string $_closedDt
      * @param MicrobiltStructCodeDescription_Type $_accountRating
      * @param MicrobiltStructCodeDescription_Type $_balanceRange
      * @param MicrobiltStructCodeDescription_Type $_figuresInBalance
      * @param MicrobiltStructCompAmt_Type $_balanceAmt
-     * @param date $_profileDt
+     * @param string $_profileDt
      * @param MicrobiltEnumBoolean $_disputeInd
      * @return MicrobiltStructGovtFinancialExperiences_Type
      */
@@ -154,7 +154,7 @@ class MicrobiltStructGovtFinancialExperiences_Type extends MicrobiltStructAggreg
     }
     /**
      * Get OpenedDt value
-     * @return date|null
+     * @return string|null
      */
     public function getOpenedDt()
     {
@@ -162,8 +162,8 @@ class MicrobiltStructGovtFinancialExperiences_Type extends MicrobiltStructAggreg
     }
     /**
      * Set OpenedDt value
-     * @param date $_openedDt the OpenedDt
-     * @return date
+     * @param string $_openedDt the OpenedDt
+     * @return string
      */
     public function setOpenedDt($_openedDt)
     {
@@ -171,7 +171,7 @@ class MicrobiltStructGovtFinancialExperiences_Type extends MicrobiltStructAggreg
     }
     /**
      * Get ClosedDt value
-     * @return date|null
+     * @return string|null
      */
     public function getClosedDt()
     {
@@ -179,8 +179,8 @@ class MicrobiltStructGovtFinancialExperiences_Type extends MicrobiltStructAggreg
     }
     /**
      * Set ClosedDt value
-     * @param date $_closedDt the ClosedDt
-     * @return date
+     * @param string $_closedDt the ClosedDt
+     * @return string
      */
     public function setClosedDt($_closedDt)
     {
@@ -256,7 +256,7 @@ class MicrobiltStructGovtFinancialExperiences_Type extends MicrobiltStructAggreg
     }
     /**
      * Get ProfileDt value
-     * @return date|null
+     * @return string|null
      */
     public function getProfileDt()
     {
@@ -264,8 +264,8 @@ class MicrobiltStructGovtFinancialExperiences_Type extends MicrobiltStructAggreg
     }
     /**
      * Set ProfileDt value
-     * @param date $_profileDt the ProfileDt
-     * @return date
+     * @param string $_profileDt the ProfileDt
+     * @return string
      */
     public function setProfileDt($_profileDt)
     {

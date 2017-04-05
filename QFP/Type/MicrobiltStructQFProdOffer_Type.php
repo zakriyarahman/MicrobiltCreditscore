@@ -48,7 +48,7 @@ class MicrobiltStructQFProdOffer_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var decimal
+     * @var float
      */
     public $ProdOfferPercent;
     /**
@@ -57,7 +57,7 @@ class MicrobiltStructQFProdOffer_Type extends MicrobiltStructAggregate
      * @param string $_msgClass
      * @param MicrobiltStructCurrencyAmount $_prodOfferLmtAmt
      * @param string $_prodOfferTxt
-     * @param decimal $_prodOfferPercent
+     * @param float $_prodOfferPercent
      * @return MicrobiltStructQFProdOffer_Type
      */
     public function __construct($_msgClass = NULL,$_prodOfferLmtAmt = NULL,$_prodOfferTxt = NULL,$_prodOfferPercent = NULL)
@@ -117,7 +117,7 @@ class MicrobiltStructQFProdOffer_Type extends MicrobiltStructAggregate
     }
     /**
      * Get ProdOfferPercent value
-     * @return decimal|null
+     * @return float|null
      */
     public function getProdOfferPercent()
     {
@@ -125,8 +125,8 @@ class MicrobiltStructQFProdOffer_Type extends MicrobiltStructAggregate
     }
     /**
      * Set ProdOfferPercent value
-     * @param decimal $_prodOfferPercent the ProdOfferPercent
-     * @return decimal
+     * @param float $_prodOfferPercent the ProdOfferPercent
+     * @return float
      */
     public function setProdOfferPercent($_prodOfferPercent)
     {

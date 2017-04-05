@@ -72,7 +72,7 @@ class MicrobiltStructInvestigation_Type extends MicrobiltWsdlClass
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $SearchDt;
     /**
@@ -172,7 +172,7 @@ class MicrobiltStructInvestigation_Type extends MicrobiltWsdlClass
      * @param string $_agentIdBadgeNum
      * @param string $_agentDepartmentName
      * @param string $_investComplete
-     * @param date $_searchDt
+     * @param string $_searchDt
      * @param string $_photosTaken
      * @param string $_photosTakenWhom
      * @param string $_firstAidName
@@ -294,7 +294,7 @@ class MicrobiltStructInvestigation_Type extends MicrobiltWsdlClass
     }
     /**
      * Get SearchDt value
-     * @return date|null
+     * @return string|null
      */
     public function getSearchDt()
     {
@@ -302,8 +302,8 @@ class MicrobiltStructInvestigation_Type extends MicrobiltWsdlClass
     }
     /**
      * Set SearchDt value
-     * @param date $_searchDt the SearchDt
-     * @return date
+     * @param string $_searchDt the SearchDt
+     * @return string
      */
     public function setSearchDt($_searchDt)
     {

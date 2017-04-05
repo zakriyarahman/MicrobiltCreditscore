@@ -32,7 +32,7 @@ class MicrobiltStructAircraftInfo_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $DtFirstSeen;
     /**
@@ -40,7 +40,7 @@ class MicrobiltStructAircraftInfo_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $DtLastSeen;
     /**
@@ -48,7 +48,7 @@ class MicrobiltStructAircraftInfo_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $LastActionDate;
     /**
@@ -64,7 +64,7 @@ class MicrobiltStructAircraftInfo_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $CertificationDate;
     /**
@@ -191,11 +191,11 @@ class MicrobiltStructAircraftInfo_Type extends MicrobiltStructAggregate
      * Constructor method for AircraftInfo_Type
      * @see parent::__construct()
      * @param MicrobiltStructPersonInfo_Type $_ownerRegistrantInfo
-     * @param date $_dtFirstSeen
-     * @param date $_dtLastSeen
-     * @param date $_lastActionDate
+     * @param string $_dtFirstSeen
+     * @param string $_dtLastSeen
+     * @param string $_lastActionDate
      * @param string $_aircraftNumber
-     * @param date $_certificationDate
+     * @param string $_certificationDate
      * @param string $_manufacturerName
      * @param string $_model
      * @param string $_aircraftType
@@ -236,7 +236,7 @@ class MicrobiltStructAircraftInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Get DtFirstSeen value
-     * @return date|null
+     * @return string|null
      */
     public function getDtFirstSeen()
     {
@@ -244,8 +244,8 @@ class MicrobiltStructAircraftInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Set DtFirstSeen value
-     * @param date $_dtFirstSeen the DtFirstSeen
-     * @return date
+     * @param string $_dtFirstSeen the DtFirstSeen
+     * @return string
      */
     public function setDtFirstSeen($_dtFirstSeen)
     {
@@ -253,7 +253,7 @@ class MicrobiltStructAircraftInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Get DtLastSeen value
-     * @return date|null
+     * @return string|null
      */
     public function getDtLastSeen()
     {
@@ -261,8 +261,8 @@ class MicrobiltStructAircraftInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Set DtLastSeen value
-     * @param date $_dtLastSeen the DtLastSeen
-     * @return date
+     * @param string $_dtLastSeen the DtLastSeen
+     * @return string
      */
     public function setDtLastSeen($_dtLastSeen)
     {
@@ -270,7 +270,7 @@ class MicrobiltStructAircraftInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Get LastActionDate value
-     * @return date|null
+     * @return string|null
      */
     public function getLastActionDate()
     {
@@ -278,8 +278,8 @@ class MicrobiltStructAircraftInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Set LastActionDate value
-     * @param date $_lastActionDate the LastActionDate
-     * @return date
+     * @param string $_lastActionDate the LastActionDate
+     * @return string
      */
     public function setLastActionDate($_lastActionDate)
     {
@@ -304,7 +304,7 @@ class MicrobiltStructAircraftInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Get CertificationDate value
-     * @return date|null
+     * @return string|null
      */
     public function getCertificationDate()
     {
@@ -312,8 +312,8 @@ class MicrobiltStructAircraftInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Set CertificationDate value
-     * @param date $_certificationDate the CertificationDate
-     * @return date
+     * @param string $_certificationDate the CertificationDate
+     * @return string
      */
     public function setCertificationDate($_certificationDate)
     {

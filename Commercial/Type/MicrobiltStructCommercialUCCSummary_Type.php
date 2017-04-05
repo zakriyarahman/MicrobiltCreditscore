@@ -24,7 +24,7 @@ class MicrobiltStructCommercialUCCSummary_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $TotalUCCFilingCount;
     /**
@@ -38,7 +38,7 @@ class MicrobiltStructCommercialUCCSummary_Type extends MicrobiltStructAggregate
     /**
      * Constructor method for CommercialUCCSummary_Type
      * @see parent::__construct()
-     * @param long $_totalUCCFilingCount
+     * @param int $_totalUCCFilingCount
      * @param MicrobiltStructSummaryCountTimeFrame_Type $_summaryCountTimeFrame
      * @return MicrobiltStructCommercialUCCSummary_Type
      */
@@ -48,7 +48,7 @@ class MicrobiltStructCommercialUCCSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Get TotalUCCFilingCount value
-     * @return long|null
+     * @return int|null
      */
     public function getTotalUCCFilingCount()
     {
@@ -56,8 +56,8 @@ class MicrobiltStructCommercialUCCSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Set TotalUCCFilingCount value
-     * @param long $_totalUCCFilingCount the TotalUCCFilingCount
-     * @return long
+     * @param int $_totalUCCFilingCount the TotalUCCFilingCount
+     * @return int
      */
     public function setTotalUCCFilingCount($_totalUCCFilingCount)
     {

@@ -24,7 +24,7 @@ class MicrobiltStructSentenceLength_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $Years;
     /**
@@ -32,7 +32,7 @@ class MicrobiltStructSentenceLength_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $Months;
     /**
@@ -40,15 +40,15 @@ class MicrobiltStructSentenceLength_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $Days;
     /**
      * Constructor method for SentenceLength_Type
      * @see parent::__construct()
-     * @param long $_years
-     * @param long $_months
-     * @param long $_days
+     * @param int $_years
+     * @param int $_months
+     * @param int $_days
      * @return MicrobiltStructSentenceLength_Type
      */
     public function __construct($_years = NULL,$_months = NULL,$_days = NULL)
@@ -57,7 +57,7 @@ class MicrobiltStructSentenceLength_Type extends MicrobiltStructAggregate
     }
     /**
      * Get Years value
-     * @return long|null
+     * @return int|null
      */
     public function getYears()
     {
@@ -65,8 +65,8 @@ class MicrobiltStructSentenceLength_Type extends MicrobiltStructAggregate
     }
     /**
      * Set Years value
-     * @param long $_years the Years
-     * @return long
+     * @param int $_years the Years
+     * @return int
      */
     public function setYears($_years)
     {
@@ -74,7 +74,7 @@ class MicrobiltStructSentenceLength_Type extends MicrobiltStructAggregate
     }
     /**
      * Get Months value
-     * @return long|null
+     * @return int|null
      */
     public function getMonths()
     {
@@ -82,8 +82,8 @@ class MicrobiltStructSentenceLength_Type extends MicrobiltStructAggregate
     }
     /**
      * Set Months value
-     * @param long $_months the Months
-     * @return long
+     * @param int $_months the Months
+     * @return int
      */
     public function setMonths($_months)
     {
@@ -91,7 +91,7 @@ class MicrobiltStructSentenceLength_Type extends MicrobiltStructAggregate
     }
     /**
      * Get Days value
-     * @return long|null
+     * @return int|null
      */
     public function getDays()
     {
@@ -99,8 +99,8 @@ class MicrobiltStructSentenceLength_Type extends MicrobiltStructAggregate
     }
     /**
      * Set Days value
-     * @param long $_days the Days
-     * @return long
+     * @param int $_days the Days
+     * @return int
      */
     public function setDays($_days)
     {

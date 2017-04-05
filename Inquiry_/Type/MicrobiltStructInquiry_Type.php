@@ -24,7 +24,7 @@ class MicrobiltStructInquiry_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $InqDt;
     /**
@@ -94,7 +94,7 @@ class MicrobiltStructInquiry_Type extends MicrobiltStructAggregate
     /**
      * Constructor method for Inquiry_Type
      * @see parent::__construct()
-     * @param date $_inqDt
+     * @param string $_inqDt
      * @param MicrobiltStructOrgInfo_Type $_orgInfo
      * @param string $_creditLoanType
      * @param string $_terms
@@ -111,7 +111,7 @@ class MicrobiltStructInquiry_Type extends MicrobiltStructAggregate
     }
     /**
      * Get InqDt value
-     * @return date|null
+     * @return string|null
      */
     public function getInqDt()
     {
@@ -119,8 +119,8 @@ class MicrobiltStructInquiry_Type extends MicrobiltStructAggregate
     }
     /**
      * Set InqDt value
-     * @param date $_inqDt the InqDt
-     * @return date
+     * @param string $_inqDt the InqDt
+     * @return string
      */
     public function setInqDt($_inqDt)
     {

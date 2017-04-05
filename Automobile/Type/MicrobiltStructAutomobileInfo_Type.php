@@ -32,7 +32,7 @@ class MicrobiltStructAutomobileInfo_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $Year;
     /**
@@ -144,7 +144,7 @@ class MicrobiltStructAutomobileInfo_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $NumOfCylinders;
     /**
@@ -192,7 +192,7 @@ class MicrobiltStructAutomobileInfo_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $TitleIssueDt;
     /**
@@ -200,7 +200,7 @@ class MicrobiltStructAutomobileInfo_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $PrevTitleIssueDt;
     /**
@@ -240,7 +240,7 @@ class MicrobiltStructAutomobileInfo_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $FirstSeenDt;
     /**
@@ -256,7 +256,7 @@ class MicrobiltStructAutomobileInfo_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $TitleEarliestIssueDt;
     /**
@@ -264,7 +264,7 @@ class MicrobiltStructAutomobileInfo_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $LienDt;
     /**
@@ -272,7 +272,7 @@ class MicrobiltStructAutomobileInfo_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $NetWeight;
     /**
@@ -280,7 +280,7 @@ class MicrobiltStructAutomobileInfo_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $NumOfAxles;
     /**
@@ -336,7 +336,7 @@ class MicrobiltStructAutomobileInfo_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $DecalDt;
     /**
@@ -344,7 +344,7 @@ class MicrobiltStructAutomobileInfo_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $CheckDt;
     /**
@@ -375,7 +375,7 @@ class MicrobiltStructAutomobileInfo_Type extends MicrobiltStructAggregate
      * Constructor method for AutomobileInfo_Type
      * @see parent::__construct()
      * @param MicrobiltStructPersonInfo_Type $_ownerRegistrantInfo
-     * @param date $_year
+     * @param string $_year
      * @param string $_make
      * @param string $_vehicleModel
      * @param string $_vehicleColor
@@ -389,32 +389,32 @@ class MicrobiltStructAutomobileInfo_Type extends MicrobiltStructAggregate
      * @param string $_odometerMileage
      * @param MicrobiltStructCodeDescription_Type $_fuelType
      * @param MicrobiltStructCodeDescription_Type $_vehicleUse
-     * @param long $_numOfCylinders
+     * @param int $_numOfCylinders
      * @param MicrobiltStructCodeDescription_Type $_motorVehicleRegistrationOption
      * @param MicrobiltStructCodeDescription_Type $_majorColor
      * @param MicrobiltStructCodeDescription_Type $_minorColor
      * @param MicrobiltStructCodeDescription_Type $_body
      * @param string $_titleNum
-     * @param date $_titleIssueDt
-     * @param date $_prevTitleIssueDt
+     * @param string $_titleIssueDt
+     * @param string $_prevTitleIssueDt
      * @param string $_recordID
      * @param string $_originationState
      * @param string $_autoStyle
      * @param string $_autoType
-     * @param date $_firstSeenDt
+     * @param string $_firstSeenDt
      * @param MicrobiltStructDateRange_Type $_effectiveDtRange
-     * @param date $_titleEarliestIssueDt
-     * @param date $_lienDt
-     * @param long $_netWeight
-     * @param long $_numOfAxles
+     * @param string $_titleEarliestIssueDt
+     * @param string $_lienDt
+     * @param int $_netWeight
+     * @param int $_numOfAxles
      * @param MicrobiltStructAutomobileExtras_Type $_automobileExtras
      * @param string $_plateCode
      * @param string $_plateType
      * @param string $_truePlateNum
      * @param MicrobiltStructLienHolderInfo_Type $_lienHolderInfo
      * @param MicrobiltStructRegistrationDetails_Type $_registrationDetails
-     * @param date $_decalDt
-     * @param date $_checkDt
+     * @param string $_decalDt
+     * @param string $_checkDt
      * @param MicrobiltEnumBoolean $_newVehicleInd
      * @param string $_modelYear
      * @param string $_bodyType
@@ -443,7 +443,7 @@ class MicrobiltStructAutomobileInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Get Year value
-     * @return date|null
+     * @return string|null
      */
     public function getYear()
     {
@@ -451,8 +451,8 @@ class MicrobiltStructAutomobileInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Set Year value
-     * @param date $_year the Year
-     * @return date
+     * @param string $_year the Year
+     * @return string
      */
     public function setYear($_year)
     {
@@ -681,7 +681,7 @@ class MicrobiltStructAutomobileInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Get NumOfCylinders value
-     * @return long|null
+     * @return int|null
      */
     public function getNumOfCylinders()
     {
@@ -689,8 +689,8 @@ class MicrobiltStructAutomobileInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Set NumOfCylinders value
-     * @param long $_numOfCylinders the NumOfCylinders
-     * @return long
+     * @param int $_numOfCylinders the NumOfCylinders
+     * @return int
      */
     public function setNumOfCylinders($_numOfCylinders)
     {
@@ -783,7 +783,7 @@ class MicrobiltStructAutomobileInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Get TitleIssueDt value
-     * @return date|null
+     * @return string|null
      */
     public function getTitleIssueDt()
     {
@@ -791,8 +791,8 @@ class MicrobiltStructAutomobileInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Set TitleIssueDt value
-     * @param date $_titleIssueDt the TitleIssueDt
-     * @return date
+     * @param string $_titleIssueDt the TitleIssueDt
+     * @return string
      */
     public function setTitleIssueDt($_titleIssueDt)
     {
@@ -800,7 +800,7 @@ class MicrobiltStructAutomobileInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Get PrevTitleIssueDt value
-     * @return date|null
+     * @return string|null
      */
     public function getPrevTitleIssueDt()
     {
@@ -808,8 +808,8 @@ class MicrobiltStructAutomobileInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Set PrevTitleIssueDt value
-     * @param date $_prevTitleIssueDt the PrevTitleIssueDt
-     * @return date
+     * @param string $_prevTitleIssueDt the PrevTitleIssueDt
+     * @return string
      */
     public function setPrevTitleIssueDt($_prevTitleIssueDt)
     {
@@ -885,7 +885,7 @@ class MicrobiltStructAutomobileInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Get FirstSeenDt value
-     * @return date|null
+     * @return string|null
      */
     public function getFirstSeenDt()
     {
@@ -893,8 +893,8 @@ class MicrobiltStructAutomobileInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Set FirstSeenDt value
-     * @param date $_firstSeenDt the FirstSeenDt
-     * @return date
+     * @param string $_firstSeenDt the FirstSeenDt
+     * @return string
      */
     public function setFirstSeenDt($_firstSeenDt)
     {
@@ -919,7 +919,7 @@ class MicrobiltStructAutomobileInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Get TitleEarliestIssueDt value
-     * @return date|null
+     * @return string|null
      */
     public function getTitleEarliestIssueDt()
     {
@@ -927,8 +927,8 @@ class MicrobiltStructAutomobileInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Set TitleEarliestIssueDt value
-     * @param date $_titleEarliestIssueDt the TitleEarliestIssueDt
-     * @return date
+     * @param string $_titleEarliestIssueDt the TitleEarliestIssueDt
+     * @return string
      */
     public function setTitleEarliestIssueDt($_titleEarliestIssueDt)
     {
@@ -936,7 +936,7 @@ class MicrobiltStructAutomobileInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Get LienDt value
-     * @return date|null
+     * @return string|null
      */
     public function getLienDt()
     {
@@ -944,8 +944,8 @@ class MicrobiltStructAutomobileInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Set LienDt value
-     * @param date $_lienDt the LienDt
-     * @return date
+     * @param string $_lienDt the LienDt
+     * @return string
      */
     public function setLienDt($_lienDt)
     {
@@ -953,7 +953,7 @@ class MicrobiltStructAutomobileInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Get NetWeight value
-     * @return long|null
+     * @return int|null
      */
     public function getNetWeight()
     {
@@ -961,8 +961,8 @@ class MicrobiltStructAutomobileInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Set NetWeight value
-     * @param long $_netWeight the NetWeight
-     * @return long
+     * @param int $_netWeight the NetWeight
+     * @return int
      */
     public function setNetWeight($_netWeight)
     {
@@ -970,7 +970,7 @@ class MicrobiltStructAutomobileInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Get NumOfAxles value
-     * @return long|null
+     * @return int|null
      */
     public function getNumOfAxles()
     {
@@ -978,8 +978,8 @@ class MicrobiltStructAutomobileInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Set NumOfAxles value
-     * @param long $_numOfAxles the NumOfAxles
-     * @return long
+     * @param int $_numOfAxles the NumOfAxles
+     * @return int
      */
     public function setNumOfAxles($_numOfAxles)
     {
@@ -1089,7 +1089,7 @@ class MicrobiltStructAutomobileInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Get DecalDt value
-     * @return date|null
+     * @return string|null
      */
     public function getDecalDt()
     {
@@ -1097,8 +1097,8 @@ class MicrobiltStructAutomobileInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Set DecalDt value
-     * @param date $_decalDt the DecalDt
-     * @return date
+     * @param string $_decalDt the DecalDt
+     * @return string
      */
     public function setDecalDt($_decalDt)
     {
@@ -1106,7 +1106,7 @@ class MicrobiltStructAutomobileInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Get CheckDt value
-     * @return date|null
+     * @return string|null
      */
     public function getCheckDt()
     {
@@ -1114,8 +1114,8 @@ class MicrobiltStructAutomobileInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Set CheckDt value
-     * @param date $_checkDt the CheckDt
-     * @return date
+     * @param string $_checkDt the CheckDt
+     * @return string
      */
     public function setCheckDt($_checkDt)
     {

@@ -24,7 +24,7 @@ class MicrobiltStructViolation_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $ViolationDt;
     /**
@@ -64,7 +64,7 @@ class MicrobiltStructViolation_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $ConvictedDt;
     /**
@@ -126,12 +126,12 @@ class MicrobiltStructViolation_Type extends MicrobiltStructAggregate
     /**
      * Constructor method for Violation_Type
      * @see parent::__construct()
-     * @param date $_violationDt
+     * @param string $_violationDt
      * @param string $_violationType
      * @param string $_violationCode
      * @param string $_violationACDCode
      * @param string $_description
-     * @param date $_convictedDt
+     * @param string $_convictedDt
      * @param string $_points
      * @param MicrobiltStructPostAddr_Type $_location
      * @param MicrobiltStructOrgInfo_Type $_agency
@@ -147,7 +147,7 @@ class MicrobiltStructViolation_Type extends MicrobiltStructAggregate
     }
     /**
      * Get ViolationDt value
-     * @return date|null
+     * @return string|null
      */
     public function getViolationDt()
     {
@@ -155,8 +155,8 @@ class MicrobiltStructViolation_Type extends MicrobiltStructAggregate
     }
     /**
      * Set ViolationDt value
-     * @param date $_violationDt the ViolationDt
-     * @return date
+     * @param string $_violationDt the ViolationDt
+     * @return string
      */
     public function setViolationDt($_violationDt)
     {
@@ -232,7 +232,7 @@ class MicrobiltStructViolation_Type extends MicrobiltStructAggregate
     }
     /**
      * Get ConvictedDt value
-     * @return date|null
+     * @return string|null
      */
     public function getConvictedDt()
     {
@@ -240,8 +240,8 @@ class MicrobiltStructViolation_Type extends MicrobiltStructAggregate
     }
     /**
      * Set ConvictedDt value
-     * @param date $_convictedDt the ConvictedDt
-     * @return date
+     * @param string $_convictedDt the ConvictedDt
+     * @return string
      */
     public function setConvictedDt($_convictedDt)
     {

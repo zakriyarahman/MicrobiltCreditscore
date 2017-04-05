@@ -48,7 +48,7 @@ class MicrobiltStructDocumentInfo_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $DtOfDocument;
     /**
@@ -65,7 +65,7 @@ class MicrobiltStructDocumentInfo_Type extends MicrobiltStructAggregate
      * @param string $_categoryType
      * @param string $_docSource
      * @param string $_docType
-     * @param date $_dtOfDocument
+     * @param string $_dtOfDocument
      * @param MicrobiltStructMessage_Type $_message
      * @return MicrobiltStructDocumentInfo_Type
      */
@@ -126,7 +126,7 @@ class MicrobiltStructDocumentInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Get DtOfDocument value
-     * @return date|null
+     * @return string|null
      */
     public function getDtOfDocument()
     {
@@ -134,8 +134,8 @@ class MicrobiltStructDocumentInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Set DtOfDocument value
-     * @param date $_dtOfDocument the DtOfDocument
-     * @return date
+     * @param string $_dtOfDocument the DtOfDocument
+     * @return string
      */
     public function setDtOfDocument($_dtOfDocument)
     {

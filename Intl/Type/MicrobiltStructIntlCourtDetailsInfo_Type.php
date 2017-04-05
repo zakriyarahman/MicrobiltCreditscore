@@ -56,7 +56,7 @@ class MicrobiltStructIntlCourtDetailsInfo_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $JudgmentDt;
     /**
@@ -82,7 +82,7 @@ class MicrobiltStructIntlCourtDetailsInfo_Type extends MicrobiltStructAggregate
      * @param string $_caseId
      * @param string $_courtName
      * @param MicrobiltStructCurrencyAmount $_judgmentAmt
-     * @param date $_judgmentDt
+     * @param string $_judgmentDt
      * @param string $_courtType
      * @param MicrobiltStructMessage_Type $_message
      * @return MicrobiltStructIntlCourtDetailsInfo_Type
@@ -161,7 +161,7 @@ class MicrobiltStructIntlCourtDetailsInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Get JudgmentDt value
-     * @return date|null
+     * @return string|null
      */
     public function getJudgmentDt()
     {
@@ -169,8 +169,8 @@ class MicrobiltStructIntlCourtDetailsInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Set JudgmentDt value
-     * @param date $_judgmentDt the JudgmentDt
-     * @return date
+     * @param string $_judgmentDt the JudgmentDt
+     * @return string
      */
     public function setJudgmentDt($_judgmentDt)
     {

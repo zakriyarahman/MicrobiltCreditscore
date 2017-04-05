@@ -24,7 +24,7 @@ class MicrobiltStructPeriodInfo_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $PeriodIndicator;
     /**
@@ -32,7 +32,7 @@ class MicrobiltStructPeriodInfo_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $PeriodDt;
     /**
@@ -46,8 +46,8 @@ class MicrobiltStructPeriodInfo_Type extends MicrobiltStructAggregate
     /**
      * Constructor method for PeriodInfo_Type
      * @see parent::__construct()
-     * @param long $_periodIndicator
-     * @param date $_periodDt
+     * @param int $_periodIndicator
+     * @param string $_periodDt
      * @param MicrobiltStructMessage_Type $_message
      * @return MicrobiltStructPeriodInfo_Type
      */
@@ -57,7 +57,7 @@ class MicrobiltStructPeriodInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Get PeriodIndicator value
-     * @return long|null
+     * @return int|null
      */
     public function getPeriodIndicator()
     {
@@ -65,8 +65,8 @@ class MicrobiltStructPeriodInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Set PeriodIndicator value
-     * @param long $_periodIndicator the PeriodIndicator
-     * @return long
+     * @param int $_periodIndicator the PeriodIndicator
+     * @return int
      */
     public function setPeriodIndicator($_periodIndicator)
     {
@@ -74,7 +74,7 @@ class MicrobiltStructPeriodInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Get PeriodDt value
-     * @return date|null
+     * @return string|null
      */
     public function getPeriodDt()
     {
@@ -82,8 +82,8 @@ class MicrobiltStructPeriodInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Set PeriodDt value
-     * @param date $_periodDt the PeriodDt
-     * @return date
+     * @param string $_periodDt the PeriodDt
+     * @return string
      */
     public function setPeriodDt($_periodDt)
     {

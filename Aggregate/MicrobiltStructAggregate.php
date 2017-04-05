@@ -26,14 +26,14 @@ abstract class MicrobiltStructAggregate extends MicrobiltWsdlClass
     public $Source;
     /**
      * The EffDt
-     * @var date
+     * @var string
      */
     public $EffDt;
     /**
      * Constructor method for Aggregate
      * @see parent::__construct()
      * @param string $_source
-     * @param date $_effDt
+     * @param string $_effDt
      * @return MicrobiltStructAggregate
      */
     public function __construct($_source = NULL,$_effDt = NULL)
@@ -59,7 +59,7 @@ abstract class MicrobiltStructAggregate extends MicrobiltWsdlClass
     }
     /**
      * Get EffDt value
-     * @return date|null
+     * @return string|null
      */
     public function getEffDt()
     {
@@ -67,8 +67,8 @@ abstract class MicrobiltStructAggregate extends MicrobiltWsdlClass
     }
     /**
      * Set EffDt value
-     * @param date $_effDt the EffDt
-     * @return date
+     * @param string $_effDt the EffDt
+     * @return string
      */
     public function setEffDt($_effDt)
     {

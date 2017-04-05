@@ -160,7 +160,7 @@ class MicrobiltStructPostAddr_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $StartDt;
     /**
@@ -168,7 +168,7 @@ class MicrobiltStructPostAddr_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $EndDt;
     /**
@@ -184,7 +184,7 @@ class MicrobiltStructPostAddr_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $ReportedDt;
     /**
@@ -208,7 +208,7 @@ class MicrobiltStructPostAddr_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $AddrCreatedDt;
     /**
@@ -271,13 +271,13 @@ class MicrobiltStructPostAddr_Type extends MicrobiltStructAggregate
      * @param string $_county
      * @param string $_country
      * @param string $_addrType
-     * @param date $_startDt
-     * @param date $_endDt
+     * @param string $_startDt
+     * @param string $_endDt
      * @param string $_ownershipCode
-     * @param date $_reportedDt
+     * @param string $_reportedDt
      * @param string $_addrSource
      * @param MicrobiltStructGEOCode_Type $_gEOCode
-     * @param date $_addrCreatedDt
+     * @param string $_addrCreatedDt
      * @param string $_lengthOfResidence
      * @param string $_dropPointInd
      * @param string $_dwellingUnitSize
@@ -580,7 +580,7 @@ class MicrobiltStructPostAddr_Type extends MicrobiltStructAggregate
     }
     /**
      * Get StartDt value
-     * @return date|null
+     * @return string|null
      */
     public function getStartDt()
     {
@@ -588,8 +588,8 @@ class MicrobiltStructPostAddr_Type extends MicrobiltStructAggregate
     }
     /**
      * Set StartDt value
-     * @param date $_startDt the StartDt
-     * @return date
+     * @param string $_startDt the StartDt
+     * @return string
      */
     public function setStartDt($_startDt)
     {
@@ -597,7 +597,7 @@ class MicrobiltStructPostAddr_Type extends MicrobiltStructAggregate
     }
     /**
      * Get EndDt value
-     * @return date|null
+     * @return string|null
      */
     public function getEndDt()
     {
@@ -605,8 +605,8 @@ class MicrobiltStructPostAddr_Type extends MicrobiltStructAggregate
     }
     /**
      * Set EndDt value
-     * @param date $_endDt the EndDt
-     * @return date
+     * @param string $_endDt the EndDt
+     * @return string
      */
     public function setEndDt($_endDt)
     {
@@ -631,7 +631,7 @@ class MicrobiltStructPostAddr_Type extends MicrobiltStructAggregate
     }
     /**
      * Get ReportedDt value
-     * @return date|null
+     * @return string|null
      */
     public function getReportedDt()
     {
@@ -639,8 +639,8 @@ class MicrobiltStructPostAddr_Type extends MicrobiltStructAggregate
     }
     /**
      * Set ReportedDt value
-     * @param date $_reportedDt the ReportedDt
-     * @return date
+     * @param string $_reportedDt the ReportedDt
+     * @return string
      */
     public function setReportedDt($_reportedDt)
     {
@@ -682,7 +682,7 @@ class MicrobiltStructPostAddr_Type extends MicrobiltStructAggregate
     }
     /**
      * Get AddrCreatedDt value
-     * @return date|null
+     * @return string|null
      */
     public function getAddrCreatedDt()
     {
@@ -690,8 +690,8 @@ class MicrobiltStructPostAddr_Type extends MicrobiltStructAggregate
     }
     /**
      * Set AddrCreatedDt value
-     * @param date $_addrCreatedDt the AddrCreatedDt
-     * @return date
+     * @param string $_addrCreatedDt the AddrCreatedDt
+     * @return string
      */
     public function setAddrCreatedDt($_addrCreatedDt)
     {

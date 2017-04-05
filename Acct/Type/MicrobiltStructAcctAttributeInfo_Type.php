@@ -40,7 +40,7 @@ class MicrobiltStructAcctAttributeInfo_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $AttribDt;
     /**
@@ -48,7 +48,7 @@ class MicrobiltStructAcctAttributeInfo_Type extends MicrobiltStructAggregate
      * @see parent::__construct()
      * @param string $_attribName
      * @param MicrobiltStructCurrencyAmount $_attribAmt
-     * @param date $_attribDt
+     * @param string $_attribDt
      * @return MicrobiltStructAcctAttributeInfo_Type
      */
     public function __construct($_attribName = NULL,$_attribAmt = NULL,$_attribDt = NULL)
@@ -91,7 +91,7 @@ class MicrobiltStructAcctAttributeInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Get AttribDt value
-     * @return date|null
+     * @return string|null
      */
     public function getAttribDt()
     {
@@ -99,8 +99,8 @@ class MicrobiltStructAcctAttributeInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Set AttribDt value
-     * @param date $_attribDt the AttribDt
-     * @return date
+     * @param string $_attribDt the AttribDt
+     * @return string
      */
     public function setAttribDt($_attribDt)
     {

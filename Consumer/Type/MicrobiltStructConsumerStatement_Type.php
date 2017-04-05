@@ -32,7 +32,7 @@ class MicrobiltStructConsumerStatement_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $StatementDt;
     /**
@@ -47,7 +47,7 @@ class MicrobiltStructConsumerStatement_Type extends MicrobiltStructAggregate
      * Constructor method for ConsumerStatement_Type
      * @see parent::__construct()
      * @param string $_statementType
-     * @param date $_statementDt
+     * @param string $_statementDt
      * @param string $_text
      * @return MicrobiltStructConsumerStatement_Type
      */
@@ -74,7 +74,7 @@ class MicrobiltStructConsumerStatement_Type extends MicrobiltStructAggregate
     }
     /**
      * Get StatementDt value
-     * @return date|null
+     * @return string|null
      */
     public function getStatementDt()
     {
@@ -82,8 +82,8 @@ class MicrobiltStructConsumerStatement_Type extends MicrobiltStructAggregate
     }
     /**
      * Set StatementDt value
-     * @param date $_statementDt the StatementDt
-     * @return date
+     * @param string $_statementDt the StatementDt
+     * @return string
      */
     public function setStatementDt($_statementDt)
     {

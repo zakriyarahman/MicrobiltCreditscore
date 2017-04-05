@@ -64,7 +64,7 @@ class MicrobiltStructCollection_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $LastActivityDt;
     /**
@@ -80,7 +80,7 @@ class MicrobiltStructCollection_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $AssignedDt;
     /**
@@ -96,7 +96,7 @@ class MicrobiltStructCollection_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $BalanceDt;
     /**
@@ -112,7 +112,7 @@ class MicrobiltStructCollection_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $StatusDt;
     /**
@@ -120,7 +120,7 @@ class MicrobiltStructCollection_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $ReportedDt;
     /**
@@ -128,7 +128,7 @@ class MicrobiltStructCollection_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $ClosedDt;
     /**
@@ -144,7 +144,7 @@ class MicrobiltStructCollection_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $PaidDt;
     /**
@@ -168,7 +168,7 @@ class MicrobiltStructCollection_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $VerifiedDt;
     /**
@@ -179,20 +179,20 @@ class MicrobiltStructCollection_Type extends MicrobiltStructAggregate
      * @param string $_acctType
      * @param string $_ownershipType
      * @param string $_origAcctNumber
-     * @param date $_lastActivityDt
+     * @param string $_lastActivityDt
      * @param MicrobiltStructOrgInfo_Type $_collectionAgency
-     * @param date $_assignedDt
+     * @param string $_assignedDt
      * @param MicrobiltStructCurrencyAmount $_currentAmt
-     * @param date $_balanceDt
+     * @param string $_balanceDt
      * @param MicrobiltStructCodeDescription_Type $_collectionStatus
-     * @param date $_statusDt
-     * @param date $_reportedDt
-     * @param date $_closedDt
+     * @param string $_statusDt
+     * @param string $_reportedDt
+     * @param string $_closedDt
      * @param MicrobiltStructMessage_Type $_closureReason
-     * @param date $_paidDt
+     * @param string $_paidDt
      * @param MicrobiltStructCodeDescription_Type $_pmtType
      * @param MicrobiltStructMessage_Type $_message
-     * @param date $_verifiedDt
+     * @param string $_verifiedDt
      * @return MicrobiltStructCollection_Type
      */
     public function __construct($_origCreditor = NULL,$_originalAmt = NULL,$_acctType = NULL,$_ownershipType = NULL,$_origAcctNumber = NULL,$_lastActivityDt = NULL,$_collectionAgency = NULL,$_assignedDt = NULL,$_currentAmt = NULL,$_balanceDt = NULL,$_collectionStatus = NULL,$_statusDt = NULL,$_reportedDt = NULL,$_closedDt = NULL,$_closureReason = NULL,$_paidDt = NULL,$_pmtType = NULL,$_message = NULL,$_verifiedDt = NULL)
@@ -286,7 +286,7 @@ class MicrobiltStructCollection_Type extends MicrobiltStructAggregate
     }
     /**
      * Get LastActivityDt value
-     * @return date|null
+     * @return string|null
      */
     public function getLastActivityDt()
     {
@@ -294,8 +294,8 @@ class MicrobiltStructCollection_Type extends MicrobiltStructAggregate
     }
     /**
      * Set LastActivityDt value
-     * @param date $_lastActivityDt the LastActivityDt
-     * @return date
+     * @param string $_lastActivityDt the LastActivityDt
+     * @return string
      */
     public function setLastActivityDt($_lastActivityDt)
     {
@@ -320,7 +320,7 @@ class MicrobiltStructCollection_Type extends MicrobiltStructAggregate
     }
     /**
      * Get AssignedDt value
-     * @return date|null
+     * @return string|null
      */
     public function getAssignedDt()
     {
@@ -328,8 +328,8 @@ class MicrobiltStructCollection_Type extends MicrobiltStructAggregate
     }
     /**
      * Set AssignedDt value
-     * @param date $_assignedDt the AssignedDt
-     * @return date
+     * @param string $_assignedDt the AssignedDt
+     * @return string
      */
     public function setAssignedDt($_assignedDt)
     {
@@ -354,7 +354,7 @@ class MicrobiltStructCollection_Type extends MicrobiltStructAggregate
     }
     /**
      * Get BalanceDt value
-     * @return date|null
+     * @return string|null
      */
     public function getBalanceDt()
     {
@@ -362,8 +362,8 @@ class MicrobiltStructCollection_Type extends MicrobiltStructAggregate
     }
     /**
      * Set BalanceDt value
-     * @param date $_balanceDt the BalanceDt
-     * @return date
+     * @param string $_balanceDt the BalanceDt
+     * @return string
      */
     public function setBalanceDt($_balanceDt)
     {
@@ -388,7 +388,7 @@ class MicrobiltStructCollection_Type extends MicrobiltStructAggregate
     }
     /**
      * Get StatusDt value
-     * @return date|null
+     * @return string|null
      */
     public function getStatusDt()
     {
@@ -396,8 +396,8 @@ class MicrobiltStructCollection_Type extends MicrobiltStructAggregate
     }
     /**
      * Set StatusDt value
-     * @param date $_statusDt the StatusDt
-     * @return date
+     * @param string $_statusDt the StatusDt
+     * @return string
      */
     public function setStatusDt($_statusDt)
     {
@@ -405,7 +405,7 @@ class MicrobiltStructCollection_Type extends MicrobiltStructAggregate
     }
     /**
      * Get ReportedDt value
-     * @return date|null
+     * @return string|null
      */
     public function getReportedDt()
     {
@@ -413,8 +413,8 @@ class MicrobiltStructCollection_Type extends MicrobiltStructAggregate
     }
     /**
      * Set ReportedDt value
-     * @param date $_reportedDt the ReportedDt
-     * @return date
+     * @param string $_reportedDt the ReportedDt
+     * @return string
      */
     public function setReportedDt($_reportedDt)
     {
@@ -422,7 +422,7 @@ class MicrobiltStructCollection_Type extends MicrobiltStructAggregate
     }
     /**
      * Get ClosedDt value
-     * @return date|null
+     * @return string|null
      */
     public function getClosedDt()
     {
@@ -430,8 +430,8 @@ class MicrobiltStructCollection_Type extends MicrobiltStructAggregate
     }
     /**
      * Set ClosedDt value
-     * @param date $_closedDt the ClosedDt
-     * @return date
+     * @param string $_closedDt the ClosedDt
+     * @return string
      */
     public function setClosedDt($_closedDt)
     {
@@ -456,7 +456,7 @@ class MicrobiltStructCollection_Type extends MicrobiltStructAggregate
     }
     /**
      * Get PaidDt value
-     * @return date|null
+     * @return string|null
      */
     public function getPaidDt()
     {
@@ -464,8 +464,8 @@ class MicrobiltStructCollection_Type extends MicrobiltStructAggregate
     }
     /**
      * Set PaidDt value
-     * @param date $_paidDt the PaidDt
-     * @return date
+     * @param string $_paidDt the PaidDt
+     * @return string
      */
     public function setPaidDt($_paidDt)
     {
@@ -507,7 +507,7 @@ class MicrobiltStructCollection_Type extends MicrobiltStructAggregate
     }
     /**
      * Get VerifiedDt value
-     * @return date|null
+     * @return string|null
      */
     public function getVerifiedDt()
     {
@@ -515,8 +515,8 @@ class MicrobiltStructCollection_Type extends MicrobiltStructAggregate
     }
     /**
      * Set VerifiedDt value
-     * @param date $_verifiedDt the VerifiedDt
-     * @return date
+     * @param string $_verifiedDt the VerifiedDt
+     * @return string
      */
     public function setVerifiedDt($_verifiedDt)
     {

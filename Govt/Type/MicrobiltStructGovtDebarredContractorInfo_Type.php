@@ -24,7 +24,7 @@ class MicrobiltStructGovtDebarredContractorInfo_Type extends MicrobiltStructAggr
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $ReportedDt;
     /**
@@ -86,7 +86,7 @@ class MicrobiltStructGovtDebarredContractorInfo_Type extends MicrobiltStructAggr
     /**
      * Constructor method for GovtDebarredContractorInfo_Type
      * @see parent::__construct()
-     * @param date $_reportedDt
+     * @param string $_reportedDt
      * @param MicrobiltStructOrgInfo_Type $_orgInfo
      * @param MicrobiltStructCodeDescription_Type $_actionCode
      * @param string $_action
@@ -102,7 +102,7 @@ class MicrobiltStructGovtDebarredContractorInfo_Type extends MicrobiltStructAggr
     }
     /**
      * Get ReportedDt value
-     * @return date|null
+     * @return string|null
      */
     public function getReportedDt()
     {
@@ -110,8 +110,8 @@ class MicrobiltStructGovtDebarredContractorInfo_Type extends MicrobiltStructAggr
     }
     /**
      * Set ReportedDt value
-     * @param date $_reportedDt the ReportedDt
-     * @return date
+     * @param string $_reportedDt the ReportedDt
+     * @return string
      */
     public function setReportedDt($_reportedDt)
     {

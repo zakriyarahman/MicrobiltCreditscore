@@ -24,7 +24,7 @@ class MicrobiltStructAccident_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $AccidentDt;
     /**
@@ -64,7 +64,7 @@ class MicrobiltStructAccident_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $FilingDt;
     /**
@@ -182,12 +182,12 @@ class MicrobiltStructAccident_Type extends MicrobiltStructAggregate
     /**
      * Constructor method for Accident_Type
      * @see parent::__construct()
-     * @param date $_accidentDt
+     * @param string $_accidentDt
      * @param MicrobiltStructAccidentLocation_Type $_accidentLocation
      * @param MicrobiltStructPostAddr_Type $_location
      * @param string $_damage
      * @param MicrobiltStructOrgInfo_Type $_agency
-     * @param date $_filingDt
+     * @param string $_filingDt
      * @param string $_typeFRCase
      * @param string $_action
      * @param MicrobiltStructAccidentTime_Type $_accidentTime
@@ -210,7 +210,7 @@ class MicrobiltStructAccident_Type extends MicrobiltStructAggregate
     }
     /**
      * Get AccidentDt value
-     * @return date|null
+     * @return string|null
      */
     public function getAccidentDt()
     {
@@ -218,8 +218,8 @@ class MicrobiltStructAccident_Type extends MicrobiltStructAggregate
     }
     /**
      * Set AccidentDt value
-     * @param date $_accidentDt the AccidentDt
-     * @return date
+     * @param string $_accidentDt the AccidentDt
+     * @return string
      */
     public function setAccidentDt($_accidentDt)
     {
@@ -295,7 +295,7 @@ class MicrobiltStructAccident_Type extends MicrobiltStructAggregate
     }
     /**
      * Get FilingDt value
-     * @return date|null
+     * @return string|null
      */
     public function getFilingDt()
     {
@@ -303,8 +303,8 @@ class MicrobiltStructAccident_Type extends MicrobiltStructAggregate
     }
     /**
      * Set FilingDt value
-     * @param date $_filingDt the FilingDt
-     * @return date
+     * @param string $_filingDt the FilingDt
+     * @return string
      */
     public function setFilingDt($_filingDt)
     {

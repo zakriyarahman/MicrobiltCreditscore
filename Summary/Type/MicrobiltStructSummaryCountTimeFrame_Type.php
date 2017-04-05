@@ -56,7 +56,7 @@ class MicrobiltStructSummaryCountTimeFrame_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $TotalDerogatoryCollateralFilings;
     /**
@@ -64,7 +64,7 @@ class MicrobiltStructSummaryCountTimeFrame_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $TotalReleasesTerminations;
     /**
@@ -72,7 +72,7 @@ class MicrobiltStructSummaryCountTimeFrame_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $TotalContinuations;
     /**
@@ -80,7 +80,7 @@ class MicrobiltStructSummaryCountTimeFrame_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $TotalAmendedAssigned;
     /**
@@ -90,10 +90,10 @@ class MicrobiltStructSummaryCountTimeFrame_Type extends MicrobiltStructAggregate
      * @param MicrobiltStructCommercialDates_Type $_commercialDates
      * @param MicrobiltStructCommercialAmounts_Type $_commercialAmounts
      * @param string $_filingCount
-     * @param long $_totalDerogatoryCollateralFilings
-     * @param long $_totalReleasesTerminations
-     * @param long $_totalContinuations
-     * @param long $_totalAmendedAssigned
+     * @param int $_totalDerogatoryCollateralFilings
+     * @param int $_totalReleasesTerminations
+     * @param int $_totalContinuations
+     * @param int $_totalAmendedAssigned
      * @return MicrobiltStructSummaryCountTimeFrame_Type
      */
     public function __construct($_msgClass = NULL,$_commercialDates = NULL,$_commercialAmounts = NULL,$_filingCount = NULL,$_totalDerogatoryCollateralFilings = NULL,$_totalReleasesTerminations = NULL,$_totalContinuations = NULL,$_totalAmendedAssigned = NULL)
@@ -170,7 +170,7 @@ class MicrobiltStructSummaryCountTimeFrame_Type extends MicrobiltStructAggregate
     }
     /**
      * Get TotalDerogatoryCollateralFilings value
-     * @return long|null
+     * @return int|null
      */
     public function getTotalDerogatoryCollateralFilings()
     {
@@ -178,8 +178,8 @@ class MicrobiltStructSummaryCountTimeFrame_Type extends MicrobiltStructAggregate
     }
     /**
      * Set TotalDerogatoryCollateralFilings value
-     * @param long $_totalDerogatoryCollateralFilings the TotalDerogatoryCollateralFilings
-     * @return long
+     * @param int $_totalDerogatoryCollateralFilings the TotalDerogatoryCollateralFilings
+     * @return int
      */
     public function setTotalDerogatoryCollateralFilings($_totalDerogatoryCollateralFilings)
     {
@@ -187,7 +187,7 @@ class MicrobiltStructSummaryCountTimeFrame_Type extends MicrobiltStructAggregate
     }
     /**
      * Get TotalReleasesTerminations value
-     * @return long|null
+     * @return int|null
      */
     public function getTotalReleasesTerminations()
     {
@@ -195,8 +195,8 @@ class MicrobiltStructSummaryCountTimeFrame_Type extends MicrobiltStructAggregate
     }
     /**
      * Set TotalReleasesTerminations value
-     * @param long $_totalReleasesTerminations the TotalReleasesTerminations
-     * @return long
+     * @param int $_totalReleasesTerminations the TotalReleasesTerminations
+     * @return int
      */
     public function setTotalReleasesTerminations($_totalReleasesTerminations)
     {
@@ -204,7 +204,7 @@ class MicrobiltStructSummaryCountTimeFrame_Type extends MicrobiltStructAggregate
     }
     /**
      * Get TotalContinuations value
-     * @return long|null
+     * @return int|null
      */
     public function getTotalContinuations()
     {
@@ -212,8 +212,8 @@ class MicrobiltStructSummaryCountTimeFrame_Type extends MicrobiltStructAggregate
     }
     /**
      * Set TotalContinuations value
-     * @param long $_totalContinuations the TotalContinuations
-     * @return long
+     * @param int $_totalContinuations the TotalContinuations
+     * @return int
      */
     public function setTotalContinuations($_totalContinuations)
     {
@@ -221,7 +221,7 @@ class MicrobiltStructSummaryCountTimeFrame_Type extends MicrobiltStructAggregate
     }
     /**
      * Get TotalAmendedAssigned value
-     * @return long|null
+     * @return int|null
      */
     public function getTotalAmendedAssigned()
     {
@@ -229,8 +229,8 @@ class MicrobiltStructSummaryCountTimeFrame_Type extends MicrobiltStructAggregate
     }
     /**
      * Set TotalAmendedAssigned value
-     * @param long $_totalAmendedAssigned the TotalAmendedAssigned
-     * @return long
+     * @param int $_totalAmendedAssigned the TotalAmendedAssigned
+     * @return int
      */
     public function setTotalAmendedAssigned($_totalAmendedAssigned)
     {

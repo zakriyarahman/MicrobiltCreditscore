@@ -32,7 +32,7 @@ class MicrobiltStructQuestionConfig_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $NumOfAnswers;
     /**
@@ -40,15 +40,15 @@ class MicrobiltStructQuestionConfig_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $NumOfCorrectAnswers;
     /**
      * Constructor method for QuestionConfig_Type
      * @see parent::__construct()
      * @param string $_questionID
-     * @param long $_numOfAnswers
-     * @param long $_numOfCorrectAnswers
+     * @param int $_numOfAnswers
+     * @param int $_numOfCorrectAnswers
      * @return MicrobiltStructQuestionConfig_Type
      */
     public function __construct($_questionID = NULL,$_numOfAnswers = NULL,$_numOfCorrectAnswers = NULL)
@@ -74,7 +74,7 @@ class MicrobiltStructQuestionConfig_Type extends MicrobiltStructAggregate
     }
     /**
      * Get NumOfAnswers value
-     * @return long|null
+     * @return int|null
      */
     public function getNumOfAnswers()
     {
@@ -82,8 +82,8 @@ class MicrobiltStructQuestionConfig_Type extends MicrobiltStructAggregate
     }
     /**
      * Set NumOfAnswers value
-     * @param long $_numOfAnswers the NumOfAnswers
-     * @return long
+     * @param int $_numOfAnswers the NumOfAnswers
+     * @return int
      */
     public function setNumOfAnswers($_numOfAnswers)
     {
@@ -91,7 +91,7 @@ class MicrobiltStructQuestionConfig_Type extends MicrobiltStructAggregate
     }
     /**
      * Get NumOfCorrectAnswers value
-     * @return long|null
+     * @return int|null
      */
     public function getNumOfCorrectAnswers()
     {
@@ -99,8 +99,8 @@ class MicrobiltStructQuestionConfig_Type extends MicrobiltStructAggregate
     }
     /**
      * Set NumOfCorrectAnswers value
-     * @param long $_numOfCorrectAnswers the NumOfCorrectAnswers
-     * @return long
+     * @param int $_numOfCorrectAnswers the NumOfCorrectAnswers
+     * @return int
      */
     public function setNumOfCorrectAnswers($_numOfCorrectAnswers)
     {

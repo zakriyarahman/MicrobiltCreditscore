@@ -32,7 +32,7 @@ class MicrobiltStructPmtAgreement_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $AgreementDt;
     /**
@@ -56,7 +56,7 @@ class MicrobiltStructPmtAgreement_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $PmtTerms;
     /**
@@ -112,7 +112,7 @@ class MicrobiltStructPmtAgreement_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $OpenedDt;
     /**
@@ -120,7 +120,7 @@ class MicrobiltStructPmtAgreement_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $ReportedDt;
     /**
@@ -128,7 +128,7 @@ class MicrobiltStructPmtAgreement_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $PaidDt;
     /**
@@ -143,19 +143,19 @@ class MicrobiltStructPmtAgreement_Type extends MicrobiltStructAggregate
      * Constructor method for PmtAgreement_Type
      * @see parent::__construct()
      * @param string $_acctId
-     * @param date $_agreementDt
+     * @param string $_agreementDt
      * @param MicrobiltStructCurrencyAmount $_totalAmt
      * @param MicrobiltStructCurrencyAmount $_instAmt
-     * @param long $_pmtTerms
+     * @param int $_pmtTerms
      * @param string $_pmtPattern
      * @param string $_pmtFreq
      * @param string $_description
      * @param MicrobiltStructCurrencyAmount $_chargeOffAmt
      * @param MicrobiltStructCompAmt_Type $_balanceAmt
      * @param MicrobiltStructCurrencyAmount $_valueAmt
-     * @param date $_openedDt
-     * @param date $_reportedDt
-     * @param date $_paidDt
+     * @param string $_openedDt
+     * @param string $_reportedDt
+     * @param string $_paidDt
      * @param MicrobiltStructMessage_Type $_message
      * @return MicrobiltStructPmtAgreement_Type
      */
@@ -182,7 +182,7 @@ class MicrobiltStructPmtAgreement_Type extends MicrobiltStructAggregate
     }
     /**
      * Get AgreementDt value
-     * @return date|null
+     * @return string|null
      */
     public function getAgreementDt()
     {
@@ -190,8 +190,8 @@ class MicrobiltStructPmtAgreement_Type extends MicrobiltStructAggregate
     }
     /**
      * Set AgreementDt value
-     * @param date $_agreementDt the AgreementDt
-     * @return date
+     * @param string $_agreementDt the AgreementDt
+     * @return string
      */
     public function setAgreementDt($_agreementDt)
     {
@@ -233,7 +233,7 @@ class MicrobiltStructPmtAgreement_Type extends MicrobiltStructAggregate
     }
     /**
      * Get PmtTerms value
-     * @return long|null
+     * @return int|null
      */
     public function getPmtTerms()
     {
@@ -241,8 +241,8 @@ class MicrobiltStructPmtAgreement_Type extends MicrobiltStructAggregate
     }
     /**
      * Set PmtTerms value
-     * @param long $_pmtTerms the PmtTerms
-     * @return long
+     * @param int $_pmtTerms the PmtTerms
+     * @return int
      */
     public function setPmtTerms($_pmtTerms)
     {
@@ -352,7 +352,7 @@ class MicrobiltStructPmtAgreement_Type extends MicrobiltStructAggregate
     }
     /**
      * Get OpenedDt value
-     * @return date|null
+     * @return string|null
      */
     public function getOpenedDt()
     {
@@ -360,8 +360,8 @@ class MicrobiltStructPmtAgreement_Type extends MicrobiltStructAggregate
     }
     /**
      * Set OpenedDt value
-     * @param date $_openedDt the OpenedDt
-     * @return date
+     * @param string $_openedDt the OpenedDt
+     * @return string
      */
     public function setOpenedDt($_openedDt)
     {
@@ -369,7 +369,7 @@ class MicrobiltStructPmtAgreement_Type extends MicrobiltStructAggregate
     }
     /**
      * Get ReportedDt value
-     * @return date|null
+     * @return string|null
      */
     public function getReportedDt()
     {
@@ -377,8 +377,8 @@ class MicrobiltStructPmtAgreement_Type extends MicrobiltStructAggregate
     }
     /**
      * Set ReportedDt value
-     * @param date $_reportedDt the ReportedDt
-     * @return date
+     * @param string $_reportedDt the ReportedDt
+     * @return string
      */
     public function setReportedDt($_reportedDt)
     {
@@ -386,7 +386,7 @@ class MicrobiltStructPmtAgreement_Type extends MicrobiltStructAggregate
     }
     /**
      * Get PaidDt value
-     * @return date|null
+     * @return string|null
      */
     public function getPaidDt()
     {
@@ -394,8 +394,8 @@ class MicrobiltStructPmtAgreement_Type extends MicrobiltStructAggregate
     }
     /**
      * Set PaidDt value
-     * @param date $_paidDt the PaidDt
-     * @return date
+     * @param string $_paidDt the PaidDt
+     * @return string
      */
     public function setPaidDt($_paidDt)
     {

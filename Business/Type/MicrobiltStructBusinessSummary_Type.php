@@ -32,7 +32,7 @@ class MicrobiltStructBusinessSummary_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $NumTradeLines;
     /**
@@ -40,7 +40,7 @@ class MicrobiltStructBusinessSummary_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $NumEmployees;
     /**
@@ -64,7 +64,7 @@ class MicrobiltStructBusinessSummary_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $IncorporationDt;
     /**
@@ -79,11 +79,11 @@ class MicrobiltStructBusinessSummary_Type extends MicrobiltStructAggregate
      * Constructor method for BusinessSummary_Type
      * @see parent::__construct()
      * @param MicrobiltStructCodeDescription_Type $_riskCategory
-     * @param long $_numTradeLines
-     * @param long $_numEmployees
+     * @param int $_numTradeLines
+     * @param int $_numEmployees
      * @param MicrobiltStructOption_Type $_option
      * @param string $_filingStatus
-     * @param date $_incorporationDt
+     * @param string $_incorporationDt
      * @param MicrobiltStructMessage_Type $_message
      * @return MicrobiltStructBusinessSummary_Type
      */
@@ -110,7 +110,7 @@ class MicrobiltStructBusinessSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Get NumTradeLines value
-     * @return long|null
+     * @return int|null
      */
     public function getNumTradeLines()
     {
@@ -118,8 +118,8 @@ class MicrobiltStructBusinessSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Set NumTradeLines value
-     * @param long $_numTradeLines the NumTradeLines
-     * @return long
+     * @param int $_numTradeLines the NumTradeLines
+     * @return int
      */
     public function setNumTradeLines($_numTradeLines)
     {
@@ -127,7 +127,7 @@ class MicrobiltStructBusinessSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Get NumEmployees value
-     * @return long|null
+     * @return int|null
      */
     public function getNumEmployees()
     {
@@ -135,8 +135,8 @@ class MicrobiltStructBusinessSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Set NumEmployees value
-     * @param long $_numEmployees the NumEmployees
-     * @return long
+     * @param int $_numEmployees the NumEmployees
+     * @return int
      */
     public function setNumEmployees($_numEmployees)
     {
@@ -178,7 +178,7 @@ class MicrobiltStructBusinessSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Get IncorporationDt value
-     * @return date|null
+     * @return string|null
      */
     public function getIncorporationDt()
     {
@@ -186,8 +186,8 @@ class MicrobiltStructBusinessSummary_Type extends MicrobiltStructAggregate
     }
     /**
      * Set IncorporationDt value
-     * @param date $_incorporationDt the IncorporationDt
-     * @return date
+     * @param string $_incorporationDt the IncorporationDt
+     * @return string
      */
     public function setIncorporationDt($_incorporationDt)
     {

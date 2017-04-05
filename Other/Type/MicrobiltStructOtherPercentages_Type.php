@@ -32,14 +32,14 @@ class MicrobiltStructOtherPercentages_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var decimal
+     * @var float
      */
     public $OtherPercentage;
     /**
      * Constructor method for OtherPercentages_Type
      * @see parent::__construct()
      * @param string $_percentageType
-     * @param decimal $_otherPercentage
+     * @param float $_otherPercentage
      * @return MicrobiltStructOtherPercentages_Type
      */
     public function __construct($_percentageType = NULL,$_otherPercentage = NULL)
@@ -65,7 +65,7 @@ class MicrobiltStructOtherPercentages_Type extends MicrobiltStructAggregate
     }
     /**
      * Get OtherPercentage value
-     * @return decimal|null
+     * @return float|null
      */
     public function getOtherPercentage()
     {
@@ -73,8 +73,8 @@ class MicrobiltStructOtherPercentages_Type extends MicrobiltStructAggregate
     }
     /**
      * Set OtherPercentage value
-     * @param decimal $_otherPercentage the OtherPercentage
-     * @return decimal
+     * @param float $_otherPercentage the OtherPercentage
+     * @return float
      */
     public function setOtherPercentage($_otherPercentage)
     {

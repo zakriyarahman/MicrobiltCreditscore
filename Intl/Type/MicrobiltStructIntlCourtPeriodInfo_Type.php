@@ -32,7 +32,7 @@ class MicrobiltStructIntlCourtPeriodInfo_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $Months;
     /**
@@ -40,15 +40,15 @@ class MicrobiltStructIntlCourtPeriodInfo_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $IntlCourtDt;
     /**
      * Constructor method for IntlCourtPeriodInfo_Type
      * @see parent::__construct()
      * @param string $_msgClass
-     * @param long $_months
-     * @param date $_intlCourtDt
+     * @param int $_months
+     * @param string $_intlCourtDt
      * @return MicrobiltStructIntlCourtPeriodInfo_Type
      */
     public function __construct($_msgClass = NULL,$_months = NULL,$_intlCourtDt = NULL)
@@ -74,7 +74,7 @@ class MicrobiltStructIntlCourtPeriodInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Get Months value
-     * @return long|null
+     * @return int|null
      */
     public function getMonths()
     {
@@ -82,8 +82,8 @@ class MicrobiltStructIntlCourtPeriodInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Set Months value
-     * @param long $_months the Months
-     * @return long
+     * @param int $_months the Months
+     * @return int
      */
     public function setMonths($_months)
     {
@@ -91,7 +91,7 @@ class MicrobiltStructIntlCourtPeriodInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Get IntlCourtDt value
-     * @return date|null
+     * @return string|null
      */
     public function getIntlCourtDt()
     {
@@ -99,8 +99,8 @@ class MicrobiltStructIntlCourtPeriodInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Set IntlCourtDt value
-     * @param date $_intlCourtDt the IntlCourtDt
-     * @return date
+     * @param string $_intlCourtDt the IntlCourtDt
+     * @return string
      */
     public function setIntlCourtDt($_intlCourtDt)
     {

@@ -24,7 +24,7 @@ class MicrobiltStructAuthConfig_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $NumOfQuestions;
     /**
@@ -38,7 +38,7 @@ class MicrobiltStructAuthConfig_Type extends MicrobiltStructAggregate
     /**
      * Constructor method for AuthConfig_Type
      * @see parent::__construct()
-     * @param long $_numOfQuestions
+     * @param int $_numOfQuestions
      * @param MicrobiltStructQuestionConfig_Type $_questionConfig
      * @return MicrobiltStructAuthConfig_Type
      */
@@ -48,7 +48,7 @@ class MicrobiltStructAuthConfig_Type extends MicrobiltStructAggregate
     }
     /**
      * Get NumOfQuestions value
-     * @return long|null
+     * @return int|null
      */
     public function getNumOfQuestions()
     {
@@ -56,8 +56,8 @@ class MicrobiltStructAuthConfig_Type extends MicrobiltStructAggregate
     }
     /**
      * Set NumOfQuestions value
-     * @param long $_numOfQuestions the NumOfQuestions
-     * @return long
+     * @param int $_numOfQuestions the NumOfQuestions
+     * @return int
      */
     public function setNumOfQuestions($_numOfQuestions)
     {

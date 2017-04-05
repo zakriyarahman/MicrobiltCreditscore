@@ -24,7 +24,7 @@ class MicrobiltStructCurrencyAmount extends MicrobiltWsdlClass
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 1
-     * @var decimal
+     * @var float
      */
     public $Amt;
     /**
@@ -38,7 +38,7 @@ class MicrobiltStructCurrencyAmount extends MicrobiltWsdlClass
     /**
      * Constructor method for CurrencyAmount
      * @see parent::__construct()
-     * @param decimal $_amt
+     * @param float $_amt
      * @param string $_curCode
      * @return MicrobiltStructCurrencyAmount
      */
@@ -48,7 +48,7 @@ class MicrobiltStructCurrencyAmount extends MicrobiltWsdlClass
     }
     /**
      * Get Amt value
-     * @return decimal
+     * @return float
      */
     public function getAmt()
     {
@@ -56,8 +56,8 @@ class MicrobiltStructCurrencyAmount extends MicrobiltWsdlClass
     }
     /**
      * Set Amt value
-     * @param decimal $_amt the Amt
-     * @return decimal
+     * @param float $_amt the Amt
+     * @return float
      */
     public function setAmt($_amt)
     {

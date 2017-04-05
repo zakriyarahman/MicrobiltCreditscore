@@ -32,7 +32,7 @@ class MicrobiltStructCharterInfo_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $CharterTermYears;
     /**
@@ -40,15 +40,15 @@ class MicrobiltStructCharterInfo_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $CharterTermDt;
     /**
      * Constructor method for CharterInfo_Type
      * @see parent::__construct()
      * @param string $_charterNum
-     * @param long $_charterTermYears
-     * @param date $_charterTermDt
+     * @param int $_charterTermYears
+     * @param string $_charterTermDt
      * @return MicrobiltStructCharterInfo_Type
      */
     public function __construct($_charterNum = NULL,$_charterTermYears = NULL,$_charterTermDt = NULL)
@@ -74,7 +74,7 @@ class MicrobiltStructCharterInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Get CharterTermYears value
-     * @return long|null
+     * @return int|null
      */
     public function getCharterTermYears()
     {
@@ -82,8 +82,8 @@ class MicrobiltStructCharterInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Set CharterTermYears value
-     * @param long $_charterTermYears the CharterTermYears
-     * @return long
+     * @param int $_charterTermYears the CharterTermYears
+     * @return int
      */
     public function setCharterTermYears($_charterTermYears)
     {
@@ -91,7 +91,7 @@ class MicrobiltStructCharterInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Get CharterTermDt value
-     * @return date|null
+     * @return string|null
      */
     public function getCharterTermDt()
     {
@@ -99,8 +99,8 @@ class MicrobiltStructCharterInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Set CharterTermDt value
-     * @param date $_charterTermDt the CharterTermDt
-     * @return date
+     * @param string $_charterTermDt the CharterTermDt
+     * @return string
      */
     public function setCharterTermDt($_charterTermDt)
     {

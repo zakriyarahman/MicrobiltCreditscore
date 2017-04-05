@@ -48,7 +48,7 @@ class MicrobiltStructAccountingInfo_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $FilingDt;
     /**
@@ -65,7 +65,7 @@ class MicrobiltStructAccountingInfo_Type extends MicrobiltStructAggregate
      * @param string $_msgClass
      * @param MicrobiltStructPeriodInfo_Type $_accountingPeriodInfo
      * @param MicrobiltStructElementsInfo_Type $_accountingElementsInfo
-     * @param date $_filingDt
+     * @param string $_filingDt
      * @param string $_filingType
      * @return MicrobiltStructAccountingInfo_Type
      */
@@ -126,7 +126,7 @@ class MicrobiltStructAccountingInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Get FilingDt value
-     * @return date|null
+     * @return string|null
      */
     public function getFilingDt()
     {
@@ -134,8 +134,8 @@ class MicrobiltStructAccountingInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Set FilingDt value
-     * @param date $_filingDt the FilingDt
-     * @return date
+     * @param string $_filingDt the FilingDt
+     * @return string
      */
     public function setFilingDt($_filingDt)
     {

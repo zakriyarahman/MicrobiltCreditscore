@@ -56,7 +56,7 @@ class MicrobiltStructWeaponPermit_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $RegDt;
     /**
@@ -64,7 +64,7 @@ class MicrobiltStructWeaponPermit_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $DtExpires;
     /**
@@ -74,8 +74,8 @@ class MicrobiltStructWeaponPermit_Type extends MicrobiltStructAggregate
      * @param string $_weaponType
      * @param string $_licenseNum
      * @param string $_licenseType
-     * @param date $_regDt
-     * @param date $_dtExpires
+     * @param string $_regDt
+     * @param string $_dtExpires
      * @return MicrobiltStructWeaponPermit_Type
      */
     public function __construct($_personInfo = NULL,$_weaponType = NULL,$_licenseNum = NULL,$_licenseType = NULL,$_regDt = NULL,$_dtExpires = NULL)
@@ -152,7 +152,7 @@ class MicrobiltStructWeaponPermit_Type extends MicrobiltStructAggregate
     }
     /**
      * Get RegDt value
-     * @return date|null
+     * @return string|null
      */
     public function getRegDt()
     {
@@ -160,8 +160,8 @@ class MicrobiltStructWeaponPermit_Type extends MicrobiltStructAggregate
     }
     /**
      * Set RegDt value
-     * @param date $_regDt the RegDt
-     * @return date
+     * @param string $_regDt the RegDt
+     * @return string
      */
     public function setRegDt($_regDt)
     {
@@ -169,7 +169,7 @@ class MicrobiltStructWeaponPermit_Type extends MicrobiltStructAggregate
     }
     /**
      * Get DtExpires value
-     * @return date|null
+     * @return string|null
      */
     public function getDtExpires()
     {
@@ -177,8 +177,8 @@ class MicrobiltStructWeaponPermit_Type extends MicrobiltStructAggregate
     }
     /**
      * Set DtExpires value
-     * @param date $_dtExpires the DtExpires
-     * @return date
+     * @param string $_dtExpires the DtExpires
+     * @return string
      */
     public function setDtExpires($_dtExpires)
     {

@@ -32,7 +32,7 @@ class MicrobiltStructCollateralInfo_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $CollateralCount;
     /**
@@ -96,7 +96,7 @@ class MicrobiltStructCollateralInfo_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $Year;
     /**
@@ -112,7 +112,7 @@ class MicrobiltStructCollateralInfo_Type extends MicrobiltStructAggregate
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $ManufacturedDt;
     /**
@@ -167,7 +167,7 @@ class MicrobiltStructCollateralInfo_Type extends MicrobiltStructAggregate
      * Constructor method for CollateralInfo_Type
      * @see parent::__construct()
      * @param string $_collateralDesc
-     * @param long $_collateralCount
+     * @param int $_collateralCount
      * @param string $_propertyDesc
      * @param MicrobiltStructPostAddr_Type $_propertyAddress
      * @param string $_serialNum
@@ -175,9 +175,9 @@ class MicrobiltStructCollateralInfo_Type extends MicrobiltStructAggregate
      * @param string $_primaryMachine
      * @param string $_secondMachine
      * @param string $_manufacturerName
-     * @param date $_year
+     * @param string $_year
      * @param string $_model
-     * @param date $_manufacturedDt
+     * @param string $_manufacturedDt
      * @param string $_borough
      * @param string $_lot
      * @param string $_airRights
@@ -209,7 +209,7 @@ class MicrobiltStructCollateralInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Get CollateralCount value
-     * @return long|null
+     * @return int|null
      */
     public function getCollateralCount()
     {
@@ -217,8 +217,8 @@ class MicrobiltStructCollateralInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Set CollateralCount value
-     * @param long $_collateralCount the CollateralCount
-     * @return long
+     * @param int $_collateralCount the CollateralCount
+     * @return int
      */
     public function setCollateralCount($_collateralCount)
     {
@@ -345,7 +345,7 @@ class MicrobiltStructCollateralInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Get Year value
-     * @return date|null
+     * @return string|null
      */
     public function getYear()
     {
@@ -353,8 +353,8 @@ class MicrobiltStructCollateralInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Set Year value
-     * @param date $_year the Year
-     * @return date
+     * @param string $_year the Year
+     * @return string
      */
     public function setYear($_year)
     {
@@ -379,7 +379,7 @@ class MicrobiltStructCollateralInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Get ManufacturedDt value
-     * @return date|null
+     * @return string|null
      */
     public function getManufacturedDt()
     {
@@ -387,8 +387,8 @@ class MicrobiltStructCollateralInfo_Type extends MicrobiltStructAggregate
     }
     /**
      * Set ManufacturedDt value
-     * @param date $_manufacturedDt the ManufacturedDt
-     * @return date
+     * @param string $_manufacturedDt the ManufacturedDt
+     * @return string
      */
     public function setManufacturedDt($_manufacturedDt)
     {
