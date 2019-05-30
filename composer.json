@@ -23,6 +23,5 @@
         "psr-4": {
             "Zakriyarahman\\Microbilt\\": "src/"
         }
-    },
-    "minimum-stability": "dev"
+    }
 }
