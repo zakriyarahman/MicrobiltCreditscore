@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\AKAI\Type;
 
 /**
  * File for class MicrobiltStructAKAInfo_Type

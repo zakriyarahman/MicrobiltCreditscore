@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\ACHI\Type;
 
 /**
  * File for class MicrobiltStructACHInfo_Type

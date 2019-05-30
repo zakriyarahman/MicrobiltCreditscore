@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Quarterly\Type;
 
 /**
  * File for class MicrobiltStructQuarterlyTrends_Type

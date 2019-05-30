@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Msg\Type;
 
 /**
  * File for class MicrobiltStructMsgRsHdr_Type

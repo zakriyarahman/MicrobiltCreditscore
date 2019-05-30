@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Intl\Type;
 
 /**
  * File for class MicrobiltStructIntlCourtDetailsInfo_Type

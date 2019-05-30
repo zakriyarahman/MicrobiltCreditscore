@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Boolean;
 
 /**
  * File for class MicrobiltEnumBoolean

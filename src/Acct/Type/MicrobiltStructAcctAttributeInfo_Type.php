@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Acct\Type;
 
 /**
  * File for class MicrobiltStructAcctAttributeInfo_Type

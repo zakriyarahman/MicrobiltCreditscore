@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Public\Type;
 
 /**
  * File for class MicrobiltStructPublicRecord_Type

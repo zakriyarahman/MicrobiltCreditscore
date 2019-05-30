@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Parole\Type;
 
 /**
  * File for class MicrobiltStructParoleSentenceInfo_Type

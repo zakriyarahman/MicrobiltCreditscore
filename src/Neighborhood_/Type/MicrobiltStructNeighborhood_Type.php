@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Neighborhood_\Type;
 
 /**
  * File for class MicrobiltStructNeighborhood_Type

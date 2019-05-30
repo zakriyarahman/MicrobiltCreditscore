@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Trade\Type;
 
 /**
  * File for class MicrobiltStructTradeReferenceElementInfo_Type

@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\UCC\Type;
 
 /**
  * File for class MicrobiltStructUCC_Type

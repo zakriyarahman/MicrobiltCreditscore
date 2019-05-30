@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Charge_\Type;
 
 /**
  * File for class MicrobiltStructCharge_Type

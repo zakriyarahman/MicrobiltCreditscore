@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\OFAC\Type;
 
 /**
  * File for class MicrobiltStructOFAC_Type

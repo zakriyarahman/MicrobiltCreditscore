@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Evictions\Type;
 
 /**
  * File for class MicrobiltStructEvictionsCase_Type

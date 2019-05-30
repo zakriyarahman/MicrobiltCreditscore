@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Event_\Type;
 
 /**
  * File for class MicrobiltStructEvent_Type

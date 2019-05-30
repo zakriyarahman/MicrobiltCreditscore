@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\TINI\Type;
 
 /**
  * File for class MicrobiltStructTINInfo_Type

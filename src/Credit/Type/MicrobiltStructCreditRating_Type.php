@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Credit\Type;
 
 /**
  * File for class MicrobiltStructCreditRating_Type

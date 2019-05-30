@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Category\Type;
 
 /**
  * File for class MicrobiltStructCategoryInfo_Type

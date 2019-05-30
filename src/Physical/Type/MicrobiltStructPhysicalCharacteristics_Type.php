@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Physical\Type;
 
 /**
  * File for class MicrobiltStructPhysicalCharacteristics_Type

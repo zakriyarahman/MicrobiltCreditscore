@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\GEOC\Type;
 
 /**
  * File for class MicrobiltStructGEOCode_Type

@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Loan\Type;
 
 /**
  * File for class MicrobiltStructLoanParams_Type

@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\QFP\Type;
 
 /**
  * File for class MicrobiltStructQFProdOffer_Type

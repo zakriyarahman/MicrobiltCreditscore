@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Vessel\Type;
 
 /**
  * File for class MicrobiltStructVesselInfo_Type

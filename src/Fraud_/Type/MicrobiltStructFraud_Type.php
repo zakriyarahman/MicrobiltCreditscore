@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Fraud_\Type;
 
 /**
  * File for class MicrobiltStructFraud_Type

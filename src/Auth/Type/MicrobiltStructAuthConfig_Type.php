@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Auth\Type;
 
 /**
  * File for class MicrobiltStructAuthConfig_Type

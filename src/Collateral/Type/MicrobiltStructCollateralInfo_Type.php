@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Collateral\Type;
 
 /**
  * File for class MicrobiltStructCollateralInfo_Type

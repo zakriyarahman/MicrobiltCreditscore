@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\CRAS\Type;
 
 /**
  * File for class MicrobiltStructCRASummary_Type

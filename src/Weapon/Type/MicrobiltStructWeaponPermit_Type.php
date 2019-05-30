@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Weapon\Type;
 
 /**
  * File for class MicrobiltStructWeaponPermit_Type

@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Summary\Type;
 
 /**
  * File for class MicrobiltStructSummaryCharacteristics_Type

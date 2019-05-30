@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\DTA\Type;
 
 /**
  * File for class MicrobiltStructDTApplicationVariables_Type

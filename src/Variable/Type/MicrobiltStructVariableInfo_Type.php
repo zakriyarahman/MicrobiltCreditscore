@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Variable\Type;
 
 /**
  * File for class MicrobiltStructVariableInfo_Type

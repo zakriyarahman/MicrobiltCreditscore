@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Corp\Type;
 
 /**
  * File for class MicrobiltStructCorpInquiry_Type

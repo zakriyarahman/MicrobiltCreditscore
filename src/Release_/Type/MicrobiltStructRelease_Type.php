@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Release_\Type;
 
 /**
  * File for class MicrobiltStructRelease_Type

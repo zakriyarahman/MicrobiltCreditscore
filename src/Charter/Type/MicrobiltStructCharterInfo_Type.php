@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Charter\Type;
 
 /**
  * File for class MicrobiltStructCharterInfo_Type

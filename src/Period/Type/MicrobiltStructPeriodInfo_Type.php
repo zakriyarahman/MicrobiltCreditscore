@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Period\Type;
 
 /**
  * File for class MicrobiltStructPeriodInfo_Type

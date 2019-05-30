@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Employment\Type;
 
 /**
  * File for class MicrobiltStructEmploymentHistory_Type

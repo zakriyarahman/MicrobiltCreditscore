@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Military\Type;
 
 /**
  * File for class MicrobiltStructMilitaryIdInfo_Type

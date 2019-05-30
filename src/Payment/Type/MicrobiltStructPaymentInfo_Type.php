@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Payment\Type;
 
 /**
  * File for class MicrobiltStructPaymentInfo_Type

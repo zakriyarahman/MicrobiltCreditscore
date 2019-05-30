@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Officers\Type;
 
 /**
  * File for class MicrobiltStructOfficersDirectors_Type

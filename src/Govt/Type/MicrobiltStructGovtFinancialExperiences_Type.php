@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Govt\Type;
 
 /**
  * File for class MicrobiltStructGovtFinancialExperiences_Type

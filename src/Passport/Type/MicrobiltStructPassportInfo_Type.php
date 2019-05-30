@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Passport\Type;
 
 /**
  * File for class MicrobiltStructPassportInfo_Type

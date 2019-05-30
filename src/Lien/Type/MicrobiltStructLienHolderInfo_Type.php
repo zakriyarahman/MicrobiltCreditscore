@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Lien\Type;
 
 /**
  * File for class MicrobiltStructLienHolderInfo_Type

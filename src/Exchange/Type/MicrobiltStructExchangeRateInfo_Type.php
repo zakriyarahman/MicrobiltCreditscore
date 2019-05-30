@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Exchange\Type;
 
 /**
  * File for class MicrobiltStructExchangeRateInfo_Type

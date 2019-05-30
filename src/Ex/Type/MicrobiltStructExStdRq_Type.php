@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Ex\Type;
 
 /**
  * File for class MicrobiltStructExStdRq_Type

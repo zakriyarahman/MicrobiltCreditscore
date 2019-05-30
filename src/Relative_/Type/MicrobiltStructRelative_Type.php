@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Relative_\Type;
 
 /**
  * File for class MicrobiltStructRelative_Type

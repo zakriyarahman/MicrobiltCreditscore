@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Other\Type;
 
 /**
  * File for class MicrobiltStructOtherPercentages_Type

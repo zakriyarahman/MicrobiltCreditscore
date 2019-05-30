@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Offender\Type;
 
 /**
  * File for class MicrobiltStructOffenderRef_Type

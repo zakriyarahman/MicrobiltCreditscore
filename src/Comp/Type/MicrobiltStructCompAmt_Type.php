@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Comp\Type;
 
 /**
  * File for class MicrobiltStructCompAmt_Type

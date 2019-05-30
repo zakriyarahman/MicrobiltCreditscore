@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Internet\Type;
 
 /**
  * File for class MicrobiltStructInternetDomain_Type

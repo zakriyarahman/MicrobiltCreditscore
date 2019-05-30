@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Pmt\Type;
 
 /**
  * File for class MicrobiltStructPmtAgreement_Type

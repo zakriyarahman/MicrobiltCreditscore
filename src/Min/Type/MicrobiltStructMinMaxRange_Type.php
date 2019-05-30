@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Min\Type;
 
 /**
  * File for class MicrobiltStructMinMaxRange_Type

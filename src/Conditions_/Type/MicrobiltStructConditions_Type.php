@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Conditions_\Type;
 
 /**
  * File for class MicrobiltStructConditions_Type

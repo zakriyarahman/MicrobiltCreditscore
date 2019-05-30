@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Commercial\Type;
 
 /**
  * File for class MicrobiltStructCommercialPmtInfo_Type

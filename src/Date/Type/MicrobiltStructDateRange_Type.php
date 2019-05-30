@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Date\Type;
 
 /**
  * File for class MicrobiltStructDateRange_Type

@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Severity_\Type;
 
 /**
  * File for class MicrobiltEnumSeverity_Type

@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Criminal\Type;
 
 /**
  * File for class MicrobiltStructCriminalCase_Type

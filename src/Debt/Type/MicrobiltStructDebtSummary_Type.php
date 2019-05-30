@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Debt\Type;
 
 /**
  * File for class MicrobiltStructDebtSummary_Type

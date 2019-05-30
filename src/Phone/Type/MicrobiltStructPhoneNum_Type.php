@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Phone\Type;
 
 /**
  * File for class MicrobiltStructPhoneNum_Type

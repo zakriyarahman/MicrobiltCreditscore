@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Transform\Response;
 
 /**
  * File for class MicrobiltStructTransformResponse

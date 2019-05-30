@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Civil\Type;
 
 /**
  * File for class MicrobiltStructCivilCourt_Type

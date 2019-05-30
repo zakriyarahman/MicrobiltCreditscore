@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Attachment_\Type;
 
 /**
  * File for class MicrobiltStructAttachment_Type

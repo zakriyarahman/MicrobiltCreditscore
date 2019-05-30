@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Legal\Type;
 
 /**
  * File for class MicrobiltStructLegalFormsInfo_Type

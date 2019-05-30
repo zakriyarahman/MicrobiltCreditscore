@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Social\Type;
 
 /**
  * File for class MicrobiltStructSocialNetworkProfileInfo_Type

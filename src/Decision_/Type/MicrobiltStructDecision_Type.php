@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Decision_\Type;
 
 /**
  * File for class MicrobiltStructDecision_Type

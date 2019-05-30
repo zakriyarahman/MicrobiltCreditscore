@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Get\Report;
 
 /**
  * File for class MicrobiltStructGetArchiveReport

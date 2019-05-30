@@ -1,4 +1,5 @@
 <?php
+
 namespace Zakriyarahman\Microbilt\Accident\Type;
 
 /**

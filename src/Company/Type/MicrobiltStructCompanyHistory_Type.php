@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Company\Type;
 
 /**
  * File for class MicrobiltStructCompanyHistory_Type

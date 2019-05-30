@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Validation\Type;
 
 /**
  * File for class MicrobiltStructValidationInfo_Type

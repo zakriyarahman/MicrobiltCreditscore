@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Request\Type;
 
 /**
  * File for class MicrobiltEnumRequestType

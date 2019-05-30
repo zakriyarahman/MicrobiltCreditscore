@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Closure\Type;
 
 /**
  * File for class MicrobiltStructClosureInfo_Type

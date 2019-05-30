@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Map\Response;
 
 /**
  * File for class MicrobiltStructMapResponse

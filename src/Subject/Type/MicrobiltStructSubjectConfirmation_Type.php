@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Subject\Type;
 
 /**
  * File for class MicrobiltStructSubjectConfirmation_Type

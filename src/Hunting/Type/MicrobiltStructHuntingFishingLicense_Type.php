@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Hunting\Type;
 
 /**
  * File for class MicrobiltStructHuntingFishingLicense_Type

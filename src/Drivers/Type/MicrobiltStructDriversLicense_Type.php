@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Drivers\Type;
 
 /**
  * File for class MicrobiltStructDriversLicense_Type

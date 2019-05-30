@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Instant\Type;
 
 /**
  * File for class MicrobiltStructInstantMessagingInfo_Type

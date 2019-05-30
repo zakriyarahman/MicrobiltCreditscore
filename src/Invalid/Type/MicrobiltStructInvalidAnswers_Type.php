@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Invalid\Type;
 
 /**
  * File for class MicrobiltStructInvalidAnswers_Type

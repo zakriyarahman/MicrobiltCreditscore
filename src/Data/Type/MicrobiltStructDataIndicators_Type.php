@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Data\Type;
 
 /**
  * File for class MicrobiltStructDataIndicators_Type

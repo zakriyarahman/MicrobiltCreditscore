@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Post\Type;
 
 /**
  * File for class MicrobiltStructPostAddr_Type

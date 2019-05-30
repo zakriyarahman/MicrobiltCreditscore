@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Past\Type;
 
 /**
  * File for class MicrobiltStructPastDuePeriods_Type

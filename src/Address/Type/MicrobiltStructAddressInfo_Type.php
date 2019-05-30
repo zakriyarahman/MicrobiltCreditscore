@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Address\Type;
 
 /**
  * File for class MicrobiltStructAddressInfo_Type

@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Transactions_\Type;
 
 /**
  * File for class MicrobiltStructTransactions_Type

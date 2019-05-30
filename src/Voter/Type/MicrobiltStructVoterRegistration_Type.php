@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Voter\Type;
 
 /**
  * File for class MicrobiltStructVoterRegistration_Type

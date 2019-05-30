@@ -1,7 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
-
+namespace Zakriyarahman\Microbilt\Parties_\Type;
 /**
  * File for class MicrobiltStructParties_Type
  * @package Microbilt

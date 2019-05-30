@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Incarceration\Type;
 
 /**
  * File for class MicrobiltStructIncarceration_Type

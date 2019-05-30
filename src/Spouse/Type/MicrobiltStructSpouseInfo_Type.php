@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Spouse\Type;
 
 /**
  * File for class MicrobiltStructSpouseInfo_Type

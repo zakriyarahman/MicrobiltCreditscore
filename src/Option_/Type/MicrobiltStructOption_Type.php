@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Option_\Type;
 
 /**
  * File for class MicrobiltStructOption_Type

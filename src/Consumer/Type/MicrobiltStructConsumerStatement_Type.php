@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Consumer\Type;
 
 /**
  * File for class MicrobiltStructConsumerStatement_Type

@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\QFI\Type;
 
 /**
  * File for class MicrobiltStructQFInformation_Type

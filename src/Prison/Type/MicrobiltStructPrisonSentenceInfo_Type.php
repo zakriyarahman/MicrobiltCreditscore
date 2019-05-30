@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Prison\Type;
 
 /**
  * File for class MicrobiltStructPrisonSentenceInfo_Type

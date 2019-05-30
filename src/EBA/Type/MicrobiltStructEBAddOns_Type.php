@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\EBA\Type;
 
 /**
  * File for class MicrobiltStructEBAddOns_Type

@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Sexual\Type;
 
 /**
  * File for class MicrobiltStructSexualOffense_Type

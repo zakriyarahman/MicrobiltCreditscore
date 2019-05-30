@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Person\Type;
 
 /**
  * File for class MicrobiltStructPersonInfo_Type

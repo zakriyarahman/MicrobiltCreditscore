@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Score_\Type;
 
 /**
  * File for class MicrobiltStructScore_Type

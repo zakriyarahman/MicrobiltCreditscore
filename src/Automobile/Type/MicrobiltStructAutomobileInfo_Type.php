@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Automobile\Type;
 
 /**
  * File for class MicrobiltStructAutomobileInfo_Type

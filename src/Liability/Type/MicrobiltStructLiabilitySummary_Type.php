@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Liability\Type;
 
 /**
  * File for class MicrobiltStructLiabilitySummary_Type

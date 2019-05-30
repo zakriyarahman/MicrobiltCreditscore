@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Income\Type;
 
 /**
  * File for class MicrobiltStructIncomeInfo_Type

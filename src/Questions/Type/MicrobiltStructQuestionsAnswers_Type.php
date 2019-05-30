@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Questions\Type;
 
 /**
  * File for class MicrobiltStructQuestionsAnswers_Type

@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt;
+namespace Zakriyarahman\Microbilt\Profile\Type;
 
 /**
  * File for class MicrobiltStructProfileStatusInfo_Type
