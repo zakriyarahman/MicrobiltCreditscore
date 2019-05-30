@@ -1,6 +1,6 @@
 <?php
 
-namespace Zakriyarahman\Microbilt\Ineligibility\Type;
+namespace Zakriyarahman\Microbilt\Ineligibility_\Type;
 
 /**
  * File for class MicrobiltStructIneligibility_Type

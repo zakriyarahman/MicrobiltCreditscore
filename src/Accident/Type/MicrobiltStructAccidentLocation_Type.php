@@ -20,7 +20,7 @@ namespace Zakriyarahman\Microbilt\Accident\Type;
  * @version 20150429-01
  * @date 2015-11-26
  */
-class Location extends MicrobiltWsdlClass
+class MicrobiltStructAccidentLocation_Type extends MicrobiltWsdlClass
 {
     /**
      * The StateRoadAccident
