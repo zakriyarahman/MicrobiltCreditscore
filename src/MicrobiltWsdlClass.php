@@ -3,6 +3,9 @@
 namespace Zakriyarahman\Microbilt;
 
 use stdClass;
+use ArrayAccess;
+use Iterator;
+use Countable;
 
 /**
  * File for MicrobiltWsdlClass to communicate with SOAP service
