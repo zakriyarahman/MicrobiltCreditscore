@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Commercial\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructCommercialPmtTrends_Type
  * @package Microbilt

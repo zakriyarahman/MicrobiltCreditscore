@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Charter\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructCharterInfo_Type
  * @package Microbilt

@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Offender\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructOffenderRef_Type
  * @package Microbilt

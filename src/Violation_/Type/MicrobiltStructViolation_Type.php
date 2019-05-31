@@ -2,6 +2,10 @@
 
 namespace Zakriyarahman\Microbilt\Violation_\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+use Zakriyarahman\Microbilt\Boolean\MicrobiltEnumBoolean;
+
 /**
  * File for class MicrobiltStructViolation_Type
  * @package Microbilt

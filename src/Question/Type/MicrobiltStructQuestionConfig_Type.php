@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Question\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructQuestionConfig_Type
  * @package Microbilt

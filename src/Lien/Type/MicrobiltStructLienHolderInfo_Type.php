@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Lien\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructLienHolderInfo_Type
  * @package Microbilt

@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Military\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructMilitaryIdInfo_Type
  * @package Microbilt

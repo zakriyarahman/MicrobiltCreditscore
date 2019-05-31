@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Collateral\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructCollateralInfo_Type
  * @package Microbilt

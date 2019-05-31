@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Liability\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructLiabilitySummary_Type
  * @package Microbilt

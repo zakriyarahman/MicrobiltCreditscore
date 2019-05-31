@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Corporate\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructCorporateCreditRating_Type
  * @package Microbilt

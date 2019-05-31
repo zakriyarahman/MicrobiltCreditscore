@@ -2,6 +2,8 @@
 
 namespace Zakriyarahman\Microbilt\Severity_\Type;
 
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltEnumSeverity_Type
  * @package Microbilt

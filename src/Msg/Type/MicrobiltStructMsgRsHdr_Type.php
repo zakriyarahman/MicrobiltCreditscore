@@ -2,6 +2,8 @@
 
 namespace Zakriyarahman\Microbilt\Msg\Type;
 
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructMsgRsHdr_Type
  * @package Microbilt

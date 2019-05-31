@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Pmt\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructPmtAgreement_Type
  * @package Microbilt

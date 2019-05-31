@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Available\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructAvailableProducts_Type
  * @package Microbilt

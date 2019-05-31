@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Fraud_\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructFraud_Type
  * @package Microbilt

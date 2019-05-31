@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Contact\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructContactInfo_Type
  * @package Microbilt

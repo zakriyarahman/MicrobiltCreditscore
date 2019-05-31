@@ -2,6 +2,8 @@
 
 namespace Zakriyarahman\Microbilt\Security\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+
 /**
  * File for class MicrobiltStructSecurityQuestions_Type
  * @package Microbilt

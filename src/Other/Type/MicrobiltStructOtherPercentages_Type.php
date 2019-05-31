@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Other\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructOtherPercentages_Type
  * @package Microbilt

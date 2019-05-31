@@ -2,6 +2,8 @@
 
 namespace Zakriyarahman\Microbilt\Map\Response;
 
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructMapResponse
  * @package Microbilt

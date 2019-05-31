@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Msg\Type;
 
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+use Zakriyarahman\Microbilt\Request\Type\MicrobiltEnumRequestType;
+
 /**
  * File for class MicrobiltStructMsgRqHdr_Type
  * @package Microbilt

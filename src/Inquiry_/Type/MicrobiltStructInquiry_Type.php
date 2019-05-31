@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Inquiry_\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructInquiry_Type
  * @package Microbilt

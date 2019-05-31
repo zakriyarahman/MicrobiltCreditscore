@@ -2,6 +2,8 @@
 
 namespace Zakriyarahman\Microbilt\Comp\Type;
 
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructCompAmt_Type
  * @package Microbilt

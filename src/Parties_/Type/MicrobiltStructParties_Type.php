@@ -1,6 +1,9 @@
 <?php
 
 namespace Zakriyarahman\Microbilt\Parties_\Type;
+
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
 /**
  * File for class MicrobiltStructParties_Type
  * @package Microbilt

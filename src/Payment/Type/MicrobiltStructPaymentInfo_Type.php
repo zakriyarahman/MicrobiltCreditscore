@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Payment\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructPaymentInfo_Type
  * @package Microbilt

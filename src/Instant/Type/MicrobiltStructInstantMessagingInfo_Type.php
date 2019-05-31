@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Instant\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructInstantMessagingInfo_Type
  * @package Microbilt

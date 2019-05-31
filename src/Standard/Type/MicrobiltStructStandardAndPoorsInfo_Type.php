@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Standard\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructStandardAndPoorsInfo_Type
  * @package Microbilt

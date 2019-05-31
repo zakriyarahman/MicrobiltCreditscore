@@ -2,6 +2,8 @@
 
 namespace Zakriyarahman\Microbilt\Transform\Response;
 
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructTransformResponse
  * @package Microbilt

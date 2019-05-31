@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\DTA\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructDTApplicationVariables_Type
  * @package Microbilt

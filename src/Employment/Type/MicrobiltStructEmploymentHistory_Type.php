@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Employment\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructEmploymentHistory_Type
  * @package Microbilt

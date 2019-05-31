@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Person\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructPersonInfo_Type
  * @package Microbilt

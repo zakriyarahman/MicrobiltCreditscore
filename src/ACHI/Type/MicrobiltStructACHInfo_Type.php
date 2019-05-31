@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\ACHI\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructACHInfo_Type
  * @package Microbilt

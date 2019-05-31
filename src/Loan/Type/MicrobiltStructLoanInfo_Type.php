@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Loan\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructLoanInfo_Type
  * @package Microbilt

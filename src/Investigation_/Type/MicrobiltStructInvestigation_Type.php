@@ -2,6 +2,8 @@
 
 namespace Zakriyarahman\Microbilt\Investigation_\Type;
 
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructInvestigation_Type
  * @package Microbilt

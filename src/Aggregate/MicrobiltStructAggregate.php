@@ -2,6 +2,8 @@
 
 namespace Zakriyarahman\Microbilt\Aggregate;
 
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructAggregate
  * @package Microbilt

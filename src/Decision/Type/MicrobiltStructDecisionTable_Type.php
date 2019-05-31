@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Decision\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructDecisionTable_Type
  * @package Microbilt

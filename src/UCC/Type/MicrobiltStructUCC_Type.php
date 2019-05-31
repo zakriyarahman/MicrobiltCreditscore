@@ -2,6 +2,8 @@
 
 namespace Zakriyarahman\Microbilt\UCC\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+
 /**
  * File for class MicrobiltStructUCC_Type
  * @package Microbilt

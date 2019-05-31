@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\GEOC\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructGEOCode_Type
  * @package Microbilt

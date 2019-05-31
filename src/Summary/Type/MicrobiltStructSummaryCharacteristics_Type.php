@@ -1,6 +1,8 @@
 <?php
 
-namespace Zakriyarahman\Microbilt\Summary\Type;
+namespace Zakriyarahman\Microbilt\Summary\Type\MicrobiltStructSummaryCharacteristics_Type;
+
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
 
 /**
  * File for class MicrobiltStructSummaryCharacteristics_Type

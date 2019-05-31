@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Past\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructPastDuePeriods_Type
  * @package Microbilt

@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Intl\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructIntlCourtPeriodInfo_Type
  * @package Microbilt

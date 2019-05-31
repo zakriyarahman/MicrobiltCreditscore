@@ -2,6 +2,10 @@
 
 namespace Zakriyarahman\Microbilt\Loan\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+use Zakriyarahman\Microbilt\Boolean\MicrobiltEnumBoolean;
+
 /**
  * File for class MicrobiltStructLoanParams_Type
  * @package Microbilt

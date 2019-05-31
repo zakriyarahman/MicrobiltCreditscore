@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Legal\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructLegalFormsInfo_Type
  * @package Microbilt

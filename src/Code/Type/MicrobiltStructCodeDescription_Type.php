@@ -2,6 +2,8 @@
 
 namespace Zakriyarahman\Microbilt\Code\Type;
 
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructCodeDescription_Type
  * @package Microbilt

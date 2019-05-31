@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Spouse\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructSpouseInfo_Type
  * @package Microbilt

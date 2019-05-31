@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\CRAS\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructCRASummary_Type
  * @package Microbilt

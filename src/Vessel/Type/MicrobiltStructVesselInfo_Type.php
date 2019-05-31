@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Vessel\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructVesselInfo_Type
  * @package Microbilt

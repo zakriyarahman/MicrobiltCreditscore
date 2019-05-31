@@ -1,8 +1,8 @@
 {
-    "name": "zakriyarahman/MicrobiltCreditscore",
+    "name": "zakriyarahman/microbilt-creditscore",
     "description": "Microbilt creditscore WSDL to php classes.",
     "keywords": ["microbilt", "wsdl", "creditscore"],
-    "homepage": "https://github.com/zakriyarahman/MicrobiltCreditscore",
+    "homepage": "https://github.com/zakriyarahman/microbilt-creditscore",
     "license": "MIT",
     "authors": [
         {

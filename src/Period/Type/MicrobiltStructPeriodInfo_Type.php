@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Period\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructPeriodInfo_Type
  * @package Microbilt

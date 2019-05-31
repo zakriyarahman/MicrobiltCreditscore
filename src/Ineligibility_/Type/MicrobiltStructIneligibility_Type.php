@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Ineligibility_\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructIneligibility_Type
  * @package Microbilt

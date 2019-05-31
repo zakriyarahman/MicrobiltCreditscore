@@ -2,6 +2,11 @@
 
 namespace Zakriyarahman\Microbilt\Get;
 
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+use Zakriyarahman\Microbilt\Get\Report\MicrobiltStructGetReport;
+use Zakriyarahman\Microbilt\Get\Report\MicrobiltStructGetRawReport;
+use Zakriyarahman\Microbilt\Get\Report\MicrobiltStructGetArchiveReport;
+
 /**
  * File for class MicrobiltServiceGet
  * @package Microbilt

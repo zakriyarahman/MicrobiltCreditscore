@@ -2,6 +2,8 @@
 
 namespace Zakriyarahman\Microbilt\Summary\Item;
 
+use Zakriyarahman\Microbilt\Summary\Type\MicrobiltStructSummaryItem_Type;
+
 /**
  * File for class MicrobiltStructSummaryItem
  * @package Microbilt

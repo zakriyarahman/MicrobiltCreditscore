@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Transform;
 
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+use Zakriyarahman\Microbilt\Transform\MicrobiltStructTransform;
+
 /**
  * File for class MicrobiltServiceTransform
  * @package Microbilt

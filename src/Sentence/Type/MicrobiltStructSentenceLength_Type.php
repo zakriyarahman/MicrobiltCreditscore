@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Sentence\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructSentenceLength_Type
  * @package Microbilt

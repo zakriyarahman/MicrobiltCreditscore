@@ -2,6 +2,8 @@
 
 namespace Zakriyarahman\Microbilt\Boolean;
 
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltEnumBoolean
  * @package Microbilt

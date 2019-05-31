@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Status_\Type;
 
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+use Zakriyarahman\Microbilt\Severity_\Type\MicrobiltEnumSeverity_Type;
+
 /**
  * File for class MicrobiltStructStatus_Type
  * @package Microbilt

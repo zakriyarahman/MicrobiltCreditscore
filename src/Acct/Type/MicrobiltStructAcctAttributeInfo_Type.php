@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Acct\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructAcctAttributeInfo_Type
  * @package Microbilt

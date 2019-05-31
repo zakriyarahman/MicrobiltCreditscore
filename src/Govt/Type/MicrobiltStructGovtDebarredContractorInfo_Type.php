@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Govt\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructGovtDebarredContractorInfo_Type
  * @package Microbilt

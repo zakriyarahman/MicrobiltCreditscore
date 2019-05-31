@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Weapon\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructWeaponPermit_Type
  * @package Microbilt

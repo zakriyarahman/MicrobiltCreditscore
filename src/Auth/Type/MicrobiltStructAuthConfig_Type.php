@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Auth\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructAuthConfig_Type
  * @package Microbilt

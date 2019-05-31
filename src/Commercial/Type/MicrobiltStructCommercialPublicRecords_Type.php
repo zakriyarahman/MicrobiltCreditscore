@@ -2,6 +2,10 @@
 
 namespace Zakriyarahman\Microbilt\Commercial\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+use Zakriyarahman\Microbilt\Boolean\MicrobiltEnumBoolean;
+
 /**
  * File for class MicrobiltStructCommercialPublicRecords_Type
  * @package Microbilt

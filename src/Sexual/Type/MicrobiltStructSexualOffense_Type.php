@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Sexual\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructSexualOffense_Type
  * @package Microbilt

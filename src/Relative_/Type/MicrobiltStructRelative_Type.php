@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Relative_\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructRelative_Type
  * @package Microbilt

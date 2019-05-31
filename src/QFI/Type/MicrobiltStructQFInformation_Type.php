@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\QFI\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructQFInformation_Type
  * @package Microbilt

@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Post\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructPostAddr_Type
  * @package Microbilt

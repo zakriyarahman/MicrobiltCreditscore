@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\High\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructHighLowAmtRange_Type
  * @package Microbilt

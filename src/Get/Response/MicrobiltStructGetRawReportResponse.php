@@ -2,6 +2,8 @@
 
 namespace Zakriyarahman\Microbilt\Get\Response;
 
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructGetRawReportResponse
  * @package Microbilt

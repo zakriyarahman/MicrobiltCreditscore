@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Summary\Characteristics;
 
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+use Zakriyarahman\Microbilt\Summary\Type\MicrobiltStructSummaryCharacteristics_Type;
+
 /**
  * File for class MicrobiltStructSummaryCharacteristics
  * @package Microbilt

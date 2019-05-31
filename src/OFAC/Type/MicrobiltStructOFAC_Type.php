@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\OFAC\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructOFAC_Type
  * @package Microbilt

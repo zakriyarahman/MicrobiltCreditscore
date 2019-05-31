@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Transactions_\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructTransactions_Type
  * @package Microbilt

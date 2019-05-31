@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Court\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructCourtInfo_Type
  * @package Microbilt

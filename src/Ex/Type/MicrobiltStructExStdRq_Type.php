@@ -2,6 +2,8 @@
 
 namespace Zakriyarahman\Microbilt\Ex\Type;
 
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructExStdRq_Type
  * @package Microbilt

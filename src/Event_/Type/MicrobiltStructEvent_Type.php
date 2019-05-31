@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Event_\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructEvent_Type
  * @package Microbilt

@@ -2,6 +2,8 @@
 
 namespace Zakriyarahman\Microbilt\Request\Type;
 
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltEnumRequestType
  * @package Microbilt

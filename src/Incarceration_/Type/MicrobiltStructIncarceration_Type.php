@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Incarceration_\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructIncarceration_Type
  * @package Microbilt

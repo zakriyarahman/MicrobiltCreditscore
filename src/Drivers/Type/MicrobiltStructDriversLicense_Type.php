@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Drivers\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructDriversLicense_Type
  * @package Microbilt

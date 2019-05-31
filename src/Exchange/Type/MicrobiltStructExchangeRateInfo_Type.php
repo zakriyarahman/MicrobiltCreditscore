@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Exchange\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructExchangeRateInfo_Type
  * @package Microbilt

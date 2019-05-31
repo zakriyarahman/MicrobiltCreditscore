@@ -2,6 +2,10 @@
 
 namespace Zakriyarahman\Microbilt\Questions\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+use Zakriyarahman\Microbilt\Boolean\MicrobiltEnumBoolean;
+
 /**
  * File for class MicrobiltStructQuestionsAnswers_Type
  * @package Microbilt

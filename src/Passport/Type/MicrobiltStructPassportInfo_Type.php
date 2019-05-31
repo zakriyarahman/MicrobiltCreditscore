@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Passport\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructPassportInfo_Type
  * @package Microbilt

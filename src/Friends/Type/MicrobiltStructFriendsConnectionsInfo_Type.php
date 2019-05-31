@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Friends\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructFriendsConnectionsInfo_Type
  * @package Microbilt

@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Aircraft\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructAircraftInfo_Type
  * @package Microbilt

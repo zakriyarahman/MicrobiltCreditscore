@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Invalid\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructInvalidAnswers_Type
  * @package Microbilt

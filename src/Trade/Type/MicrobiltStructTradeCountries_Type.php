@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Trade\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructTradeCountries_Type
  * @package Microbilt

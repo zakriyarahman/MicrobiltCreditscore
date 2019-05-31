@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Quarterly\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructQuarterlyTrends_Type
  * @package Microbilt

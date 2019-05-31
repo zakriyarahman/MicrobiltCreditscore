@@ -2,6 +2,8 @@
 
 namespace Zakriyarahman\Microbilt\Indust\Type;
 
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructIndustId_Type
  * @package Microbilt

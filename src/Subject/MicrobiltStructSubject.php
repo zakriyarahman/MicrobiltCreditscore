@@ -2,6 +2,8 @@
 
 namespace Zakriyarahman\Microbilt\Subject;
 
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructSubject
  * @package Microbilt

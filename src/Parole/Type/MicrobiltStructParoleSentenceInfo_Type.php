@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Parole\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructParoleSentenceInfo_Type
  * @package Microbilt

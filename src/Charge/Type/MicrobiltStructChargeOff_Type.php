@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Charge\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructChargeOff_Type
  * @package Microbilt

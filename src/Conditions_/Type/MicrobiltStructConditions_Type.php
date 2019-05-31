@@ -2,6 +2,8 @@
 
 namespace Zakriyarahman\Microbilt\Conditions_\Type;
 
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructConditions_Type
  * @package Microbilt

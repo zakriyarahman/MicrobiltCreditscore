@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Evictions\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructEvictionsDates_Type
  * @package Microbilt

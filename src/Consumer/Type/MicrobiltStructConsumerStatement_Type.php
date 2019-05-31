@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Consumer\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructConsumerStatement_Type
  * @package Microbilt

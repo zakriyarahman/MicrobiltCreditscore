@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Voter\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructVoterRegistration_Type
  * @package Microbilt

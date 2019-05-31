@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Share\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructShareCapitalSummary_Type
  * @package Microbilt

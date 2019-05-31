@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Hunting\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructHuntingFishingLicense_Type
  * @package Microbilt

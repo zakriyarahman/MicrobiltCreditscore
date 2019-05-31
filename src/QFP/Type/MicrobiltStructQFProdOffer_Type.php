@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\QFP\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructQFProdOffer_Type
  * @package Microbilt

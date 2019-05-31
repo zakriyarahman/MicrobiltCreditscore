@@ -2,6 +2,8 @@
 
 namespace Zakriyarahman\Microbilt\Shareholders_\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+
 /**
  * File for class MicrobiltStructShareholders_Type
  * @package Microbilt

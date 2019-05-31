@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Summary\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructSummaryCountTimeFrame_Type
  * @package Microbilt

@@ -2,6 +2,10 @@
 
 namespace Zakriyarahman\Microbilt\MICRI\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+use Zakriyarahman\Microbilt\Boolean\MicrobiltEnumBoolean;
+
 /**
  * File for class MicrobiltStructMICRInfo_Type
  * @package Microbilt

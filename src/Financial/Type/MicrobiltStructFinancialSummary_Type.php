@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Financial\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructFinancialSummary_Type
  * @package Microbilt

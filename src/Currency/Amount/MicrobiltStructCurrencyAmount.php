@@ -2,6 +2,8 @@
 
 namespace Zakriyarahman\Microbilt\Currency\Amount;
 
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructCurrencyAmount
  * @package Microbilt

@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Credit\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructCreditCardInfo_Type
  * @package Microbilt

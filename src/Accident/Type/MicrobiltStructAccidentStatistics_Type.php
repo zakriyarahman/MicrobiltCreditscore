@@ -2,6 +2,8 @@
 
 namespace Zakriyarahman\Microbilt\Accident\Type;
 
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructAccidentStatistics_Type
  * @package Microbilt

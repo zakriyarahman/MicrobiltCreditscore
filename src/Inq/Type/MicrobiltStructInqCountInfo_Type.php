@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Inq\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructInqCountInfo_Type
  * @package Microbilt

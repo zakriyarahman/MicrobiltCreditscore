@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Min\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructMinMaxRange_Type
  * @package Microbilt

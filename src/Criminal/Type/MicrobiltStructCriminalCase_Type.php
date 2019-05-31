@@ -2,6 +2,9 @@
 
 namespace Zakriyarahman\Microbilt\Criminal\Type;
 
+use Zakriyarahman\Microbilt\Aggregate\MicrobiltStructAggregate;
+use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
+
 /**
  * File for class MicrobiltStructCriminalCase_Type
  * @package Microbilt
