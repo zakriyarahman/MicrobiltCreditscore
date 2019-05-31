@@ -2,6 +2,8 @@
 
 namespace Zakriyarahman\Microbilt;
 
+use stdClass;
+
 /**
  * File for MicrobiltWsdlClass to communicate with SOAP service
  * @package Microbilt
