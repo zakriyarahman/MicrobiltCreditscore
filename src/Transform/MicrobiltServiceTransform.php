@@ -3,7 +3,7 @@
 namespace Zakriyarahman\Microbilt\Transform;
 
 use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
-use Zakriyarahman\Microbilt\Transform\MicrobiltStructTransform;
+use Zakriyarahman\Microbilt\Transform\Transform;
 
 /**
  * File for class MicrobiltServiceTransform
@@ -28,10 +28,10 @@ class MicrobiltServiceTransform extends MicrobiltWsdlClass
      * @uses MicrobiltWsdlClass::getSoapClient()
      * @uses MicrobiltWsdlClass::setResult()
      * @uses MicrobiltWsdlClass::saveLastError()
-     * @param MicrobiltStructTransform $_microbiltStructTransform
-     * @return MicrobiltStructTransformResponse
+     * @param Transform $_microbiltStructTransform
+     * @return TransformResponse
      */
-    public function Transform(MicrobiltStructTransform $_microbiltStructTransform)
+    public function Transform(Transform $_microbiltStructTransform)
     {
         try
         {
@@ -45,7 +45,7 @@ class MicrobiltServiceTransform extends MicrobiltWsdlClass
     /**
      * Returns the result
      * @see MicrobiltWsdlClass::getResult()
-     * @return MicrobiltStructTransformResponse
+     * @return TransformResponse
      */
     public function getResult()
     {

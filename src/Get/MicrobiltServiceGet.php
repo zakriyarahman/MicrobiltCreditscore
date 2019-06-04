@@ -3,9 +3,9 @@
 namespace Zakriyarahman\Microbilt\Get;
 
 use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
-use Zakriyarahman\Microbilt\Get\Report\MicrobiltStructGetReport;
-use Zakriyarahman\Microbilt\Get\Report\MicrobiltStructGetRawReport;
-use Zakriyarahman\Microbilt\Get\Report\MicrobiltStructGetArchiveReport;
+use Zakriyarahman\Microbilt\Get\Report\GetReport;
+use Zakriyarahman\Microbilt\Get\Report\GetRawReport;
+use Zakriyarahman\Microbilt\Get\Report\GetArchiveReport;
 
 /**
  * File for class MicrobiltServiceGet
@@ -30,10 +30,10 @@ class MicrobiltServiceGet extends MicrobiltWsdlClass
      * @uses MicrobiltWsdlClass::getSoapClient()
      * @uses MicrobiltWsdlClass::setResult()
      * @uses MicrobiltWsdlClass::saveLastError()
-     * @param MicrobiltStructGetReport $_microbiltStructGetReport
-     * @return MicrobiltStructGetReportResponse
+     * @param GetReport $_microbiltStructGetReport
+     * @return GetReportResponse
      */
-    public function GetReport(MicrobiltStructGetReport $_microbiltStructGetReport)
+    public function GetReport(GetReport $_microbiltStructGetReport)
     {
         try
         {
@@ -49,10 +49,10 @@ class MicrobiltServiceGet extends MicrobiltWsdlClass
      * @uses MicrobiltWsdlClass::getSoapClient()
      * @uses MicrobiltWsdlClass::setResult()
      * @uses MicrobiltWsdlClass::saveLastError()
-     * @param MicrobiltStructGetRawReport $_microbiltStructGetRawReport
-     * @return MicrobiltStructGetRawReportResponse
+     * @param GetRawReport $_microbiltStructGetRawReport
+     * @return GetRawReportResponse
      */
-    public function GetRawReport(MicrobiltStructGetRawReport $_microbiltStructGetRawReport)
+    public function GetRawReport(GetRawReport $_microbiltStructGetRawReport)
     {
         try
         {
@@ -68,10 +68,10 @@ class MicrobiltServiceGet extends MicrobiltWsdlClass
      * @uses MicrobiltWsdlClass::getSoapClient()
      * @uses MicrobiltWsdlClass::setResult()
      * @uses MicrobiltWsdlClass::saveLastError()
-     * @param MicrobiltStructGetArchiveReport $_microbiltStructGetArchiveReport
-     * @return MicrobiltStructGetArchiveReportResponse
+     * @param GetArchiveReport $_microbiltStructGetArchiveReport
+     * @return GetArchiveReportResponse
      */
-    public function GetArchiveReport(MicrobiltStructGetArchiveReport $_microbiltStructGetArchiveReport)
+    public function GetArchiveReport(GetArchiveReport $_microbiltStructGetArchiveReport)
     {
         try
         {
@@ -85,7 +85,7 @@ class MicrobiltServiceGet extends MicrobiltWsdlClass
     /**
      * Returns the result
      * @see MicrobiltWsdlClass::getResult()
-     * @return MicrobiltStructGetArchiveReportResponse|MicrobiltStructGetRawReportResponse|MicrobiltStructGetReportResponse
+     * @return GetArchiveReportResponse|GetRawReportResponse|GetReportResponse
      */
     public function getResult()
     {

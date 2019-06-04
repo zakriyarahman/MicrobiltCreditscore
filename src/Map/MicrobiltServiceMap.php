@@ -3,7 +3,7 @@
 namespace Zakriyarahman\Microbilt\Map;
 
 use Zakriyarahman\Microbilt\MicrobiltWsdlClass;
-use Zakriyarahman\Microbilt\Map\MicrobiltStructMap;
+use Zakriyarahman\Microbilt\Map\Map;
 
 /**
  * File for class MicrobiltServiceMap
@@ -28,10 +28,10 @@ class MicrobiltServiceMap extends MicrobiltWsdlClass
      * @uses MicrobiltWsdlClass::getSoapClient()
      * @uses MicrobiltWsdlClass::setResult()
      * @uses MicrobiltWsdlClass::saveLastError()
-     * @param MicrobiltStructMap $_microbiltStructMap
-     * @return MicrobiltStructMapResponse
+     * @param Map $_microbiltStructMap
+     * @return MapResponse
      */
-    public function Map(MicrobiltStructMap $_microbiltStructMap)
+    public function Map(Map $_microbiltStructMap)
     {
         try
         {
@@ -45,7 +45,7 @@ class MicrobiltServiceMap extends MicrobiltWsdlClass
     /**
      * Returns the result
      * @see MicrobiltWsdlClass::getResult()
-     * @return MicrobiltStructMapResponse
+     * @return MapResponse
      */
     public function getResult()
     {

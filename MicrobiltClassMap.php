@@ -151,7 +151,7 @@ class MicrobiltClassMap
   'LoanRequestInfo_Type' => 'MicrobiltStructLoanRequestInfo_Type',
   'MICRInfo_Type' => 'MicrobiltStructMICRInfo_Type',
   'Map' => 'MicrobiltStructMap',
-  'MapResponse' => 'MicrobiltStructMapResponse',
+  'MapResponse' => 'MicrobiltStructMapResponse',#
   'Message_Type' => 'MicrobiltStructMessage_Type',
   'MilitaryIdInfo_Type' => 'MicrobiltStructMilitaryIdInfo_Type',
   'MinMaxRange_Type' => 'MicrobiltStructMinMaxRange_Type',
